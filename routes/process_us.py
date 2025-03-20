@@ -28,9 +28,22 @@ from process_module.heading import process_doc_function7
 
 router = APIRouter()
 
-# us_dict = enchant.Dict("en_US")
 
-us_dict = enchant.DictWithPWL("en_US","mywords.txt")
+# us_dict = enchant.DictWithPWL("en_US","mywords.txt")
+
+# Load the dictionary for US English
+us_dict = enchant.Dict("en_US")
+
+# Function to load words from the custom word list file
+def load_custom_words(file_path):
+    with open(file_path, "r") as f:
+        custom_words = f.read().splitlines()
+    return custom_words
+
+# Add custom words to the dictionary
+custom_words = load_custom_words("mywords.txt")
+for word in custom_words:
+    us_dict.add(word)
 
 global_logs = []
 
@@ -388,8 +401,6 @@ def enforce_eg_rule_with_logging(text):
     return "\n".join(updated_lines)
 
 
-
-
 def enforce_ie_rule_with_logging(text):
     lines = text.splitlines()
     updated_lines = []
@@ -420,9 +431,6 @@ def enforce_ie_rule_with_logging(text):
     return "\n".join(updated_lines)
 
 
-
-
-
 def standardize_etc(text):
     lines = text.splitlines()
     updated_lines = []
@@ -449,12 +457,6 @@ def standardize_etc(text):
         
         updated_lines.append(new_line)
     return "\n".join(updated_lines)
-
-
-
-# def adjust_ratios(text):
-#     return re.sub(r"(\d)\s*:\s*(\d)", r"\1 : \2", text)
-
 
 
 def adjust_ratios(text):
@@ -552,15 +554,6 @@ def insert_thin_space_between_number_and_unit(text, line_number):
             f"[insert_thin_space_between_number_and_unit] Line {line_number}: '{original_word}' -> '{updated_word}'"
         )
     return updated_text
-
-
-
-
-# def format_dates(text):
-#     text = re.sub(r"\b(\d+)\s?(BCE|CE)\b", lambda m: f"{m.group(1)} {m.group(2).lower()}", text)
-#     text = re.sub(r"\b(AD|BC)\.\b", r"\1 ", text)
-#     text = re.sub(r"(\d+)\s?(BCE|CE|AD|BC)\b", r"\1 \2", text)
-#     return text
 
 
 # Done
@@ -903,10 +896,6 @@ def write_to_log(doc_id):
 
 
 
-
-
-
-
 # twofold not two-fold hyphenate with numeral for numbers greater than nine, e.g. 10-fold. 
 def replace_fold_phrases(text):
     """
@@ -948,22 +937,6 @@ def replace_fold_phrases(text):
     pattern = r"(\b\w+\b)(-?)fold"
     updated_text = re.sub(pattern, process_fold, text)
     return updated_text
-
-
-
-
-
-# def correct_preposition_usage(text):
-#     def process_from_to(match):
-#         return f"from {match.group(1)} to {match.group(2)}"
-
-#     def process_between_and(match):
-#         return f"between {match.group(1)} and {match.group(2)}"
-#     text = re.sub(r"from (\d{4})[–-](\d{4})", process_from_to, text)
-#     text = re.sub(r"between (\d{4})[–-](\d{4})", process_between_and, text)
-#     return text
-
-
 
 
 def correct_preposition_usage(text):
@@ -1075,21 +1048,6 @@ def remove_quotation(text: str):
         return modified
     para_text = re.sub(pattern, process_quotation_removal, text)
     return para_text
-
-
-
-
-
-
-# def remove_and(text:str):
-#     # Load the document
-#     #doc = Document(file_path)
-#     # Regex pattern to match "and" between two capitalized words
-#     pattern = r'([A-Z][a-z]+)\s+and\s+([A-Z][a-z]+)'
-#     text = re.sub(pattern, r'\1 & \2',text)
-#     text = re.sub(pattern, r'\1 & \2',text)
-#     return text
-
 
 
 def remove_and(text: str):
@@ -1708,12 +1666,6 @@ def curly_to_straight(doc):
             run.text = run.text.replace('“', '"').replace('”', '"').replace('‘', "'").replace('’', "'")
             
 
-
-
-# def staright_to_curly(doc):
-#     for para in doc.paragraphs:
-#         para.text = replace_straight_quotes_with_curly(para.text)
-
 def straight_to_curly(doc):
     for para in doc.paragraphs:
         for run in para.runs:
@@ -1725,56 +1677,173 @@ def straight_to_curly(doc):
         para.add_run(para_runs)  # Re-add the updated text into the paragraphgraph_text)  # Re-add the updated text into the paragraph
 
 
-
 # def highlight_and_correct(doc):
 #     """
-#     This function highlights incorrectly spelled words in a Word document by changing their font color to red.
-#     Words enclosed in single or double quotes are ignored.
+#     Highlights incorrectly spelled words in a Word document by changing their font color to red.
+#     Formatting of the document remains unchanged.
 #     Args:
 #         doc: The Word document object (from python-docx).
 #         us_dict: A spell-checking dictionary object (e.g., from the `pyspellchecker` library).
 #     """
 #     for para in doc.paragraphs:
-#         formatted_runs = []
-
 #         for run in para.runs:
 #             words = run.text.split()
-#             for i, word in enumerate(words):
-#                 original_word = word 
+#             updated_text = []
+#             for word in words:
+#                 original_word = word
 #                 punctuation = ""
 
 #                 # Separate trailing punctuation (if any)
-#                 if word[-1] in ",.?!:;\"'()[]{}":
+#                 if word and word[-1] in ",.?!:;\"'()[]{}":
 #                     punctuation = word[-1]
 #                     word = word[:-1]
 
 #                 # Ignore words fully enclosed in single or double quotes
 #                 if (word.startswith('"') and word.endswith('"')) or (word.startswith("'") and word.endswith("'")):
-#                     formatted_runs.append((original_word, None))
+#                     updated_text.append(original_word)
 #                 # Ignore empty words
 #                 elif not word.strip():
-#                     formatted_runs.append((original_word, None))
+#                     updated_text.append(original_word)
 #                 # Check spelling and mark incorrect words in red
 #                 elif not us_dict.check(word.lower()):
-#                     formatted_runs.append((word, RGBColor(255, 0, 0)))  # Highlight misspelled word
+#                     updated_text.append(word)
+#                     run.font.color.rgb = RGBColor(255, 0, 0)  # Highlight misspelled word
 #                 else:
-#                     formatted_runs.append((word, None))  # Correct word
+#                     updated_text.append(word)  # Correct word remains unchanged
 
 #                 # Add punctuation back to the word, if it had any
 #                 if punctuation:
-#                     formatted_runs.append((punctuation, None))
+#                     updated_text.append(punctuation)
 
-#                 # Add a space after the word unless it's the last one
-#                 if i < len(words) - 1:
-#                     formatted_runs.append((" ", None))
+#             # Preserve formatting by updating text in place
+#             run.text = " ".join(updated_text)
 
-#         # Clear the paragraph's text and rebuild it with formatted runs
-#         para.clear()  # Clear existing paragraph content
 
-#         for text, color in formatted_runs:
-#             new_run = para.add_run(text)  # Add new text to the paragraph
-#             if color:  # If a color is specified, apply it
-#                 new_run.font.color.rgb = color
+# def clean_word1(word):
+#     return ''.join(filter(str.isalnum, word)).lower()
+
+
+# # Helper function to extract text from docx file
+# def extract_text_from_docx(file_path):
+#     try:
+#         with open(file_path, "rb") as docx_file:
+#             result = mammoth.extract_raw_text(docx_file)
+#             return result.value
+#     except Exception as e:
+#         # logging.error(f"Error extracting text from file: {e}")
+#         return ""
+    
+
+
+# SECRET_KEY = "Naveen"
+# ALGORITHM = "HS256"
+# ACCESS_TOKEN_EXPIRE_MINUTES = 600
+
+
+# class TokenRequest(BaseModel):
+#     token: str
+
+
+# @router.post("/process_us")
+# async def process_file(token_request: TokenRequest, doc_id: int = Query(...)):
+#     try:
+#         payload = jwt.decode(token_request.token, SECRET_KEY, algorithms=[ALGORITHM])
+#         print("Decoded Token Data:", payload)
+#         # global global_logs
+#         conn = get_db_connection()
+#         if conn is None:
+#             raise HTTPException(status_code=500, detail="Database connection error")
+        
+#         cursor = conn.cursor()
+#         cursor.execute("SELECT * FROM row_document WHERE row_doc_id = %s", (doc_id,))
+#         rows = cursor.fetchone()
+
+#         if not rows:
+#             raise HTTPException(status_code=404, detail="Document not found")
+        
+#         file_path = os.path.join(os.getcwd(), 'files', rows[1])
+
+#         if not os.path.exists(file_path):
+#             raise HTTPException(status_code=404, detail="File not found on server")
+
+#         start_time = datetime.now()
+
+#         file_content = extract_text_from_docx(file_path)
+#         text = file_content
+
+#         global_logs.append(f"FileName: {rows[1]}\n\n")
+
+#         lines = text.split('\n')
+#         for index, line in enumerate(lines):
+#             words = line.split()
+#             for word in words:
+#                 cleaned = clean_word1(word)
+#                 if cleaned and not us_dict.check(cleaned):
+#                     suggestions = us_dict.suggest(cleaned)
+#                     suggestion_text = (
+#                         f" Suggestions: {', '.join(suggestions)}"
+#                         if suggestions else " No suggestions available"
+#                     )
+#                     global_logs.append(f"Line {index}: {word} ->{suggestion_text}")
+
+#         end_time = datetime.now()
+#         time_taken = round((end_time - start_time).total_seconds(), 2)
+#         time_log = f"\nStart Time: {start_time}\nEnd Time: {end_time}\nAnalysis completed in {time_taken} seconds.\n\n"
+
+#         global_logs.insert(0, time_log)
+
+#         document_name = rows[1].replace('.docx', '')
+#         log_filename = f"log_main.txt"
+        
+#         output_path_file = Path(os.getcwd()) / 'output' / str(doc_id) / log_filename
+#         dir_path = output_path_file.parent
+
+#         dir_path.mkdir(parents=True, exist_ok=True)
+        
+#         output_dir = os.path.join("output", str(doc_id))
+#         os.makedirs(output_dir, exist_ok=True)
+
+#         output_path = os.path.join(output_dir, f"processed_{os.path.basename(file_path)}")
+
+#         doc = docx.Document(file_path)
+
+#         curly_to_straight(doc)
+#         highlight_and_correct(doc)
+#         write_to_log(doc_id)
+        
+#         process_doc_function1(payload, doc, doc_id)
+#         process_doc_function2(payload, doc, doc_id)
+#         process_doc_function3(payload, doc, doc_id)
+#         process_doc_function4(payload, doc, doc_id)
+#         process_doc_function6(payload, doc, doc_id)
+#         process_doc_function7(payload, doc, doc_id)
+         
+#         straight_to_curly(doc)
+        
+#         doc.save(output_path)
+
+#         cursor.execute("SELECT final_doc_id FROM final_document WHERE row_doc_id = %s", (doc_id,))
+#         existing_rows = cursor.fetchall()
+
+#         if existing_rows:
+#             logging.info('File already processed in final_document. Skipping insert.')
+#         else:
+#             folder_url = f'/output/{doc_id}/'
+#             cursor.execute(
+#                 '''INSERT INTO final_document (row_doc_id, user_id, final_doc_size, final_doc_url, status, creation_date)
+#                 VALUES (%s, %s, %s, %s, %s, NOW())''',
+#                 (doc_id, rows[1], rows[2], folder_url, rows[7])
+#             )
+#             logging.info('New file processed and inserted into final_document.')
+
+#         conn.commit()
+#         # write_to_log(doc_id)
+#         logging.info(f"Processed file stored at: {output_path}")
+#         return {"success": True, "message": f"File processed and stored at {output_path}"}
+
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=str(e))
+
 
 
 def highlight_and_correct(doc):
@@ -1783,7 +1852,7 @@ def highlight_and_correct(doc):
     Formatting of the document remains unchanged.
     Args:
         doc: The Word document object (from python-docx).
-        us_dict: A spell-checking dictionary object (e.g., from the `pyspellchecker` library).
+        us_dict: A spell-checking dictionary object.
     """
     for para in doc.paragraphs:
         for run in para.runs:
@@ -1832,7 +1901,6 @@ def extract_text_from_docx(file_path):
     except Exception as e:
         # logging.error(f"Error extracting text from file: {e}")
         return ""
-    
 
 
 SECRET_KEY = "Naveen"
@@ -1943,9 +2011,9 @@ async def process_file(token_request: TokenRequest, doc_id: int = Query(...)):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
-
-
+    
+    
+    
 class CheckboxData(RootModel[Dict[int, bool]]):
     """Root model to accept numeric keys with boolean values."""
 
@@ -1954,9 +2022,6 @@ class TokenResponse(BaseModel):
 
 class TokenRequest(BaseModel):
     token: str
-
-
-    
     
 @router.post("/generate-token", response_model=TokenResponse)
 async def generate_token(checkbox_data: CheckboxData):
@@ -1975,8 +2040,6 @@ async def generate_token(checkbox_data: CheckboxData):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating token: {str(e)}")
 
-
-
 # Decode and Use Token API
 @router.post("/use-token")
 async def use_token(token_request: TokenRequest):
@@ -1986,16 +2049,6 @@ async def use_token(token_request: TokenRequest):
         return {"message": "Token processed successfully!", "data": payload}
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid or expired token")
-
-
-
-
-
-
-
-
-
-
 
 
 @router.get("/rules", summary="Get all rules", response_description="List of rules")
