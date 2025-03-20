@@ -28,9 +28,9 @@ from process_module.heading import process_doc_function7
 
 router = APIRouter()
 
-# us_dict = enchant.Dict("en_US")
+us_dict = enchant.Dict("en_US")
 
-us_dict = enchant.DictWithPWL("en_US","mywords.txt")
+# us_dict = enchant.DictWithPWL("en_US","mywords.txt")
 
 global_logs = []
 
