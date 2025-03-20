@@ -18,6 +18,7 @@ from urllib.parse import urlparse
 from datetime import datetime, timedelta
 from jose import JWTError, jwt
 from typing import Dict
+from spellchecker import SpellChecker
 from pydantic import BaseModel, RootModel
 from process_module.punctuation import process_doc_function1
 from process_module.NumberAndScientificUnit import process_doc_function2
@@ -32,18 +33,20 @@ router = APIRouter()
 # us_dict = enchant.DictWithPWL("en_US","mywords.txt")
 
 # Load the dictionary for US English
-us_dict = enchant.Dict("en_US")
+# us_dict = enchant.Dict("en_US")
 
-# Function to load words from the custom word list file
+# Initialize the SpellChecker
+spell = SpellChecker()
+
+# Function to load custom words
 def load_custom_words(file_path):
     with open(file_path, "r") as f:
         custom_words = f.read().splitlines()
     return custom_words
 
-# Add custom words to the dictionary
+# Add custom words to the spell checker
 custom_words = load_custom_words("mywords.txt")
-for word in custom_words:
-    us_dict.add(word)
+spell.word_frequency.load_words(custom_words)
 
 global_logs = []
 
@@ -1852,7 +1855,7 @@ def highlight_and_correct(doc):
     Formatting of the document remains unchanged.
     Args:
         doc: The Word document object (from python-docx).
-        us_dict: A spell-checking dictionary object.
+        spell: The spell checker object.
     """
     for para in doc.paragraphs:
         for run in para.runs:
@@ -1874,7 +1877,7 @@ def highlight_and_correct(doc):
                 elif not word.strip():
                     updated_text.append(original_word)
                 # Check spelling and mark incorrect words in red
-                elif not us_dict.check(word.lower()):
+                elif word.lower() not in spell:
                     updated_text.append(word)
                     run.font.color.rgb = RGBColor(255, 0, 0)  # Highlight misspelled word
                 else:
@@ -1946,8 +1949,8 @@ async def process_file(token_request: TokenRequest, doc_id: int = Query(...)):
             words = line.split()
             for word in words:
                 cleaned = clean_word1(word)
-                if cleaned and not us_dict.check(cleaned):
-                    suggestions = us_dict.suggest(cleaned)
+                if cleaned and cleaned not in spell:
+                    suggestions = spell.candidates(cleaned)
                     suggestion_text = (
                         f" Suggestions: {', '.join(suggestions)}"
                         if suggestions else " No suggestions available"
@@ -2011,7 +2014,6 @@ async def process_file(token_request: TokenRequest, doc_id: int = Query(...)):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-    
     
     
 class CheckboxData(RootModel[Dict[int, bool]]):
