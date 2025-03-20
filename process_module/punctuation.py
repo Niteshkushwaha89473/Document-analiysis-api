@@ -639,10 +639,6 @@ def insert_thin_space_between_number_and_unit_in_runs(runs, line_number):
         run.text = updated_text[current_index : current_index + len(run.text)]
         current_index += len(run.text)
 
-import re
-import spacy
-
-nlp = spacy.load("en_core_web_sm")
 
 def process_paragraph(runs, line_number):
     """
