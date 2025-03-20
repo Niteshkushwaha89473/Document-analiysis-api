@@ -4,8 +4,8 @@ from mysql.connector import Error
 # Database connection configuration
 db_config = {
     'user': 'root',
-    'password': '',
-    'host': '127.0.0.1',
+    'password': 'pC8vEasaFu4nRqgacKkkSOWq8JAuTyJb',
+    'host': 'dpg-cvdvjk7noe9s73ej9ro0-a',
     'database': 'document_edit_tool',
 }
 
