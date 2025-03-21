@@ -1,30 +1,23 @@
-import psycopg2
-from psycopg2 import OperationalError
+import mysql.connector
+from mysql.connector import Error
 
-# Database connection configuration for PostgreSQL
+# Database connection configuration
 db_config = {
-    'dbname': 'sql3768863',  # Database name
-    'user': 'sql3768863',  # Your PostgreSQL username
-    'password': '9YFJgHGYIS',  # Your PostgreSQL password
-    'host': 'sql3.freesqldatabase.com',  # Host (localhost or your server IP)
-    'port': 3306,  # Default PostgreSQL port
+    'user': 'sql3768863',
+    'password': '9YFJgHGYIS',
+    'host': 'sql3.freesqldatabase.com',
+    'database': 'sql3768863',
 }
 
 def get_db_connection():
     """
-    Returns a connection to the PostgreSQL database.
+    Returns a connection to the MySQL database.
     """
     try:
-        conn = psycopg2.connect(**db_config)
-        print('Connection to PostgreSQL database established successfully.')
-        return conn
-    except OperationalError as e:
-        print(f"Error while connecting to PostgreSQL: {e}")
+        conn = mysql.connector.connect(**db_config)
+        if conn.is_connected():
+            print('Connection to MySQL database established successfully.')
+            return conn
+    except Error as e:
+        print(f"Error while connecting to MySQL: {e}")
         return None
-
-# Usage example
-conn = get_db_connection()
-if conn:
-    # You can perform your database operations here
-    # Don't forget to close the connection when done
-    conn.close()
