@@ -3,11 +3,11 @@ from psycopg2 import OperationalError
 
 # Database connection configuration for PostgreSQL
 db_config = {
-    'dbname': 'document_edit_tool',  # Database name
-    'user': 'root',  # Your PostgreSQL username
-    'password': 'CIwj7ukheAQKXs6s3hlngInqmvrnc2Ga',  # Your PostgreSQL password
-    'host': 'dpg-cvdvof52ng1s73cbi3sg-a',  # Host (localhost or your server IP)
-    'port': 5432,  # Default PostgreSQL port
+    'dbname': 'sql3768863',  # Database name
+    'user': 'sql3768863',  # Your PostgreSQL username
+    'password': '9YFJgHGYIS',  # Your PostgreSQL password
+    'host': 'sql3.freesqldatabase.com',  # Host (localhost or your server IP)
+    'port': 3306,  # Default PostgreSQL port
 }
 
 def get_db_connection():
