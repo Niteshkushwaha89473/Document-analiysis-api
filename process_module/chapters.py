@@ -8,38 +8,35 @@ from word2number import w2n
 global_logs = []
 
 
-def correct_chapter_numbering(runs, chapter_counter):
+def correct_chapter_numbering(text, chapter_counter):
     chapter_pattern = re.compile(r"(?i)\bchapter\s+((?:[IVXLCDM]+)|(?:[a-z]+)|(?:\d+))[:.]?\s")
-    
-    for run in runs:
-        match = chapter_pattern.search(run.text)
-        if match:
-            chapter_content = match.group(1)
-            if re.match(r"^[IVXLCDM]+$", chapter_content, re.IGNORECASE):
-                chapter_number = roman.fromRoman(chapter_content.upper())
-            elif re.match(r"^[a-z]+$", chapter_content, re.IGNORECASE):
-                chapter_number = w2n.word_to_num(chapter_content.lower())
-            else:
-                chapter_number = int(chapter_content)
-            
-            run.text = chapter_pattern.sub(f"Chapter {chapter_number}: ", run.text, count=1)
+    def replace_chapter_heading(match):
+        chapter_content = match.group(1)
+        if re.match(r"^[IVXLCDM]+$", chapter_content, re.IGNORECASE):
+            chapter_number = roman.fromRoman(chapter_content.upper())
+        elif re.match(r"^[a-z]+$", chapter_content, re.IGNORECASE):
+            chapter_number = w2n.word_to_num(chapter_content.lower())
+        else:
+            chapter_number = int(chapter_content)
+        return f"Chapter {chapter_number}: "
+    return chapter_pattern.sub(replace_chapter_heading, text)
 
 
 
-def format_chapter_title(runs):
-    chapter_pattern = re.compile(r"Chapter\s+([\dIVXLCDM]+)[\.:]\s*(.*)", re.IGNORECASE)
-    
-    for run in runs:
-        match = chapter_pattern.match(run.text)
-        if match:
-            chapter_number = match.group(1)
-            chapter_title = match.group(2).rstrip('.')
-            words = chapter_title.split()
-            formatted_title = " ".join([
-                word.capitalize() if i == 0 or len(word) >= 4 else word.lower()
-                for i, word in enumerate(words)
-            ])
-            run.text = f"{chapter_number}. {formatted_title}"
+
+def format_chapter_title(text):
+    match = re.match(r"Chapter\s+([\dIVXLCDM]+)[\.:]\s*(.*)", text, re.IGNORECASE)
+    if match:
+        chapter_number = match.group(1)
+        chapter_title = match.group(2).rstrip('.')
+        words = chapter_title.split()
+        formatted_title = " ".join([
+            word.capitalize() if i == 0 or len(word) >= 4 else word.lower()
+            for i, word in enumerate(words)
+        ])
+        # print(formatted_title)
+        return f"{chapter_number}. {formatted_title}"
+    return text
 
 
 
@@ -63,18 +60,8 @@ def process_doc_function6(payload: dict, doc: Document, doc_id):
     chapter_counter = [0]
     for para in doc.paragraphs:
         if para.text.strip().startswith("Chapter"):
-            # para.text = correct_chapter_numbering(para.text, chapter_counter)
-            # formatted_title = format_chapter_title(para.text)
-            # para.text = formatted_title
-            
-            # correct_chapter_numbering(para.runs, chapter_counter)
-            # format_chapter_title(para.runs)
-            
-            paragraph_text = " ".join([run.text for run in para.runs])
-            para.clear()  # Clear current paragraph content
-            para_runs = re.sub(r'\s([.,])',r'\1',paragraph_text)   
-            para.add_run(para_runs)  # Re-add the updated text into the paragraphgraph_text)  # Re-add the updated text into the paragraph
-
-        
+            para.text = correct_chapter_numbering(para.text, chapter_counter)
+            formatted_title = format_chapter_title(para.text)
+            para.text = formatted_title
         
     write_to_log(doc_id)

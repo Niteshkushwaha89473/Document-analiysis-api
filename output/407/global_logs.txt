@@ -1,78 +1,57 @@
 
-Start Time: 2025-02-25 13:31:44.287912
-End Time: 2025-02-25 13:31:53.325724
-Analysis completed in 9.04 seconds.
+Start Time: 2025-01-16 18:09:39.316634
+End Time: 2025-01-16 18:09:49.104015
+Analysis completed in 9.79 seconds.
 
 
 FileName: Chapter Testing.docx
 
 
-Line 10: Error-:1 -> Suggestions: error, errors, error 1, europe
-Line 12: i.e. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
-Line 14: e.g. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
-Line 24: Error-:5 -> Suggestions: error, errors, error 5, europe
-Line 26: Error-:6 -> Suggestions: error, errors, error 6, europe
-Line 26: Adams -> Suggestions: Adams, dams, madams, Edams, a dams, laos, udemy, guam, panama, bahamas, Udemy
-Line 28: Error-:7 -> Suggestions: error, errors, error 7, europe
-Line 30: Error-:8 -> Suggestions: error, errors, error 8, europe
-Line 32: Error-:9 -> Suggestions: error, errors, error 9, europe
-Line 34: Error-:10 -> Suggestions: error
-Line 36: Error-:11 -> Suggestions: error
-Line 36: James' -> Suggestions: James, hames, jams, sames, names, tames, lames, jades, dames, games, japes, jambs, jakes, jam's, ja mes, japan, laos, samoa, yemen
-Line 38: Error-:12 -> Suggestions: error
-Line 40: Error-:13 -> Suggestions: error
-Line 40: Paul -> Suggestions: Paul, pail, pal, pul, pula, pall, caul, maul, haul, pawl, Saul, Raul, Gaul, palau, peru, laos, guam, mali, spain, nepal, nauru, niue
-Line 42: Error-:14 -> Suggestions: error
-Line 42: Mary'. -> Suggestions: Mary, nary, mart, mar, may, marry, marly, army, mare, mars, miry, mara, many, marl, marc, mali
-Line 44: Error-:15 -> Suggestions: error
-Line 44: U.S.A. -> Suggestions: USA, us, Susa, use, usu, Asa, us a, asia, cuba
-Line 46: eg, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
-Line 48: ie, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
-Line 50: cetera, -> Suggestions: cerate, terrace, Terceira, Terrance
-Line 52: 5kg. -> Suggestions: kg, pkg, bkg, 5 kg, e.g., togo
-Line 120: Cross-references -> Suggestions: cross references, cross-references, preferences, references, conferences, concrescence
-Line 188: Arabic -> Suggestions: Arabic, aruba, brazil
-Line 190: Quran -> Suggestions: Quran, quean, buran, furan, Duran, qu ran, qu-ran, iran, sudan
-Line 190: Islam, -> Suggestions: Islam, slam, i slam, is lam, is-lam, isl am, isl-am, israel, iran, iraq, italy, guam, asia, palau
-Line 208: Rawls' -> Suggestions: awls, trawls, crawls, drawls, brawls, rails, pawls, bawls, yawls, raw's, r awls, raw ls, raw-ls, scrawl, laos, mali
-Line 216: ABC’s -> Suggestions: abs, cabs, abas, arcs, ab cs, ab-cs, ABCs, asia, laos, gabon, cocos
-Line 222: U.S.A -> Suggestions: USA, us, Susa, use, usu, Asa, us a, asia, cuba
-Line 260: M.B.A, -> Suggestions: MBA, mb, ma, aba, moa, mb a, cuba
-Line 264: BCE, -> Suggestions: be, bice, bee, ice, ace, bye, Ice, i.e., niue
-Line 264: CE -> Suggestions: Ce, cw, cr, c, e, ice, ace, cen, cue, Ice, cs, ca, ae, ne, re, cuba, chile, chad, i.e., peru, niue
-Line 266: BCE, -> Suggestions: be, bice, bee, ice, ace, bye, Ice, i.e., niue
-Line 272: Latinisms -> Suggestions: Latinism, Latinists, Latinist, actinisms
-Line 278: Latinisms -> Suggestions: Latinism, Latinists, Latinist, actinisms
-Line 282: vitro -> Suggestions: nitro, vitriol
-Line 288: eg, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
-Line 292: ie., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
-Line 298: e.g. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
-Line 300: e.g., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
-Line 304: i.e. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
-Line 306: i.e., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
-Line 310: e.g. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
-Line 310: i.e. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
-Line 314: i.e., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
-Line 346: Cross-references -> Suggestions: cross references, cross-references, preferences, references, conferences, concrescence
-Line 350: Johnson -> Suggestions: Johnson, john son, john-son, johns on, johns-on
-Line 360: Cross-references -> Suggestions: cross references, cross-references, preferences, references, conferences, concrescence
-Line 368: 2.13a -> Suggestions: asia, cuba
-Line 372: don't -> Suggestions: font, dint, don, dot, don't, done, dent, dons, dost, doit, dona, dolt, cont, dunt, dong, congo, tonga, togo
-Line 378: 1940’s -> No suggestions available
-Line 384: company's -> Suggestions: company, company's, company s, companions
-Line 384: 10-fold -> Suggestions: fold
-Line 390: one:four, -> Suggestions: one four, one-four, Fourneyron, fourgon
-Line 420: kgs, -> Suggestions: kg, ks, gs, kegs, kos, k gs, kg s, laos, e.g., togo
-Line 436: 2.13b -> No suggestions available
-Line 438: (maths) -> Suggestions: math, mats, mates, meths, moths, oaths, laths, paths, baths, myths, mat's, math s, Athamas, mali, malta, laos, qatar
-Line 460: two-and-a-half -> Suggestions: twohanded
-Line 474: bakery's -> Suggestions: bakery, bakers, bakery's, baker's, bakery s, baker, Baker
-Line 480: shelter.She -> Suggestions: shelter she, shelter-she, shelters he, shelters-he, sheltered, shelter, Hershel
-Line 480: 000-piece -> Suggestions: eyepiece
-Line 486: shelter.She -> Suggestions: shelter she, shelter-she, shelters he, shelters-he, sheltered, shelter, Hershel
-Line 486: 000-piece -> Suggestions: eyepiece
-Line 518: 10cm–15cm -> No suggestions available
-
-
-
-
+Line 2: Ther -> Suggestions: rhet, thee, the, ter, her, there, ether, their, other, therm, Uther, sher, tier, thar, then, togo, peru, i.e., niger, chad
+Line 2: Develpment -> Suggestions: development, envelopment, devolvement
+Line 4: tehnical -> Suggestions: technical, Alicante
+Line 4: (IITs), -> Suggestions: its, sits, nits, tits, dits, gits, pits, hits, bits, fits, kits, wits, zits, i its, ii ts, iran, iraq, i.e., laos, haiti, niue, fiji
+Line 4: (IISc), -> Suggestions: disc, misc, fisc, Wisc, ii sc, ii-sc, iran, iraq, i.e., niue, fiji
+Line 4: (IIMs), -> Suggestions: isms, sims, aims, rims, dims, hims, Sims, ii ms, ii-ms, imams, iran, iraq, i.e., laos, niue, fiji
+Line 4: transfrmation -> Suggestions: transformation, Transfiguration, transfiguration, transmigration, transmutation
+Line 8: 11-fold -> Suggestions: fold
+Line 8: 24fold -> Suggestions: fold
+Line 12: kgs -> Suggestions: kg, ks, gs, kegs, kos, k gs, kg s, laos, e.g., togo
+Line 14: kg.s. -> Suggestions: kg, ks, gs, kegs, kos, k gs, kg s, laos, e.g., togo
+Line 22: eg -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 22: e.g, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 22: e.g.. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 22: eg., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 22: (e.g), -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 22: e.g.,. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 24: ie -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 24: i.e, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 24: i.e.. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 24: ie., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 24: (i.e), -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 24: i.e.,. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 30: MODRN -> Suggestions: morn, modern, mourn, Modred, oman, jordan, sudan
+Line 32: interational -> Suggestions: international, International, interrogational, interpretational, interjectional
+Line 32: dominnce, -> Suggestions: dominance, dominie, dominica
+Line 42: INTERNATION -> Suggestions: inter nation, inter-nation, internat ion, internat-ion, international, International, internalization, interlunation
+Line 42: WAFARE -> Suggestions: warfare, wayfarer, freeware, Ware, ware, qatar
+Line 58: Chaptr -> Suggestions: chapter, chap tr, chap-tr, chapiter, chad, haiti
+Line 58: Regonal -> Suggestions: regnal, regional, Reginald
+Line 60: War-era -> Suggestions: war era, war-era, ware, Ware, warfare, wagerer, aruba
+Line 62: ethni, -> Suggestions: ethnic, estonia, yemeni
+Line 64: cross-border -> Suggestions: cross border, cross-border, crossbred
+Line 64: long-lasting -> Suggestions: long lasting, long-lasting, longstanding, lastingness, lasting, gloating
+[replace_dashes_with_logging] Line 2: '—' -> '–'
+[replace_dashes_with_logging] Line 3: '), Indian Institutes of Management (IIMs), and National Institutes of Technology (NITs) have not only redefined the educational landscape but have also emerged as pivotal players in the socio-economic ' -> '), Indian Institutes of Management (IIMs), and National Institutes of Technology (NITs) have not only redefined the educational landscape but have also emerged as pivotal players in the socio–economic '
+[replace_dashes_with_logging] Line 5: 'Two-fold five-fold ten-fold 11-fold 24fold' -> 'Two–fold five–fold ten–fold 11–fold 24fold'
+[insert_thin_space_between_number_and_unit] Line 6: '24fold' -> '24 fold'
+[replace_dashes_with_logging] Line 6: 'This is a two-fold approach from 1969–1973 and ' -> 'This is a two–fold approach from 1969–1973 and '
+[insert_thin_space_between_number_and_unit] Line 7: '1973and' -> '1973 and'
+[insert_thin_space_between_number_and_unit] Line 8: '24kgs' -> '24 kgs'
+[insert_thin_space_between_number_and_unit] Line 8: '10m's.' -> '10 m's.'
+[insert_thin_space_between_number_and_unit] Line 9: '5kg.s.' -> '5 kg.s.'
+[insert_thin_space_between_number_and_unit] Line 10: '10cm' -> '10 cm'
+[insert_thin_space_between_number_and_unit] Line 10: '20cm' -> '20 cm'
+[replace_dashes_with_logging] Line 31: 'Proxy wars, where major powers support opposing factions within a conflict instead of engaging directly, have become a significant factor in destabilizing regions across the globe. These wars often emerge from geopolitical rivalries, with external actors providing financial, military, and logistical support to local groups that align with their interests. Examples such as the Syrian Civil War, the Yemeni conflict, and the Cold War-era conflicts in Southeast Asia and Africa illustrate the devastating effects of proxy wars on regional stability.' -> 'Proxy wars, where major powers support opposing factions within a conflict instead of engaging directly, have become a significant factor in destabilizing regions across the globe. These wars often emerge from geopolitical rivalries, with external actors providing financial, military, and logistical support to local groups that align with their interests. Examples such as the Syrian Civil War, the Yemeni conflict, and the Cold War–era conflicts in Southeast Asia and Africa illustrate the devastating effects of proxy wars on regional stability.'
+[replace_dashes_with_logging] Line 33: 'Proxy wars also destabilize neighboring countries through refugee crises, arms proliferation, and cross-border militant activities ' -> 'Proxy wars also destabilize neighboring countries through refugee crises, arms proliferation, and cross–border militant activities '
+[replace_dashes_with_logging] Line 33: ' these conflicts drag on, they weaken state institutions, hinder development, and leave long-lasting scars on the region. Addressing proxy wars requires coordinated global efforts to prioritize diplomacy over intervention and ensure sustainable peace.' -> ' these conflicts drag on, they weaken state institutions, hinder development, and leave long–lasting scars on the region. Addressing proxy wars requires coordinated global efforts to prioritize diplomacy over intervention and ensure sustainable peace.'
