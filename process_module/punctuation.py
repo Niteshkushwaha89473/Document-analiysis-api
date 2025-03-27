@@ -3,10 +3,13 @@ from docx import Document
 import os
 from db_config import get_db_connection
 from datetime import datetime
-
+from docx.text.run import Run
+from pathlib import Path
 
 # Global logs to keep track of changes
 global_logs = []
+# seen_symbols = set()
+
 
 # A map of numbers to century strings
 century_map = {
@@ -46,142 +49,364 @@ def fetch_abbreviation_mappings():
     conn.close()
     return {row[0]: row[1] for row in mappings}
 
-# change long form to shor form abbrevaited form
-def apply_abbreviation_mapping(text, abbreviation_dict, line_number):
+# change long form to short form abbrevaited form
+# def apply_abbreviation_mapping(runs, abbreviation_dict, line_number):
+#     global global_logs
+#     for run in runs:
+#         words = run.text.split()
+#         updated_words = []
+        
+#         for word in words:
+#             updated_word = abbreviation_dict.get(word, word)
+#             if word != updated_word:
+#                 global_logs.append(f"[apply_abbreviation_mapping] Line {line_number}: '{word}' -> '{updated_word}'")
+#             updated_words.append(updated_word)
+        
+#         # Join the updated words and reassign it to the run's text
+#         run.text = ' '.join(updated_words)
+
+
+def apply_abbreviation_mapping(runs, abbreviation_dict, line_number):
     global global_logs
-    words = text.split()
-    updated_text = []
-    for word in words:
-        updated_word = abbreviation_dict.get(word, word)
-        if word != updated_word:
-            global_logs.append(f"[apply_abbreviation_mapping] Line {line_number}: '{word}' -> '{updated_word}'")
-        updated_text.append(updated_word)
-    return ' '.join(updated_text)
+
+    for run in runs:
+        original_text = run.text
+
+        def replace_match(match):
+            word = match.group(0)  # Extract matched word
+            stripped_word = word.rstrip('.,')  # Remove trailing punctuation
+            
+            updated_word = abbreviation_dict.get(stripped_word, stripped_word)  # Find replacement
+            
+            if stripped_word != updated_word:
+                global_logs.append(f"[apply_abbreviation_mapping] Line {line_number}: '{stripped_word}' -> '{updated_word}'")
+
+            # Preserve punctuation
+            return updated_word + word[len(stripped_word):]
+
+        # Use regex to match full words with optional punctuation
+        pattern = r'\b[\w]+\b'
+        updated_text = re.sub(pattern, replace_match, original_text)
+
+        # Assign the corrected text back
+        run.text = updated_text
+
+
+
 
 
 # Converts century notation like '21st' to 'the twenty-first century'
-def convert_century(text, line_number_offset):
+# def convert_century_in_runs(runs, line_number_offset):
+#     """
+#     Converts century notation like '21st' to 'the twenty-first century'
+#     and logs the changes with line numbers.
+
+#     :param runs: List of Run objects in the paragraph.
+#     :param line_number_offset: The starting line number for this paragraph.
+#     :return: None (modifies runs in place).
+#     """
+#     global global_logs  # Global log to record changes
+
+#     for run in runs:
+#         words = run.text.split()  # Split the run's text into words
+#         updated_words = []
+
+#         for word in words:
+#             match = re.match(r"(\d+)(st|nd|rd|th)$", word)  # Match century notation
+#             if match:
+#                 num = int(match.group(1))
+#                 if num in century_map:
+#                     # Original and converted word
+#                     original_word = match.group(0)
+#                     converted_word = f"the {century_map[num]}"
+                    
+#                     # Log the change with the actual line number
+#                     global_logs.append(
+#                         f"[convert century] Line {line_number_offset}: {original_word} -> {converted_word}"
+#                     )
+                    
+#                     # Replace the word in the run
+#                     word = converted_word
+            
+#             updated_words.append(word)
+        
+#         # Rebuild the run's text with updated words
+#         run.text = ' '.join(updated_words)
+
+
+# Converts century notation like '21st' to 'the twenty-first century'
+def convert_century_in_runs(runs, line_number_offset):
     """
     Converts century notation like '21st' to 'the twenty-first century'
     and logs the changes with line numbers.
 
-    :param text: The entire text to process, possibly spanning multiple lines.
-    :param line_number_offset: The starting line number for this chunk of text.
-    :return: The updated text with century notations converted.
+    :param runs: List of Run objects in the paragraph.
+    :param line_number_offset: The starting line number for this paragraph.
+    :return: None (modifies runs in place).
     """
-    global global_logs  # Global log to record changes
-    lines = text.split('\n')  # Split text into individual lines
-    updated_lines = []
-
-    for index, line in enumerate(lines):
-        words = line.split()  # Split line into words
-        for i, word in enumerate(words):
-            match = re.match(r"(\d+)(st|nd|rd|th)$", word)  # Match century notation
-            if match:
-                num = int(match.group(1))
-                if num in century_map:
-                    # Original and converted word
-                    original_word = match.group(0)
-                    converted_word = f"the {century_map[num]} century"
-                    
-                    # Log the change with the actual line number
-                    global_logs.append(
-                        f"[convert century] Line {line_number_offset + index}: {original_word} -> {converted_word}"
-                    )
-                    
-                    # Replace the word in the line
-                    words[i] = converted_word
+    for run in runs:
+        new_text = run.text  # Store the original text
+        # Match century notation within the text
+        matches = re.finditer(r"(\d+)(st|nd|rd|th)\b", run.text)
+        for match in matches:
+            num = int(match.group(1))
+            if num in century_map:
+                original_word = match.group(0)
+                converted_word = f"{century_map[num]}"
+                
+                # Log the change
+                global_logs.append(
+                    f"[convert century] Line {line_number_offset}: {original_word} -> {converted_word}"
+                )
+                
+                # Replace occurrences in the text
+                new_text = new_text.replace(original_word, converted_word)
         
-        # Rebuild the updated line
-        updated_lines.append(' '.join(words))
+        # Update run text
+        run.text = new_text
 
-    # Return the updated text with all lines rebuilt
-    return '\n'.join(updated_lines)
 
 
 # change italics of latin word to roman
-def set_latinisms_to_roman(paragraph_text, line_number, latinisms=None):
+# def set_latinisms_to_roman_in_runs(runs, line_number, latinisms=None):
+#     """
+#     Converts specific Latinisms from italic to roman text in a paragraph.
+#     Logs changes to the global_log, including line number and original italicized Latinism.
+
+#     :param runs: List of Run objects in the paragraph.
+#     :param line_number: The line number for logging purposes.
+#     :param latinisms: List of Latinisms to convert (defaults to common Latinisms).
+#     :return: None (modifies runs in place).
+#     """
+#     if latinisms is None:
+#         latinisms = [
+#             "i.e.", "e.g.", "via", "vice versa", "etc.", "a posteriori", 
+#             "a priori", "et al.", "cf.", "c."
+#         ]
+#     global global_logs
+
+#     for run in runs:
+#         for lat in latinisms:
+#             if lat in run.text:
+#                 # Log the change
+#                 global_logs.append(
+#                     f"[set_latinisms_to_roman] Line {line_number}: '{lat}' -> '{lat}'"
+#                 )
+                
+#                 # Remove italic formatting for the Latinism
+#                 run.text = run.text.replace(lat, lat)
+#                 run.font.italic = False  # Set the font to non-italic
+
+
+
+# change italics of latin word to roman
+def set_latinisms_to_roman_in_runs(runs, line_number, latinisms=None):
     """
-    Converts specific Latinisms from italic to roman text in a string of text.
-    Logs changes to the global_log, including line number and original italicized Latinism.
+    Converts specific Latinisms from italic to roman text in a paragraph.
+    Logs changes to the global_logs, including line number and original italicized Latinism.
+
+    :param runs: List of Run objects in the paragraph.
+    :param line_number: The line number for logging purposes.
+    :param latinisms: List of Latinisms to convert (defaults to common Latinisms).
+    :return: None (modifies runs in place).
     """
     if latinisms is None:
         latinisms = [
-            "i.e.", "e.g.", "via", "vice versa", "etc.", "a posteriori", 
+            "i.e.", "e.g.", "via", "vice versa", "etc.", "a posteriori",
             "a priori", "et al.", "cf.", "c."
         ]
-    changes = []
+    # Sort Latinisms by descending length to handle longer matches first
+    latinisms = sorted(latinisms, key=lambda x: len(x), reverse=True)
+    
     global global_logs
-
-    # Process the text, and for each Latinism, replace its italics if needed
-    for lat in latinisms:
-        if lat in paragraph_text:
-            changes.append(lat)  # Log the Latinism that was changed
-
-    # for changed in changes:
-    #     global_logs.append(
-    #         f"[process_symbols_in_doc] Line {line_number}: '{changed}' -> '{changed}'"
-    #     )
-
-    return paragraph_text 
+    if not runs:
+        return
+    
+    parent = runs[0]._parent  # Get the parent paragraph
+    
+    # Process runs in reverse to avoid issues with modifying the list while iterating
+    for i in range(len(runs) - 1, -1, -1):
+        run = runs[i]
+        original_text = run.text
+        if not original_text:
+            continue
+        
+        # Collect all occurrences of any Latinism in the run's text
+        split_points = []
+        for lat in latinisms:
+            start = 0
+            while start <= len(original_text):
+                pos = original_text.find(lat, start)
+                if pos == -1:
+                    break
+                # Check if the found occurrence is a whole word (to avoid partial matches)
+                # Ensure it's surrounded by word boundaries or string edges
+                if (pos == 0 or not original_text[pos-1].isalnum()) and \
+                   (pos + len(lat) == len(original_text) or not original_text[pos + len(lat)].isalnum()):
+                    split_points.append((pos, pos + len(lat), lat))
+                start = pos + 1  # Move past this occurrence
+        
+        if not split_points:
+            continue  # No Latinism found in this run
+        
+        # Sort split points by their start position
+        split_points.sort(key=lambda x: x[0])
+        
+        # Split the text into parts
+        parts = []
+        last_end = 0
+        for start, end, lat in split_points:
+            if start > last_end:
+                parts.append(original_text[last_end:start])
+            parts.append((original_text[start:end], lat))
+            last_end = end
+        if last_end < len(original_text):
+            parts.append(original_text[last_end:])
+        
+        # Create new runs for each part
+        new_elements = []
+        for part in parts:
+            if isinstance(part, tuple):
+                part_text, lat = part
+                # Create a new run with the same style but italic False
+                new_run = parent.add_run()
+                new_run.text = part_text
+                # Copy font properties from original run
+                original_font = run.font
+                new_font = new_run.font
+                new_font.italic = False
+                new_font.bold = original_font.bold
+                new_font.underline = original_font.underline
+                if original_font.size:
+                    new_font.size = original_font.size
+                if original_font.name:
+                    new_font.name = original_font.name
+                # Log the change (avoid duplicates)
+                log_entry = f"[set_latinisms_to_roman] Line {line_number}: '{lat}' -> '{lat}'"
+                if log_entry not in global_logs:
+                    global_logs.append(log_entry)
+            else:
+                # Create a new run with the same style as original
+                new_run = parent.add_run()
+                new_run.text = part
+                original_font = run.font
+                new_font = new_run.font
+                new_font.italic = original_font.italic
+                new_font.bold = original_font.bold
+                new_font.underline = original_font.underline
+                if original_font.size:
+                    new_font.size = original_font.size
+                if original_font.name:
+                    new_font.name = original_font.name
+            new_elements.append(new_run._element)
+        
+        # Replace the original run with the new elements
+        run_element = run._element
+        parent_element = parent._element
+        index = parent_element.index(run_element)
+        parent_element.remove(run_element)
+        # Insert new elements in reverse to maintain order
+        for elem in reversed(new_elements):
+            parent_element.insert(index, elem)
+            
 
 
 # make symbols for copyright only once
-def process_symbols_mark(text, line_number, symbols=["®", "™", "©", "℗", "℠"]):
+def process_symbols_mark_in_runs(runs, line_number, seen_symbols, symbols=None):
     """
     Ensures symbols like ®, ™, etc., appear only the first time in the text.
     Updates the global_log with changes, including line number, original text, and updated text.
+
+    :param runs: List of Run objects in the paragraph.
+    :param line_number: The line number for logging purposes.
+    :param symbols: List of symbols to process (defaults to ["®", "™", "©", "℗", "℠"]).
+    :return: None (modifies runs in place).
     """
-    original_text = text
-    symbol_set = set()
+    if symbols is None:
+        symbols = ["®", "™", "©", "℗", "℠"]
+
     global global_logs
     
-    for symbol in symbols:
-        occurrences = list(re.finditer(re.escape(symbol), text))
-        if occurrences:
-            first_occurrence = occurrences[0].start()
-            # Replace all occurrences after the first one
-            text = (
-                text[:first_occurrence + 1]
-                + re.sub(re.escape(symbol), "", text[first_occurrence + 1:])
-            )
-            symbol_set.add(symbol)
+    updated_runs = []
 
-    # Log changes if the text was modified
-    if original_text != text:
+    for run in runs:
+        original_text = run.text
+        new_text = original_text
+
+        for symbol in symbols:
+            if symbol in new_text:
+                if symbol in seen_symbols:
+                    # Remove all further occurrences
+                    new_text = new_text.replace(symbol, "")
+                else:
+                    seen_symbols.add(symbol)  # Mark as first occurrence
+
+        if new_text != original_text:
+            run.text = new_text  # Apply changes
+            updated_runs.append(symbol)
+
+    # Log changes if any symbols were removed
+    if updated_runs:
         global_logs.append(
-            f"[process_symbols_in_doc] Line {line_number}: '{original_text}' -> '{text}'"
+            f"[process_symbols_in_doc] Line {line_number}: Removed duplicate symbols {updated_runs}"
         )
-    return text
 
 
 # change italics of see to roman
-def apply_remove_italics_see_rule(text):
-    return text.replace('*see*', 'see')
+def apply_remove_italics_see_rule_in_runs(runs):
+    """
+    Replaces '*see*' with 'see' in the text, removing italics for the word 'see'.
+    Modifies the runs in place.
+
+    :param runs: List of Run objects in the paragraph.
+    :return: None (modifies runs in place).
+    """
+    for run in runs:
+        if '*see*' in run.text:
+            # Replace '*see*' with 'see' and remove italics for this run
+            run.text = run.text.replace('*see*', 'see')
+            run.font.italic = False  # Ensure 'see' is not italicized
+
+
+
 
 
 # change number to no. if followed by number
-def set_number_to_no(text, line_number):
+def set_number_to_no_in_runs(runs, line_number):
     """
     Replaces 'Number X' or 'number X' with 'No. X' or 'no. X' and logs changes.
-    :param text: The input text.
+    Modifies the runs in place.
+
+    :param runs: List of Run objects in the paragraph.
     :param line_number: Line number for logging.
-    :return: Updated text with number abbreviations applied.
+    :return: None (modifies runs in place).
     """
     global global_logs
+
     def replace_number(match):
         word = match.group(1)
         num = match.group(2)
         updated_text = f"No. {num}" if word.istitle() else f"no. {num}"
         global_logs.append(f"[set_number_to_no] Line {line_number}: '{match.group(0)}' -> '{updated_text}'")
         return updated_text
+
     pattern = r'\b(Number|number)\s(\d+)\b'
-    return re.sub(pattern, replace_number, text)
+
+    for run in runs:
+        if re.search(pattern, run.text):
+            # Replace 'Number X' or 'number X' with 'No. X' or 'no. X'
+            run.text = re.sub(pattern, replace_number, run.text)
 
 
 
 # change long titile before name to short form
-def format_titles_us_english_with_logging(text):
+def format_titles_us_english_with_logging_in_runs(runs, line_number):
+    """
+    Replaces long titles (e.g., 'Doctor', 'Mister') with their short forms (e.g., 'Dr.', 'Mr.').
+    Logs changes to the global_log.
+    :param runs: List of Run objects in the paragraph.
+    :return: None (modifies runs in place).
+    """
     global global_logs
     titles = {
         "doctor": "Dr.",
@@ -202,469 +427,562 @@ def format_titles_us_english_with_logging(text):
         "Sir": "Sir",
         "Madam": "Madam",
         "Saint": "St",
-    }    
-    lines = text.splitlines()
-    updated_lines = []
-    for line_number, line in enumerate(lines, start=1):
-        original_line = line
+    }
+
+    for run in runs:
         for title, replacement in titles.items():
-            new_line = re.sub(rf"\b{title}\b", replacement, line, flags=re.IGNORECASE)
-            if new_line != line:
+            if title in run.text:
+                # Replace the title with its short form
+                run.text = re.sub(rf"\b{title}\b", replacement, run.text, flags=re.IGNORECASE)
+                # Log the change
                 global_logs.append(f"[shorten title] Line {line_number}: {title} -> {replacement}")
-                line = new_line
-        updated_lines.append(line)
-    return "\n".join(updated_lines)
 
 
 
 # a.m. not AM or am.
 # p.m not PM or pm.
-def enforce_am_pm(text, line_num):
+# def enforce_am_pm_in_runs(runs, line_num):
+#     """
+#     Ensures consistent formatting for 'am' and 'pm' in the paragraph and logs changes.
+#     Modifies the runs in place.
+
+#     :param runs: List of Run objects in the paragraph.
+#     :param line_num: The line number in the document for logging.
+#     :return: None (modifies runs in place).
+#     """
+#     global global_logs
+
+#     # Combine all run texts into one string
+#     full_text = "".join(run.text for run in runs)
+
+#     # Define pattern to match different variations of am/pm
+#     pattern = r'\b(1[0-2]|0?[1-9])\s?(am|a\.m|pm|p\.m)\b'
+#     # pattern = r'\b(1[0-2]|0?[1-9])\s?(AM|PM|A\.M\.|P\.M\.|Am|Pm|A\.m\.|P\.m\.|a\.m\.|p\.m\.|am|pm|AM\,)\.?\b'
+
+
+#     def replace_am_pm(match):
+#         time_value, period = match.groups()
+#         corrected_period = "a.m." if "a" in period.lower() else "p.m."
+#         corrected_text = f"{time_value} {corrected_period}"
+#         global_logs.append(f"[am pm change] Line {line_num}: '{match.group(0)}' -> '{corrected_text}'")
+#         return corrected_text
+
+#     # Apply corrections
+#     corrected_text = re.sub(pattern, replace_am_pm, full_text, flags=re.IGNORECASE)
+
+#     # Reassign corrected text back to runs while preserving formatting
+#     remaining_text = corrected_text
+#     for run in runs:
+#         run_length = len(run.text)
+#         run.text = remaining_text[:run_length]
+#         remaining_text = remaining_text[run_length:]
+
+
+def enforce_am_pm_in_runs(runs, line_num):
     """
-    Ensures consistent formatting for 'am' and 'pm' in the entire paragraph and logs changes.
-    :param text: The paragraph text to process.
+    Ensures consistent formatting for 'am' and 'pm' in the paragraph and logs changes.
+    Modifies the runs in place.
+
+    :param runs: List of Run objects in the paragraph.
     :param line_num: The line number in the document for logging.
-    :return: The updated text with corrected 'am' and 'pm' formats.
+    :return: None (modifies runs in place).
     """
     global global_logs  # Use a global log to record changes
-    original_text = text  # Store the original text for comparison
-    words = text.split()  # Split the paragraph into words
 
-    corrected_words = []
-    for word in words:
-        original_word = word
-        word_lower = word.lower()
-        if word_lower in {"am", "a.m", "pm", "p.m"}:
-            if "a" in word_lower:
-                corrected_word = "a.m."
-            elif "p" in word_lower:
-                corrected_word = "p.m."
-            
-            if corrected_word != original_word:
-                global_logs.append(
-                    f"[am pm change] Line {line_num}: '{original_word}' -> '{corrected_word}'"
-                )
-        else:
-            corrected_word = word 
-        corrected_words.append(corrected_word)
-    corrected_text = " ".join(corrected_words)
-    return corrected_text
+    # Define pattern to match different variations of am/pm
+    pattern = r'\b(1[0-2]|0?[1-9])\s?(am|a\.m\.?|pm|p\.m\.?)\b'
+
+    def replace_am_pm(match):
+        time_value, period = match.groups()
+        corrected_period = "a.m." if "a" in period.lower() else "p.m."
+        corrected_text = f"{time_value} {corrected_period}"
+        global_logs.append(f"[am pm change] Line {line_num}: '{match.group(0)}' -> '{corrected_text}'")
+        return corrected_text
+
+    for run in runs:
+        original_text = run.text
+        corrected_text = re.sub(pattern, replace_am_pm, original_text, flags=re.IGNORECASE)
+
+        if corrected_text != original_text:
+            run.text = corrected_text  # Modify run in place
+
 
 
 # apples, pears, and bananas
 # apples, pears, or bananas
-def enforce_serial_comma(text):
-    lines = text.splitlines()
-    updated_lines = []
-    for line_number, line in enumerate(lines, start=1):
-        original_line = line
-        # Add a comma before "and" or "or" in lists
-        new_line = re.sub(
-            r'([^,]+), ([^,]+) (or) ([^,]+)',
-            r'\1, \2, \3 \4',
-            line
-        )
-        # Explicitly handle cases where "or" does not get the serial comma
-        new_line = re.sub(
-            r'([^,]+), ([^,]+) (and) ([^,]+)',
-            r'\1, \2, \3 \4',
-            new_line
-        )
-        # if new_line != line:
-            # Identify the specific parts of text that changed
-            # original_match = re.findall(r'([^,]+), ([^,]+) (or|and) ([^,]+)', line)
-            # new_match = re.findall(r'([^,]+), ([^,]+), (or|and) ([^,]+)', new_line)
+# def enforce_serial_comma_in_runs(runs):
+#     """
+#     Ensures the use of the serial comma (Oxford comma) in lists.
+#     Modifies the runs in place.
 
-            # for orig, new in zip(original_match, new_match):
-            #     if orig != new:
-            #         global_logs.append(
-            #             f"[Serial comma correction] Line {line_number}: '{orig}' -> '{new}'"
-            #         )
-        updated_lines.append(new_line)
-    return "\n".join(updated_lines)
+#     :param runs: List of Run objects in the paragraph.
+#     :return: None (modifies runs in place).
+#     """
+#     for run in runs:
+#         # Add a comma before "and" or "or" in lists
+#         run.text = re.sub(
+#             r'([^,]+), ([^,]+) (or) ([^,]+)',
+#             r'\1, \2, \3 \4',
+#             run.text
+#         )
+#         # Explicitly handle cases where "and" does not get the serial comma
+#         run.text = re.sub(
+#             r'([^,]+), ([^,]+) (and) ([^,]+)',
+#             r'\1, \2, \3 \4',
+#             run.text
+#         )
+
+
+def enforce_serial_comma_in_runs(runs):
+    """
+    Ensures the use of the serial comma (Oxford comma) in lists.
+    Modifies the runs in place.
+
+    :param runs: List of Run objects in the paragraph.
+    :return: None (modifies runs in place).
+    """
+    for run in runs:
+        # Add a comma before "and" or "or" in lists only when necessary
+        run.text = re.sub(
+            r'([^,]+), ([^,]+) (and|or) ([^,]+)',
+            r'\1, \2, \3 \4',
+            run.text
+        )
+        # Fix the case for when "and" and "or" are at the end
+        # run.text = re.sub(
+        #     r'([^,]+) (and|or) ([^,]+)',
+        #     r'\1, \2 \3',
+        #     run.text
+        # )
 
 
 
 
 # Replace all occurrences of the § symbol with 'Section'
-def rename_section(text):
-    # Replace all occurrences of the § symbol with 'Section'
-    return re.sub(r'§', 'Section', text)
+def rename_section_in_runs(runs):
+    """
+    Replaces all occurrences of the § symbol with 'Section'.
+    Modifies the runs in place.
+
+    :param runs: List of Run objects in the paragraph.
+    :return: None (modifies runs in place).
+    """
+    for run in runs:
+        run.text = re.sub(r'§', 'Section', run.text)
 
 
 # There is one problem here for project, & document it is not changing and for project & document it is changing
 # chnage and to & if in between two word starting with capitals
-def replace_ampersand(text):
+def replace_ampersand_in_runs(runs, line_number):
+    """
+    Replaces '&' with 'and' unless both sides are uppercase (e.g., 'R&D').
+    Modifies the runs in place and logs changes.
+
+    :param runs: List of Run objects in the paragraph.
+    :return: None (modifies runs in place).
+    """
     global global_logs
+
     def replacement(match):
         left, right = match.group(1), match.group(2)
         original = match.group(0)
-        line_number = text[:match.start()].count('\n') + 1
         if left[0].isupper() and right[0].isupper():
-            return original
+            return original  # Preserve '&' if both sides are uppercase (e.g., 'R&D')
         modified = left + ' and ' + right
         global_logs.append(
             f"[replace_ampersand] Line {line_number}: '{original}' -> '{modified}'"
         )
         return modified
-    return re.sub(r'(?m)(\w+)\s*&\s*(\w+)', replacement, text)
+
+    for run in runs:
+        run.text = re.sub(r'(\w+)\s*&\s*(\w+)', replacement, run.text)
 
 
 
 # changes word like James' to James's
-def correct_possessive_names(text, line_number):
+def correct_possessive_names_in_runs(runs, line_number):
+    """
+    Corrects possessive names (e.g., "James'" to "James's").
+    Modifies the runs in place and logs changes.
+
+    :param runs: List of Run objects in the paragraph.
+    :param line_number: The line number for logging.
+    :return: None (modifies runs in place).
+    """
     global global_logs
-    pattern_singular_possessive = r"\b([A-Za-z]+s)\b(?<!\bs')'"
-    matches_singular = re.finditer(pattern_singular_possessive, text)
-    updated_text = text
-    for match in matches_singular:
-        original_text = match.group(0)
-        updated_text_singular = match.group(1)[:-1] + "'s"
-        updated_text = updated_text.replace(original_text, updated_text_singular)
-        global_logs.append(
-            f"[correct_possessive_names] Line {line_number}: '{original_text}' -> '{updated_text_singular}'"
-        )
-    pattern_plural_possessive = r"\b([A-Za-z]+s)'\b"
-    matches_plural = re.finditer(pattern_plural_possessive, updated_text)
-    for match in matches_plural:
-        original_text = match.group(0)
-        updated_text_plural = match.group(1) + "'"
-        updated_text = updated_text.replace(original_text, updated_text_plural)
-        global_logs.append(
-            f"[correct_possessive_names] Line {line_number}: '{original_text}' -> '{updated_text_plural}'"
-        )
-    return updated_text
 
-
-
-# change the unis to short form only first time in full form in brackets
-# def units_with_bracket(text):
-#     units = {
-#         "s": "second",
-#         "m": "meter",
-#         "kg": "kilogram",
-#         "A": "ampere",
-#         "K": "kelvin",
-#         "mol": "mole",
-#         "cd": "candela"
-#     }
-#     used_units = set()
-#     global global_logs
-#     processed_lines = []
-#     for line_num, line in enumerate(text.splitlines(), start=1):
-#         def replace_unit(match):
-#             number = match.group(1)
-#             unit = match.group(2)
-#             if unit in used_units:
-#                 return match.group(0)
-#             else:
-#                 used_units.add(unit)
-#                 full_form = units[unit]
-#                 if unit != "mol" and not full_form.endswith("s"):
-#                     full_form += "s"
-#                 replacement = f"{number} {full_form} ({unit.lower()})"
-#                 global_logs.append(
-#                     f"Line {line_num}: {match.group(0)} -> {replacement}"
-#                 )
-#                 return replacement
-#         pattern = r'\b(\d+)\s*(%s)\b' % '|'.join(re.escape(unit) for unit in units.keys())
-#         processed_line = re.sub(pattern, replace_unit, line)
-#         processed_lines.append(processed_line)
-#     return "\n".join(processed_lines)
-
-
-
-# change the unis to short form only first time in full form in brackets
-def units_with_bracket(text, replaced_units):
-    units = {
-        "s": "seconds",
-        "m": "meter",
-        "kg": "kilogram",
-        "A": "ampere",
-        "K": "kelvin",
-        "mol": "mole",
-        "cd": "candela"
-    }
-    
-    # This will keep track of the units we've already replaced
-    # replaced_units = set()
-    
-    # Function to replace the unit the first time it appears
-    def replace(match):
-        number = match.group(1)
-        unit = match.group(2)
+    for run in runs:
+        # Correct singular possessive (e.g., "James'" to "James's")
+        run.text = re.sub(r"\b([A-Za-z]+s)\b(?<!\bs')'", r"\1's", run.text)
         
-        if unit not in replaced_units:
-            replaced_units.add(unit)
-            full_unit = units.get(unit, unit)
-            print(f"{number} {full_unit} ({unit})")
-            return f"{number} {full_unit} ({unit})"
-        else:
-            print(f"{number} {unit}")
-            return f"{number} {unit}"
-
-    pattern = r"(\d+)\s?([a-zA-Z]+)"
-    return re.sub(pattern, replace, text)
+        # Correct plural possessive (e.g., "students'" remains "students'")
+        run.text = re.sub(r"\b([A-Za-z]+s)'\b", r"\1'", run.text)
 
 
-def remove_and(text: str):
+
+
+def remove_and_in_runs(runs, line_number):
     """
     Replaces 'and' between two capitalized words with an ampersand (&).
-    Args:
-        text (str): Input text to process.
-    Returns:
-        str: Updated text.
+    Modifies the runs in place and logs changes.
+
+    :param runs: List of Run objects in the paragraph.
+    :param line_number: The line number for logging.
+    :return: None (modifies runs in place).
     """
     global global_logs
+
     pattern = r'([A-Z][a-z]+)\s+and\s+([A-Z][a-z]+)'
+
     def process_and_replacement(match):
         original = match.group(0)
         modified = f"{match.group(1)} & {match.group(2)}"
         if original != modified:
-            line_number = text[:match.start()].count('\n') + 1
             global_logs.append(
                 f"[remove_and] Line {line_number}: '{original}' -> '{modified}'"
             )
         return modified
-    text = re.sub(pattern, process_and_replacement, text)
-    return text
 
-
-def remove_quotation(text: str):
+    for run in runs:
+        run.text = re.sub(pattern, process_and_replacement, run.text)
+        
+        
+def remove_quotation_in_runs(runs, line_number):
     """
     Removes single quotation marks (') following capitalized words.
-    Args:
-        text (str): Input text to process.
-    Returns:
-        str: Updated text.
+    Modifies the runs in place and logs changes.
+
+    :param runs: List of Run objects in the paragraph.
+    :param line_number: The line number for logging.
+    :return: None (modifies runs in place).
     """
     global global_logs
-    pattern = r"([A-Z]+)'"
+
+    pattern = r"([A-Z]+)[’']"
+
     def process_quotation_removal(match):
         original = match.group(0)
         modified = f"{match.group(1)}"
-
         if original != modified:
-            line_number = text[:match.start()].count('\n') + 1
             global_logs.append(
                 f"[remove_quotation] Line {line_number}: '{original}' -> '{modified}'"
             )
         return modified
-    para_text = re.sub(pattern, process_quotation_removal, text)
-    return para_text
+
+    for run in runs:
+        run.text = re.sub(pattern, process_quotation_removal, run.text)
+        
+        
 
 
-def correct_acronyms(text, line_number):
+
+
+def correct_acronyms_in_runs(runs, line_number):
+    """
+    Removes periods from acronyms (e.g., 'U.S.A.' becomes 'USA') using regex substitution.
+    Modifies the runs in place and logs changes without altering original spacing.
+
+    :param runs: List of Run objects in the paragraph.
+    :param line_number: The line number for logging.
+    :return: None (modifies runs in place).
+    """
     global global_logs
-    original_text = text
-    words = text.split()
-    corrected_words = []
-    for word in words:
-        original_word = word
-        if re.match(r"([a-z]\.){2,}[a-z]\.?", word):
-            word = word.replace(".", "")
-        elif re.match(r"([A-Z]\.){2,}[A-Z]\.?", word):
-            word = word.replace(".", "")
-        if word != original_word:
+
+    for run in runs:
+        original_text = run.text
+
+        # Function to replace acronyms and log changes
+        def replace_acronym(match, is_upper):
+            original = match.group()
+            # Check if the acronym matches the correct pattern (either upper or lower case)
+            if is_upper:
+                if not re.fullmatch(r"([A-Z]\.){2,}[A-Z]\.?", original):
+                    return original
+            else:
+                if not re.fullmatch(r"([a-z]\.){2,}[a-z]\.?", original):
+                    return original
+            replaced = original.replace(".", "")
             global_logs.append(
-                f"[correct_acronyms] Line {line_number}: '{original_word}' -> '{word}'"
+                f"[correct_acronyms] Line {line_number}: '{original}' -> '{replaced}'"
             )
-        corrected_words.append(word)
-    corrected_text = " ".join(corrected_words)
-    return corrected_text
+            return replaced
+
+        # Process uppercase acronyms as standalone words
+        processed_text = re.sub(
+            r"\b([A-Z]\.){2,}[A-Z]\.?\b",
+            lambda m: replace_acronym(m, True),
+            original_text
+        )
+
+        # Process lowercase acronyms as standalone words
+        processed_text = re.sub(
+            r"\b([a-z]\.){2,}[a-z]\.?\b",
+            lambda m: replace_acronym(m, False),
+            processed_text
+        )
+
+        if processed_text != original_text:
+            run.text = processed_text
+
+
 
 
 # changes eg to e.g.
-def enforce_eg_rule_with_logging(text):
-    lines = text.splitlines()
-    updated_lines = []
-    for line_number, line in enumerate(lines, start=1):
-        original_line = line
 
-        # Step 1: Match "eg" or "e.g." with optional surrounding spaces and punctuation
-        new_line = re.sub(r'\beg\b', 'e.g.', line, flags=re.IGNORECASE)
-        new_line = re.sub(r'\beg,\b', 'e.g.', new_line, flags=re.IGNORECASE)  # Handle "eg,"
-
-        # Step 2: Fix extra periods like `e.g..` or `e.g...,` and ensure proper punctuation
-        new_line = re.sub(r'\.([.,])', r'\1', new_line)  # Removes an extra period before a comma or period
-        new_line = re.sub(r'\.\.+', '.', new_line)  # Ensures only one period after e.g.
-
-        # Step 3: Remove comma if e.g... is followed by it (e.g..., -> e.g.)
-        new_line = re.sub(r'e\.g\.,', 'e.g.', new_line)
-
-        # Step 4: Change e.g, to e.g.
-        new_line = re.sub(r'e\.g,', 'e.g.', new_line)
-
-        # Log changes if the line is updated
-        if new_line != line:
-            global_logs.append(
-                f"[e.g. correction] Line {line_number}: {line.strip()} -> {new_line.strip()}"
-            )
-        updated_lines.append(new_line)
-    return "\n".join(updated_lines)
-
-
-
-def enforce_ie_rule_with_logging(text):
-    lines = text.splitlines()
-    updated_lines = []
-    for line_number, line in enumerate(lines, start=1):
-        original_line = line
-
-        # Step 1: Match "ie" or "i.e." with optional surrounding spaces and punctuation
-        new_line = re.sub(r'\bie\b', 'i.e.', line, flags=re.IGNORECASE)  # Handle standalone "ie"
-        new_line = re.sub(r'\bie,\b', 'i.e.', new_line, flags=re.IGNORECASE)  # Handle "ie,"
-
-        # Step 2: Fix extra periods like `i.e..` or `i.e...,` and ensure proper punctuation
-        new_line = re.sub(r'\.([.,])', r'\1', new_line)  # Removes an extra period before a comma or period
-        new_line = re.sub(r'\.\.+', '.', new_line)  # Ensures only one period after i.e.
-
-        # Step 3: Remove comma if i.e... is followed by it (i.e..., -> i.e.)
-        new_line = re.sub(r'i\.e\.,', 'i.e.', new_line)
-        
-        # Step 4: Change i.e, to i.e.
-        new_line = re.sub(r'i\.e,', 'i.e.', new_line)
-
-        # Log changes if the line is updated
-        if new_line != line:
-            global_logs.append(
-                f"[i.e. correction] Line {line_number}: {line.strip()} -> {new_line.strip()}"
-            )
-        updated_lines.append(new_line)
-    return "\n".join(updated_lines)
-
-
-def standardize_etc(text):
-    lines = text.splitlines()
-    updated_lines = []
-    pattern = r'\b(e\.?tc|e\.t\.c|e\.t\.c\.|et\.?\s?c|et\s?c|etc\.?|etc|et cetera|etcetera|Etc\.?|Etc|‘and etc\.’|et\.?\s?cetera|etc\.?,?|etc\.?\.?|etc\,?\.?)\b'
-    
-    for line_number, line in enumerate(lines, start=1):
-        original_line = line
-        
-        # Replace all matches of "etc." variations with "etc."
-        new_line = re.sub(pattern, 'etc.', line, flags=re.IGNORECASE)
-        
-        # Explicitly replace "etc.." with "etc."
-        new_line = re.sub(r'etc\.\.+', 'etc.', new_line)
-        
-        # Explicitly replace "etc.." with "etc."
-        new_line = re.sub(r'etc\.\.+', 'etc.', new_line)
-        
-        # Explicitly replace "etc.," with "etc."
-        new_line = re.sub(r'etc\.,', 'etc.', new_line)
-
-        # Log changes if the line is updated
-        if new_line != line:
-            global_logs.append(f"[etc. correction] Line {line_number}: {line.strip()} -> {new_line.strip()}")
-        
-        updated_lines.append(new_line)
-    return "\n".join(updated_lines)
-
-
-
-def insert_thin_space_between_number_and_unit(text, line_number):
+def enforce_eg_rule_with_logging_in_runs(runs, line_number):
     global global_logs
-    original_text = text
-    thin_space = '\u2009'
+
+    for run in runs:
+        original_text = run.text
+
+        # Step 1: Replace "eg," (with a comma) directly with "e.g."
+        new_text = re.sub(r'\beg,\b', 'e.g.', original_text, flags=re.IGNORECASE)  
+
+        # Step 2: Replace standalone "eg" (without a comma) with "e.g."
+        new_text = re.sub(r'\beg\b', 'e.g.', new_text, flags=re.IGNORECASE)
+
+        # Step 3: Fix extra periods like "e.g.." or "e.g..."
+        new_text = re.sub(r'e\.g\.\.+', 'e.g.', new_text)
+
+        # Step 4: Remove any trailing comma after "e.g." (e.g., "e.g.," -> "e.g.")
+        new_text = re.sub(r'e\.g\.,', 'e.g.', new_text)
+
+        # Log changes if any updates were made
+        if new_text != original_text:
+            global_logs.append(
+                f"[e.g. correction] Line {line_number}: '{original_text.strip()}' -> '{new_text.strip()}'"
+            )
+        
+        # Update the run's text
+        run.text = new_text
+
+        
+# def enforce_eg_rule_with_logging_in_runs(runs, line_number):
+#     """
+#     Ensures consistent formatting for 'e.g.' in the paragraph and logs changes.
+#     It normalizes different variants (like "eg", "eg," or "e.g,") into "e.g.",
+#     fixes extra periods (e.g. "e.g..", "e.g...") and finally removes a trailing
+#     comma if present (converting "e.g.," into "e.g.").
     
-    pattern = r"(\d+)(?=\s?[a-zA-Z]+)(?!\s?°)"
-    updated_text = text
-    matches = re.finditer(pattern, text)
-    for match in matches:
-        number = match.group(1)  # This is the number
-        unit_start = match.end()
-        unit = text[unit_start:].split()[0] 
-        original_word = number + unit
+#     Modifies the runs in place.
+
+#     :param runs: List of Run objects in the paragraph.
+#     :param line_number: The line number for logging.
+#     :return: None (modifies runs in place).
+#     """
+#     global global_logs
+
+#     for run in runs:
+#         original_text = run.text
+#         # Step 1: Normalize "eg" or incorrect "e.g" variants to "e.g."
+#         new_text = re.sub(r'\beg,\b', 'e.g.', original_text, flags=re.IGNORECASE)  # Handle "eg,"
+#         new_text = re.sub(r'\beg\b', 'e.g.', new_text, flags=re.IGNORECASE)
+#         new_text = re.sub(r'e\.g,', 'e.g.', new_text)  # Handle incorrect "e.g,"
+
+#         # Step 2: Fix extra periods like "e.g.." or "e.g..."
+#         new_text = re.sub(r'e\.g\.\.+', 'e.g.', new_text)
+
+#         # Step 3: Remove a trailing comma after "e.g." (i.e. change "e.g.," to "e.g.")
+#         new_text = re.sub(r'e\.g\.,', 'e.g.', new_text)
+
+#         # Log changes if any
+#         if new_text != original_text:
+#             global_logs.append(
+#                 f"[e.g. correction] Line {line_number}: '{original_text.strip()}' -> '{new_text.strip()}'"
+#             )
+        
+#         # Update the run's text
+#         run.text = new_text
+
+
+def enforce_ie_rule_with_logging_in_runs(runs, line_number):
+    global global_logs
+
+    for run in runs:
+        original_text = run.text
+
+        # Step 1: Replace "ie," (with a comma) directly with "i.e."
+        new_text = re.sub(r'\bie,\b', 'i.e.', original_text, flags=re.IGNORECASE)  
+
+        # Step 2: Replace standalone "ie" (without a comma) with "i.e."
+        new_text = re.sub(r'\bie\b', 'i.e.', new_text, flags=re.IGNORECASE)
+
+        # Step 3: Fix extra periods like "i.e.." or "i.e..."
+        new_text = re.sub(r'i\.e\.\.+', 'i.e.', new_text)
+
+        # Step 4: Remove any trailing comma after "i.e." (i.e., "i.e.," -> "i.e.")
+        new_text = re.sub(r'i\.e\.,', 'i.e.', new_text)
+
+        # Log changes if any updates were made
+        if new_text != original_text:
+            global_logs.append(
+                f"[i.e. correction] Line {line_number}: '{original_text.strip()}' -> '{new_text.strip()}'"
+            )
+        
+        # Update the run's text
+        run.text = new_text
+
+
+
+# def enforce_ie_rule_with_logging_in_runs(runs, line_number):
+#     """
+#     Ensures consistent formatting for 'i.e.' in the paragraph and logs changes.
+#     Modifies the runs in place.
+
+#     :param runs: List of Run objects in the paragraph.
+#     :param line_number: The line number for logging.
+#     :return: None (modifies runs in place).
+#     """
+#     global global_logs
+
+#     for run in runs:
+#         original_text = run.text
+
+#         # Step 1: Match "ie" or "i.e." with optional surrounding spaces and punctuation
+#         new_text = re.sub(r'\bie\b', 'i.e.', run.text, flags=re.IGNORECASE)  # Handle standalone "ie"
+#         new_text = re.sub(r'\bie,\b', 'i.e.', new_text, flags=re.IGNORECASE)  # Handle "ie,"
+
+#         # Step 2: Fix extra periods like `i.e..` or `i.e...,` and ensure proper punctuation
+#         new_text = re.sub(r'\.([.,])', r'\1', new_text)  # Removes an extra period before a comma or period
+#         new_text = re.sub(r'\.\.+', '.', new_text)  # Ensures only one period after i.e.
+
+#         # Step 3: Remove comma if i.e... is followed by it (i.e..., -> i.e.)
+#         new_text = re.sub(r'i\.e\.,', 'i.e.', new_text)
+        
+#         # Step 4: Change i.e, to i.e.
+#         new_text = re.sub(r'i\.e,', 'i.e.', new_text)
+
+#         # Log changes if the text is updated
+#         if new_text != original_text:
+#             global_logs.append(
+#                 f"[i.e. correction] Line {line_number}: '{original_text.strip()}' -> '{new_text.strip()}'"
+#             )
+        
+#         # Update the run's text
+#         run.text = new_text
+
+        
+        
+
+def standardize_etc_in_runs(runs, line_number):
+    global global_logs
+    pattern = r'\b(e\.?tc|e\.t\.c|e\.t\.c\.|et\.?\s?c|et\s?c|etc\.?|etc|et cetera|etcetera|Etc\.?|Etc|‘and etc\.’|et\.?\s?cetera|etc\.?,?|etc\.?\.?|etc\,?\.?)\b'
+
+    # Get full paragraph text
+    full_text = "".join(run.text for run in runs)
+
+    # Define replacement function
+    def replace_etc(match):
+        original = match.group(0)
+        modified = "etc."
+        if original != modified:
+            global_logs.append(f"[etc. correction] Line {line_number}: '{original}' -> '{modified}'")
+        return modified
+
+    # Replace variations of "etc."
+    updated_text = re.sub(pattern, replace_etc, full_text, flags=re.IGNORECASE)
+
+    # Explicit fixes for "etc..", "etc.,"
+    updated_text = re.sub(r'etc\.\.+', 'etc.', updated_text)
+    updated_text = re.sub(r'etc\.,', 'etc.', updated_text)
+
+    # Update runs while keeping formatting
+    current_index = 0
+    for i, run in enumerate(runs):
+        run.text = updated_text[current_index : current_index + len(run.text)]
+        current_index += len(run.text)
+
+
+def insert_thin_space_between_number_and_unit_in_runs(runs, line_number):
+    global global_logs
+    thin_space = '\u2009'
+
+    # Get full paragraph text
+    full_text = "".join(run.text for run in runs)
+    
+    pattern = r"(\d+)(\s*)([a-zA-Z]+)(?!\s?°)"
+
+    # Define replacement function
+    def replace_number_unit(match):
+        number = match.group(1)
+        whitespace = match.group(2)
+        unit = match.group(3)
+        original_word = number + whitespace + unit
         updated_word = number + thin_space + unit
-        updated_text = updated_text.replace(original_word, updated_word, 1)
-        global_logs.append(
-            f"[insert_thin_space_between_number_and_unit] Line {line_number}: '{original_word}' -> '{updated_word}'"
-        )
-    return updated_text
 
-import spacy
+        if original_word != updated_word:
+            global_logs.append(f"[insert_thin_space_between_number_and_unit] Line {line_number}: '{original_word}' -> '{updated_word}'")
+
+        return updated_word
+
+    # Apply regex replacement to full text
+    updated_text = re.sub(pattern, replace_number_unit, full_text)
+
+    # Update runs while keeping formatting
+    current_index = 0
+    for i, run in enumerate(runs):
+        run.text = updated_text[current_index : current_index + len(run.text)]
+        current_index += len(run.text)
+
+
 import re
+import spacy
 
-# Load the spaCy model
 nlp = spacy.load("en_core_web_sm")
 
-
-# def process_paragraph(text, line_number):
-#     """
-#     Processes paragraph text to ensure a comma is added before 'e.g.'
-#     if there is no verb between 'e.g.' and the end of the sentence.
-#     Args:
-#         text (str): The text of the paragraph.
-#         line_number (int): Line number for reference (useful for debugging/logging).
-#     Returns:
-#         str: Updated text with proper comma placement.
-#     """
-#     doc = nlp(text)
-#     updated_sentences = []
-
-#     for sentence in doc.sents:  # Split text into sentences
-#         sentence_text = sentence.text
-        
-#         # Check if 'e.g.' is in the sentence
-#         if "e.g." in sentence_text:
-#             # Find the position of 'e.g.'
-#             eg_start_idx = sentence_text.find("e.g.")
-#             after_eg_text = sentence_text[eg_start_idx:]
-            
-#             # Process the text after 'e.g.' to look for verbs
-#             after_eg_doc = nlp(after_eg_text)
-#             has_verb = any(token.pos_ == "VERB" for token in after_eg_doc)
-            
-#             if not has_verb:
-#                 # Add a comma before 'e.g.' if no verb is found
-#                 sentence_text = re.sub(r"(?<!,)\s+e\.g\.", ", e.g.", sentence_text)
-        
-#         updated_sentences.append(sentence_text)
-#     updated_text = " ".join(updated_sentences)
-#     return updated_text
-
-
-def process_paragraph(text, line_number):
+def process_paragraph(runs, line_number):
     """
-    Processes paragraph text to:
+    Processes a paragraph to:
     1. Add a comma before 'e.g.' if there is no verb between 'e.g.' and the end of the sentence.
-    2. Add a semicolon before 'i.e.' wherever it appears.
+    2. Add a colon before 'i.e.' wherever it appears.
+    
     Args:
-        text (str): The text of the paragraph.
-        line_number (int): Line number for reference (useful for debugging/logging).
-    Returns:
-        str: Updated text with proper comma and semicolon placement.
+        runs (list): List of Word paragraph runs to preserve formatting.
+        line_number (int): Line number for logging.
     """
-    doc = nlp(text)
+    global global_logs
+    
+    # Extract full paragraph text from runs
+    full_text = "".join(run.text for run in runs)
+
+    # Use NLP to analyze sentence structure
+    doc = nlp(full_text)
     updated_sentences = []
 
-    for sentence in doc.sents:  # Split text into sentences
+    for sentence in doc.sents:
         sentence_text = sentence.text
 
         # Step 1: Handle 'e.g.'
         if "e.g." in sentence_text:
-            # Find the position of 'e.g.'
             eg_start_idx = sentence_text.find("e.g.")
             after_eg_text = sentence_text[eg_start_idx:]
             
-            # Process the text after 'e.g.' to look for verbs
+            # Check if there is a verb after 'e.g.'
             after_eg_doc = nlp(after_eg_text)
             has_verb = any(token.pos_ == "VERB" for token in after_eg_doc)
-            
+
             if not has_verb:
-                # Add a comma before 'e.g.' if no verb is found
-                sentence_text = re.sub(r"(?<!,)\s+e\.g\.", ", e.g.", sentence_text)
-        
+                new_sentence_text = re.sub(r"(?<!,)\s+e\.g\.", ", e.g.", sentence_text)
+                if new_sentence_text != sentence_text:
+                    global_logs.append(f"[process_paragraph] Line {line_number}: Added comma before 'e.g.'")
+                    sentence_text = new_sentence_text
+
         # Step 2: Handle 'i.e.'
         if "i.e." in sentence_text:
-            # Add a semicolon before 'i.e.' if not already present
-            sentence_text = re.sub(r"(?<!;)\s+i\.e\.", ": i.e.", sentence_text)
-            
+            new_sentence_text = re.sub(r"(?<!;)\s+i\.e\.", ": i.e.", sentence_text)
+            if new_sentence_text != sentence_text:
+                global_logs.append(f"[process_paragraph] Line {line_number}: Replaced space before 'i.e.' with ':'")
+                sentence_text = new_sentence_text
+
         updated_sentences.append(sentence_text)
 
     updated_text = " ".join(updated_sentences)
-    return updated_text
+
+    # Update runs while keeping formatting intact
+    current_index = 0
+    for i, run in enumerate(runs):
+        run.text = updated_text[current_index : current_index + len(run.text)]
+        current_index += len(run.text)
 
 
 def apply_quotation_punctuation_rule(text: str):
@@ -719,22 +1037,25 @@ word_to_num = {
     'ninety-eight': 98, 'ninety-nine': 99, 'hundred': 100
 }
 
-# Reverse dictionary to convert integer values back to words
-num_to_word = {v: k for k, v in word_to_num.items()}
 
-# Function to convert word number to integer
-def word_to_int(word):
-    return word_to_num.get(word.lower(), None)
-
-# Function to convert integer to word
-def int_to_word(num):
-    return num_to_word.get(num, None)
-
-# Regular expression to match "word and word" pattern
-pattern = re.compile(r'(\b\w+\b) and (\b\w+\b)')
 
 # Function to process the string with regex and apply transformations
 def process_string(text):
+    
+    # Regular expression to match "word and word" pattern
+    pattern = re.compile(r'(\b\w+\b) and (\b\w+\b)')
+    
+    # Reverse dictionary to convert integer values back to words
+    num_to_word = {v: k for k, v in word_to_num.items()}
+
+    # Function to convert word number to integer
+    def word_to_int(word):
+        return word_to_num.get(word.lower(), None)
+
+    # Function to convert integer to word
+    def int_to_word(num):
+        return num_to_word.get(num, None)
+    
     def replace_match(match):
         word1 = match.group(1)
         word2 = match.group(2)
@@ -759,58 +1080,204 @@ def process_string(text):
     return pattern.sub(replace_match, text)
 
 
-
-
-def write_to_log(doc_id):
+def write_to_log(doc_id, user):
     global global_logs
-    output_dir = os.path.join('output', str(doc_id))
-    os.makedirs(output_dir, exist_ok=True)
-    log_file_path = os.path.join(output_dir, 'global_logs.txt')
-    with open(log_file_path, 'w', encoding='utf-8') as log_file:
+    # output_dir = os.path.join('output', str(doc_id))
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    output_path_file = Path(os.getcwd()) / 'output' / user / current_date / str(doc_id) / 'text'
+    os.makedirs(output_path_file, exist_ok=True)
+    
+    log_file_path = os.path.join(output_path_file, 'global_logs.txt')
+    with open(log_file_path, 'a', encoding='utf-8') as log_file:
         log_file.write("\n".join(global_logs))
     global_logs = []
     
 
 
 
+def move_punctuation_inside_quotes(runs, line_number_offset):
+    # reposition_pattern = re.compile(r'([‘“"])(.*?)(["’”])([?!])')
+    reposition_pattern = re.compile(r'([‘“"\'])(.*?)(["’”\'])([?!])')
+    def reposition_replacer(match):
+        opening_quote = match.group(1)
+        content = match.group(2)
+        closing_quote = match.group(3)
+        punctuation = match.group(4)
+        return f"{opening_quote}{content}{punctuation}{closing_quote}"
+    
+    for run in runs:
+        run.text = reposition_pattern.sub(reposition_replacer, run.text)
+        run.text = re.sub(r'(?<=[?!][’”"\'])\.', '', run.text)
 
 
-def process_doc_function1(payload: dict, doc: Document, doc_id):
+def single_to_double_quotes(runs):
+    single_quote_index = -1  # Store the index of the first single quote
+    single_quote_run = -1  # Store the run index of the first single quote
+
+    for i, run in enumerate(runs):
+        text = run.text
+
+        # Find exact index of `'` and `.'` in the text
+        if single_quote_index == -1:  # Store first occurrence only
+            single_quote_index = text.find("‘")
+            if single_quote_index != -1:
+                single_quote_run = i  # Store the run where it occurred
+
+        dot_single_quote_index = text.find(".’")
+
+        if dot_single_quote_index != -1 and single_quote_index != -1:
+            # Replace single quote `'` with `"` at single_quote_index
+            runs[single_quote_run].text = (
+                runs[single_quote_run].text[:single_quote_index] + '“' +
+                runs[single_quote_run].text[single_quote_index + 1:]
+            )
+
+            # Replace `.'` with `."` in the current run
+            runs[i].text = (
+                text[:dot_single_quote_index] + '.”' + text[dot_single_quote_index + 2:]
+            )
+
+            # Reset tracking variables
+            single_quote_index = -1
+            single_quote_run = -1
+
+
+
+def elide_consecutive_references(runs):
+    """
+    Processes a list of Word document runs and converts consecutive figure, table, or equation references
+    into an elided range format.
+    
+    For example, this converts:
+       "Figures 1.1, 1.2, 1.3, 1.4 and 1.5"
+    into:
+       "Figures 1.1–1.5"
+    """
+    if not runs:  # Check if runs list is empty
+        return  
+
+    # Matches references like "Figures 1.1, 1.2, 1.3, 1.4 and 1.5"
+    pattern = r"\b(Figures|Tables|Equations|Parts|Figure) ((?:\d+\.\d+(?:, | and )?)+)"
+
+    # Collect text from runs
+    full_text = "".join(run.text for run in runs)
+
+    def replace_match(match):
+        prefix = match.group(1)  # e.g., 'Figures'
+        numbers = re.split(r", | and ", match.group(2))  # e.g., ["1.1", "1.2", "1.3", "1.4", "1.5"]
+        processed_numbers = []
+
+        # Convert numbers into tuples (major, minor), e.g. (1, 1)
+        parsed_numbers = [tuple(map(int, num.split("."))) for num in numbers]
+
+        # Identify consecutive ranges
+        start = parsed_numbers[0]
+        end = start
+
+        for i in range(1, len(parsed_numbers)):
+            # Check if the current number is consecutive to the previous
+            if parsed_numbers[i][0] == end[0] and parsed_numbers[i][1] == end[1] + 1:
+                end = parsed_numbers[i]  # Extend range
+            else:
+                # Append previous range
+                if start == end:
+                    processed_numbers.append(f"{start[0]}.{start[1]}")
+                else:
+                    processed_numbers.append(f"{start[0]}.{start[1]}–{end[0]}.{end[1]}")
+                start = end = parsed_numbers[i]
+
+        # Append the last identified range
+        if start == end:
+            processed_numbers.append(f"{start[0]}.{start[1]}")
+        else:
+            processed_numbers.append(f"{start[0]}.{start[1]}–{end[0]}.{end[1]}")
+
+        return f"{prefix} {', '.join(processed_numbers)}"
+
+    # Replace text in the full_text
+    new_text = re.sub(pattern, replace_match, full_text)
+
+    # Update the runs: place the new_text in the first run and clear the others
+    runs[0].text = new_text
+    for i in range(1, len(runs)):
+        runs[i].text = ""
+
+
+def units_with_bracket(runs, used_units):
+    units = {
+        "s": "second",
+        "m": "meter",
+        "kg": "kilogram",
+        "A": "ampere",
+        "K": "kelvin",
+        "mol": "mole",
+        "cd": "candela"
+    }
+    
+    
+    pattern = r'\b(\d+(?:\.\d+)?)\s+(' + '|'.join(re.escape(unit) for unit in units.keys()) + r')\b'
+    
+    for run in runs:
+        def replace_unit(match):
+            number = match.group(1)
+            unit = match.group(2)
+            if unit in used_units:
+                return match.group(0)  # If already replaced, return the original "number unit"
+            else:
+                used_units.add(unit)
+                full_form = units[unit]
+                # Append an "s" to the full form if needed (except for "mol" or if already plural)
+                if unit != "mol" and not full_form.endswith("s"):
+                    full_form += "s"
+                replacement = f"{number} {full_form} ({unit.lower()})"
+                global_logs.append(f"Unit {unit} replaced with {replacement}")
+                return replacement
+
+        run.text = re.sub(pattern, replace_unit, run.text)
+
+
+
+def process_doc_function1(payload: dict, doc: Document, doc_id, user):
     """
     This function processes the document by converting century notations
     and highlighting specific words.
     """
     line_number = 1
     abbreviation_dict = fetch_abbreviation_mappings()
-    
+    used_units = set()
+    seen_symbols = set()
+    replaced_units = set()
+
     for para in doc.paragraphs:
-        para.text = convert_century(para.text, line_number)
-        para.text = process_symbols_mark(para.text, line_number)
-        para.text = enforce_serial_comma(para.text)
-        para.text = set_number_to_no(para.text,line_number)
-        para.text = apply_abbreviation_mapping(para.text, abbreviation_dict, line_number)
-        para.text = enforce_am_pm(para.text, line_number)
-        para.text = set_latinisms_to_roman(para.text, line_number)
+        # if para.style.name.startswith("Heading") and para.text.strip().startswith("Chapter"):
+        #     used_units = set()
+        # insert_thin_space_between_number_and_unit_in_runs(para.runs, line_number)
+        # elide_consecutive_references(para.runs)
+        
+        single_to_double_quotes(para.runs)
+        move_punctuation_inside_quotes(para.runs, line_number)
+        apply_abbreviation_mapping(para.runs, abbreviation_dict, line_number)
+        convert_century_in_runs(para.runs, line_number)
+        set_latinisms_to_roman_in_runs(para.runs, line_number)
+        process_symbols_mark_in_runs(para.runs, line_number, seen_symbols)
+        apply_remove_italics_see_rule_in_runs(para.runs)
+        set_number_to_no_in_runs(para.runs, line_number)
+        format_titles_us_english_with_logging_in_runs(para.runs, line_number)
+        enforce_am_pm_in_runs(para.runs, line_number)
+        enforce_serial_comma_in_runs(para.runs)
         if(payload["2"] == False):
-            para.text = rename_section(para.text)
-        para.text = replace_ampersand(para.text)
-        para.text = correct_possessive_names(para.text, line_number)
-        para.text = format_titles_us_english_with_logging(para.text)
-        para.text = units_with_bracket(para.text)
-        para.text = remove_and(para.text)
-        para.text = remove_quotation(para.text)
-        para.text = correct_acronyms(para.text, line_number)
-        para.text = enforce_eg_rule_with_logging(para.text)
-        para.text = enforce_ie_rule_with_logging(para.text)
-        para.text = process_paragraph(para.text, line_number)
-        para.text = apply_remove_italics_see_rule(para.text)
-        para.text = standardize_etc(para.text)
-        para.text = insert_thin_space_between_number_and_unit(para.text, line_number)
-        para.text = process_string(para.text)
-        para.text = apply_quotation_punctuation_rule(para.text)
+            rename_section_in_runs(para.runs)
+        replace_ampersand_in_runs(para.runs, line_number)
+        correct_possessive_names_in_runs(para.runs, line_number)
+        units_with_bracket(para.runs, used_units)
+        remove_and_in_runs(para.runs, line_number)
+        remove_quotation_in_runs(para.runs, line_number)
+        correct_acronyms_in_runs(para.runs, line_number)
+        enforce_eg_rule_with_logging_in_runs(para.runs, line_number)
+        enforce_ie_rule_with_logging_in_runs(para.runs, line_number)
+        standardize_etc_in_runs(para.runs, line_number)
+        process_paragraph(para.runs, line_number)
         line_number += 1
 
-    write_to_log(doc_id)
-    
-    
-    
+    write_to_log(doc_id, user)
+

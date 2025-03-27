@@ -1,0 +1,116 @@
+
+Start Time: 2025-03-25 10:28:22.004911
+End Time: 2025-03-25 10:28:43.128441
+Analysis completed in 21.12 seconds.
+
+
+FileName: Document_For_Testing.docx
+
+
+Line 4: latin -> Suggestions: lateen, Latin, lati, lain, latino, satin, matin, lapin, patin, la tin, la-tin, lat in, lat-in, lati n, latvia
+Line 4: i.e., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 4: e.g., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 18: Johnson -> Suggestions: Johnson, john son, john-son, johns on, johns-on
+Line 18: Parker -> Suggestions: Parker, parer, sparker, parser, porker, larker, packer, parked, darker, marker, barker, Barker, park er, park-er, turkey
+Line 18: Adams -> Suggestions: Adams, dams, madams, Edams, a dams, laos, udemy, guam, panama, bahamas, Udemy
+Line 20: eg -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: eg -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: eg, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: e.g.. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: e.g..., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: e.g, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 22: ie -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: ie -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: ie, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: i.e.. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: i.e..., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: i.e,,. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: I.E -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: i.e, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 24: Paris, -> Suggestions: pairs, Paris, pars, paries, parish, parvis, pares, peris, saris, paras, naris, parrs, parts, pavis, parks, palau, peru, asia, laos, mali, spain, syria
+Line 24: London -> Suggestions: London, jordan, congo
+Line 24: Rome. -> Suggestions: more, Rome, tome, rime, rom, roe, romeo, omer, rose, some, rote, role, come, rode, dome, oman, europe, yemen, niue, togo
+Line 28: James' -> Suggestions: James, hames, jams, sames, names, tames, lames, jades, dames, games, japes, jambs, jakes, jam's, ja mes, japan, laos, samoa, yemen
+Line 28: Chris' -> Suggestions: kris, Chris, chis, chrism, chile, china, chad, cocos, cyprus, syria
+Line 32: Alice -> Suggestions: Alice, slice, alive, lice, malice, amice, alike, a lice, al ice, al-ice, africa, asia, niue, mali, belize, chile
+Line 32: Sarah -> Suggestions: Sarah, saran, surah, samoa, sudan, syria, syrian, iran, iraq, asia, japan, palau, qatar
+Line 32: Microsoft -> Suggestions: Microsoft, micro soft, micro-soft, micros oft, micros-oft
+Line 34: U.S.A -> Suggestions: USA, us, Susa, use, usu, Asa, us a, asia, cuba
+Line 34: I.B.M -> Suggestions: IBM, ib, ism, ib m, iran, iraq, i.e., libya, guam, niue, cuba, fiji
+Line 34: U.N.E.S.C.O -> Suggestions: UNESCO, Enesco
+Line 34: U.K -> Suggestions: UK, u, k, auk, yuk, us, ut, ck, dk, um, mk, up, pk, uh, bk, guam, niue, cuba
+Line 34: F.B.I -> Suggestions: FBI, fib, bi, obi, f bi, fiji
+Line 36: eg -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 36: eg, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 36: e.g, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 36: USA -> Suggestions: USA, us, Susa, use, usu, Asa, us a, asia, cuba
+Line 36: e.g.., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 36: e.g..., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 38: ie -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 38: USA -> Suggestions: USA, us, Susa, use, usu, Asa, us a, asia, cuba
+Line 38: ie, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 38: i.e.., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 38: i.e..., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 38: i.e,, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 40: cetera. -> Suggestions: cerate, terrace, Terceira, Terrance
+Line 40: cetera. -> Suggestions: cerate, terrace, Terceira, Terrance
+Line 40: Paris, -> Suggestions: pairs, Paris, pars, paries, parish, parvis, pares, peris, saris, paras, naris, parrs, parts, pavis, parks, palau, peru, asia, laos, mali, spain, syria
+Line 40: London, -> Suggestions: London, jordan, congo
+Line 42: 10meters. -> Suggestions: telemeters
+Line 42: 50kg. -> No suggestions available
+Line 42: 30C. -> No suggestions available
+Line 42: 100m. -> Suggestions: guam
+Line 42: 200Pa. -> No suggestions available
+Line 44: e.g. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 44: i.e. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 44: e.g. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 44: i.e. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 44: e.g. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 48: 14-Mar-23. -> No suggestions available
+Line 56: 1990's -> No suggestions available
+Line 56: '90s -> Suggestions: laos
+Line 56: 90s, -> Suggestions: laos
+Line 58: 3-fold -> Suggestions: fold, 3 fold
+Line 58: 20-fold -> Suggestions: fold
+Line 60: º -> Suggestions: e, s, i, a, n, r, t, o, l, c, d, u, g, m, p
+Line 60: º -> Suggestions: e, s, i, a, n, r, t, o, l, c, d, u, g, m, p
+Line 62: Error4: -> Suggestions: error, errors, error 4, europe
+Line 78: hz. -> Suggestions: Hz, h, z, he, hi, ha, hr, ht, ho, oz, hl, hd, dz, hg, hm, chad
+Line 78: resistence -> Suggestions: resistance, Resistencia, Resistance, persistence, insistence
+Line 80: BCE -> Suggestions: be, bice, bee, ice, ace, bye, Ice, i.e., niue
+Line 80: BCE. -> Suggestions: be, bice, bee, ice, ace, bye, Ice, i.e., niue
+Line 84: gapping -> Suggestions: gaping, gasping, sapping, napping, rapping, tapping, lapping, capping, mapping, gypping, yapping, gawping, zapping, gap ping, gap-ping
+Line 84: Hz, -> Suggestions: Hz, h, z, he, hi, ha, hr, ht, ho, oz, hl, hd, dz, hg, hm, chad
+Line 84: Hz -> Suggestions: Hz, h, z, he, hi, ha, hr, ht, ho, oz, hl, hd, dz, hg, hm, chad
+Line 84: GHz. -> Suggestions: gaz, GHz, ghana, guam, chad
+Line 88: January -> Suggestions: January, vanuatu, hungary
+Line 92: 10-fold -> Suggestions: fold
+Line 96: twenty-fold -> Suggestions: twenty fold, twenty-fold, twelvefold
+Line 98: 100-fold -> Suggestions: folderol
+Line 102: hz. -> Suggestions: Hz, h, z, he, hi, ha, hr, ht, ho, oz, hl, hd, dz, hg, hm, chad
+Line 106: 10cm -> Suggestions: guam
+Line 106: 20cm. -> Suggestions: guam
+Line 106: 5kg -> Suggestions: kg, pkg, bkg, 5 kg, e.g., togo
+Line 106: 10kg. -> No suggestions available
+Line 106: 2m–4m. -> Suggestions: oman, guam
+Line 110: event—originally -> Suggestions: event originally, event-originally, aboriginally
+Line 110: January—was -> Suggestions: January
+Line 112: high-speed -> Suggestions: high speed, high-speed, highs peed, highs-peed, highlighted
+Line 112: Paris-Lyon -> Suggestions: parishioner
+Line 116: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 116: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 116: <https://google.com> -> No suggestions available
+Line 116: https://google.com -> No suggestions available
+Line 118: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 118: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 118: <https://google.com> -> No suggestions available
+Line 118: https://google.com. -> No suggestions available
+Line 120: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 120: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 120: https://google.com/ -> No suggestions available
+Line 122: urls -> Suggestions: curls, purls, hurls, burls, furls, urns, urus, URLs, iran, iraq, laos, mali
+Line 122: https://google.com. -> No suggestions available
+Line 180: Range(Kg) -> Suggestions: range kg, range-kg, ranger, range, Ranger
+Line 308: grinded -> Suggestions: grinned, grinder, gridded, grind ed, grind-ed, grinding, grind, guinea
+Line 328: —Julius -> Suggestions: Julius
+Line 328: Caesar -> Suggestions: Caesar, cesar, qatar

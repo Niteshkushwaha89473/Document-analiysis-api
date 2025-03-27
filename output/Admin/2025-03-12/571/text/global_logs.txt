@@ -1,0 +1,158 @@
+
+Start Time: 2025-03-12 14:11:54.291756
+End Time: 2025-03-12 14:12:26.578628
+Analysis completed in 32.29 seconds.
+
+
+FileName: footnotes.docx
+
+
+Line 6: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 6: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 8: ethno-nationalism -> Suggestions: denominationalism, internationalism, sensationalism, ultranationalism
+Line 8: COVID-19, -> Suggestions: covin
+Line 8: Russian -> Suggestions: Russian, Prussian, russia
+Line 8: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 8: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 10: American -> Suggestions: American, africa
+Line 12: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 12: American-born. -> Suggestions: Americano, Mesoamerican, Americana, American
+Line 12: Russian -> Suggestions: Russian, Prussian, russia
+Line 12: Kyiv, -> Suggestions: skivvy, asia, syria
+Line 12: Ukraine’s -> Suggestions: Ukraine, Ukrainians, ukraine
+Line 12: great-grandparents -> Suggestions: great grandparents, great-grandparents, grandparents, grandparent
+Line 12: Poswol -> Suggestions: posology
+Line 12: (Pasvalys), -> Suggestions: paralysis
+Line 12: American -> Suggestions: American, africa
+Line 12: American. -> Suggestions: American, africa
+Line 14: Yiddish -> Suggestions: Yiddish, kiddish, yid dish, yid-dish
+Line 14: American -> Suggestions: American, africa
+Line 16: Chicago -> Suggestions: Chicago, chic ago, chic-ago, china
+Line 16: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 16: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 16: American -> Suggestions: American, africa
+Line 16: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 16: American -> Suggestions: American, africa
+Line 16: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 16: Holocaust—the -> Suggestions: holocaust the, holocaust-the, Holocaust, holocaust
+Line 16: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 16: Nazi -> Suggestions: Nazi, mali
+Line 18: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 18: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 22: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 22: post-Holocaust -> Suggestions: post holocaust, post-holocaust, Holocaust, holocaust
+Line 22: Jewish” -> Suggestions: Jewish, jewfish, newish
+Line 22: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 22: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 24: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 24: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 26: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 28: Medintz, -> Suggestions: mediant
+Line 30: Fast-forward -> Suggestions: fast forward, fast-forward, straightforward
+Line 30: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 30: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 30: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 30: children’s -> Suggestions: children, children's, children s
+Line 30: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 30: Medintz, -> Suggestions: mediant
+Line 30: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 30: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 32: Jeff’s -> Suggestions: effs, jiffs, j effs, Jeff
+Line 32: impactful -> Suggestions: impaction
+Line 32: Kaja -> Suggestions: kaka, kana, raja, kava, ka ja, ka-ja, kenya, asia, laos, ghana, japan, malta, mali, palau, samoa, qatar, cuba, fiji
+Line 32: Magda -> Suggestions: magma, Dagda, Madag, malta
+Line 32: Kaja’s -> Suggestions: rajas, kavas, laos, japan, palau, qatar
+Line 32: Julia, -> Suggestions: Julia, dulia, asia, india, russia, mali, malta, syria, cuba
+Line 32: Atlanta. -> Suggestions: Atlanta, albania
+Line 34: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 34: Jewish. -> Suggestions: Jewish, jewfish, newish
+Line 34: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 34: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 34: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 34: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 34: antisemites. -> Suggestions: antisemite, antisemite s, antisemitism, antisemitic, antitheses, antithesis
+Line 36: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 36: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 40: Atlanta, -> Suggestions: Atlanta, albania
+Line 42: women—three -> Suggestions: women three, women-three, enthronement
+Line 42: age—gathered -> Suggestions: age gathered, age-gathered, foregathered, forgathered, featheredge, gathered
+Line 42: Polish-Jewish -> Suggestions: polished
+Line 44: Polish-Jewish -> Suggestions: polished
+Line 44: Julia, -> Suggestions: Julia, dulia, asia, india, russia, mali, malta, syria, cuba
+Line 44: Julia -> Suggestions: Julia, dulia, asia, india, russia, mali, malta, syria, cuba
+Line 44: Americans -> Suggestions: Americans
+Line 44: American -> Suggestions: American, africa
+Line 44: low-class -> Suggestions: low class, low-class, lowerclassman
+Line 44: anti-Polish -> Suggestions: anti polish, anti-polish, Oliphant
+Line 44: American -> Suggestions: American, africa
+Line 44: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 44: Hitler’s -> Suggestions: Hitlers, hitters
+Line 44: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 44: Jewry. -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 44: American -> Suggestions: American, africa
+Line 44: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 46: Julia -> Suggestions: Julia, dulia, asia, india, russia, mali, malta, syria, cuba
+Line 46: Jeff, -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 46: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 46: great-aunt -> Suggestions: great aunt, great-aunt, greatcoat
+Line 46: three-year-old -> Suggestions: threefold
+Line 46: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 46: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 46: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 46: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 46: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 46: Kaja, -> Suggestions: kaka, kana, raja, kava, ka ja, ka-ja, kenya, asia, laos, ghana, japan, malta, mali, palau, samoa, qatar, cuba, fiji
+Line 46: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 46: Warsaw. -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 48: be—they -> Suggestions: bethel, be they, be-they, bet hey, bet-hey, Bethe, Beth, they, jersey
+Line 48: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 48: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 52: Kaja -> Suggestions: kaka, kana, raja, kava, ka ja, ka-ja, kenya, asia, laos, ghana, japan, malta, mali, palau, samoa, qatar, cuba, fiji
+Line 52: Julia’s -> Suggestions: Julia
+Line 52: Przemek, -> Suggestions: premed
+Line 52: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 52: Atlanta, -> Suggestions: Atlanta, albania
+Line 52: once-in-a-lifetime -> Suggestions: decriminalization
+Line 52: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 54: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 54: Gdańsk -> Suggestions: Gdansk
+Line 54: Warsaw -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 54: Kazimierz, -> Suggestions: kamikaze
+Line 54: Auschwitz. -> Suggestions: Auschwitz
+Line 54: Kaja -> Suggestions: kaka, kana, raja, kava, ka ja, ka-ja, kenya, asia, laos, ghana, japan, malta, mali, palau, samoa, qatar, cuba, fiji
+Line 54: Shabbat -> Suggestions: Shabbat, sabbath
+Line 54: Shabbat -> Suggestions: Shabbat, sabbath
+Line 54: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 56: Friday -> Suggestions: Friday, africa
+Line 56: Shabbat -> Suggestions: Shabbat, sabbath
+Line 56: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 56: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 56: Warsaw: -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 56: Beit -> Suggestions: bat, brit, bet, bit, befit, bite, beet, best, beat, bait, bent, belt, be it, be-it, benin
+Line 56: Warszawa. -> Suggestions: Warsaw
+Line 56: Nożyk -> Suggestions: nooky
+Line 56: Beit -> Suggestions: bat, brit, bet, bit, befit, bite, beet, best, beat, bait, bent, belt, be it, be-it, benin
+Line 56: Warszawa -> Suggestions: Warsaw
+Line 56: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 56: seventy-five -> Suggestions: seventy five, seventy-five, seventy, seventeen
+Line 56: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 56: Friday -> Suggestions: Friday, africa
+Line 56: Shabbat -> Suggestions: Shabbat, sabbath
+Line 56: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 56: community—praying, -> Suggestions: community praying, community-praying, communitarianism
+Line 56: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 56: self-understanding? -> Suggestions: self understanding, self-understanding, misunderstanding, understanding, understating
+Line 58: Kaja’s -> Suggestions: rajas, kavas, laos, japan, palau, qatar
+Line 58: Julia’s -> Suggestions: Julia
+Line 58: Przemek -> Suggestions: premed
+Line 58: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 58: forty-nine-year-old -> Suggestions: fortunetelling
+Line 58: university-educated -> Suggestions: university educated, university-educated, undereducated
+Line 60: Przemek -> Suggestions: premed
+Line 60: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 60: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 62: Przemek’s -> Suggestions: premeds
+Line 62: Auschwitz. -> Suggestions: Auschwitz
+Line 62: Nazi -> Suggestions: Nazi, mali
+Line 62: Nazis -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 62: Auschwitz -> Suggestions: Auschwitz[process_symbols_in_doc] Line 32: '250,000' -> '250 000'

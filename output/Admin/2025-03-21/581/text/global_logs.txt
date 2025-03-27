@@ -1,0 +1,60 @@
+
+Start Time: 2025-03-21 11:51:59.741341
+End Time: 2025-03-21 11:52:16.751276
+Analysis completed in 17.01 seconds.
+
+
+FileName: testing_quotes.docx
+
+
+Line 18: Julius -> Suggestions: Julius
+Line 18: Caesar -> Suggestions: Caesar, cesar, qatar
+Line 22: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 22: Russian -> Suggestions: Russian, Prussian, russia
+Line 22: Belarusian -> Suggestions: Belorussian, Belarus, Rabelaisian, belarus
+Line 22: Belarus’s -> Suggestions: Belarus, belarus
+Line 26: Levinas’s -> Suggestions: levin ass, levin-ass, vinasse
+Line 26: face-to-face, -> Suggestions: facetiae, facet
+Line 26: Belarusian -> Suggestions: Belorussian, Belarus, Rabelaisian, belarus
+Line 26: face-to-face -> Suggestions: facetiae, facet
+Line 26: Levinas -> Suggestions: levin as, levin-as, levin, Nashville
+Line 34: Aliaksandr -> Suggestions: Alessandria
+Line 34: Pasechnik’s -> Suggestions: pantechnicons
+Line 34: face-to-face -> Suggestions: facetiae, facet
+Line 34: gallery’s -> Suggestions: gallery, galleys, gallery's, gallery s, gallerias
+Line 42: Serguei -> Suggestions: Sergei, guesser
+Line 42: Parkhomenko -> Suggestions: Paralipomenon
+Line 42: Address”/Memorial); -> Suggestions: address memorial, address-memorial, Addressographs
+Line 42: Belarusian -> Suggestions: Belorussian, Belarus, Rabelaisian, belarus
+Line 42: Bialiatski -> Suggestions: Bialystok
+Line 42: (Belarusian -> Suggestions: Belorussian, Belarus, Rabelaisian, belarus
+Line 42: Vasyl -> Suggestions: vassal, asia
+Line 42: Cherepanyn -> Suggestions: trencherman
+Line 42: Kyiv, -> Suggestions: skivvy, asia, syria
+Line 42: Yuliya -> Suggestions: aliyah, libya
+Line 42: Ilchuk -> Suggestions: Chukchi
+Line 42: (Stanford -> Suggestions: Stanford
+Line 42: Yuliya -> Suggestions: aliyah, libya
+Line 42: Ilchuk -> Suggestions: Chukchi
+Line 42: Olga -> Suggestions: Olga, Volga, alga, olla, tonga
+Line 42: Solovieva -> Suggestions: sovietize
+Line 42: Chicago) -> Suggestions: Chicago, chic ago, chic-ago, china
+Line 44: Yuliya -> Suggestions: aliyah, libya
+Line 44: Ilchuk -> Suggestions: Chukchi
+Line 44: Olga -> Suggestions: Olga, Volga, alga, olla, tonga
+Line 44: Solovieva -> Suggestions: sovietize
+Line 46: Slavic -> Suggestions: Slavic, spain, latvia
+Line 48: Chicago, -> Suggestions: Chicago, chic ago, chic-ago, china
+Line 48: Vasyl -> Suggestions: vassal, asia
+Line 48: Cherepanyn’s -> Suggestions: Cherepovets
+Line 48: Slavic -> Suggestions: Slavic, spain, latvia
+Line 48: Ukrainian, -> Suggestions: Ukrainian, ukraine
+Line 48: Belarusian -> Suggestions: Belorussian, Belarus, Rabelaisian, belarus
+Line 48: Russian -> Suggestions: Russian, Prussian, russia
+Line 48: Shakespeare -> Suggestions: Shakespeare
+Line 60: Nobel -> Suggestions: noble, Nobel, novel, noel, no bel, no-bel, nob el, nob-el, nepal, niger, niue
+Line 60: Slavic -> Suggestions: Slavic, spain, latvia
+Line 60: Russian -> Suggestions: Russian, Prussian, russia
+Line 68: right-bank -> Suggestions: right bank, right-bank, fightback
+Line 68: Austro-Hungarian -> Suggestions: Austronesian
+Line 68: Galician -> Suggestions: Galician

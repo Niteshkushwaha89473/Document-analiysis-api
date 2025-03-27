@@ -1,0 +1,1983 @@
+
+Start Time: 2025-03-12 18:06:34.391267
+End Time: 2025-03-12 18:14:22.665918
+Analysis completed in 468.27 seconds.
+
+
+FileName: For Footnote and Endnotes Testing.docx
+
+
+Line 2: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 2: Behaviour: -> Suggestions: behavior
+Line 6: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 6: behaviour -> Suggestions: behavior
+Line 6: profesional -> Suggestions: professional, profession, processional, professorial, provisional
+Line 6: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 6: noances -> Suggestions: nuances, annoyances, announces, seances, france
+Line 6: behaviour -> Suggestions: behavior
+Line 6: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 6: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 6: behaviour, -> Suggestions: behavior
+Line 6: organisations. -> Suggestions: organizations, organization
+Line 14: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 14: Behaviour -> Suggestions: behavior
+Line 18: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 18: behaviour -> Suggestions: behavior
+Line 18: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 18: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 22: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 22: behaviour -> Suggestions: behavior
+Line 30: organisations -> Suggestions: organizations, organization
+Line 32: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 42: Behaviour -> Suggestions: behavior
+Line 44: behaviour -> Suggestions: behavior
+Line 46: consientiousness -> Suggestions: conscientiousness, contentiousness, consciousnesses, continuousness, conscientious
+Line 46: openess -> Suggestions: openness, oneness, openers, openest, ope ness, ope-ness, propenes, opens
+Line 48: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 50: decision-making -> Suggestions: decision making, decision-making, decisions
+Line 56: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 56: behaviour -> Suggestions: behavior
+Line 56: intract -> Suggestions: intact, interact, infract, in tract, in-tract, intr act, intr-act, intracity, contract
+Line 60: Tuckman’s -> Suggestions: tuck mans, tuck-mans, Turkomans
+Line 60: development—forming, -> Suggestions: development forming, development-forming, underdevelopment
+Line 60: norming, -> Suggestions: morning, forming, worming, minoring, minor
+Line 60: adjourning—are -> Suggestions: adjourning are, adjourning-are, readjourn
+Line 60: recognised -> Suggestions: recognized, recognizee
+Line 62: Belbin’s -> Suggestions: bel bins, bel-bins, berlins, belize, belgium, belarus, benin
+Line 68: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 70: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 70: behaviour. -> Suggestions: behavior
+Line 72: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 72: decision-making. -> Suggestions: decision making, decision-making, decisions
+Line 74: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 74: behaviours -> Suggestions: behaviors, behavior
+Line 74: organisation. -> Suggestions: organization, organist, sanitation
+Line 74: Edgar -> Suggestions: Edgar, edger, ed gar, ed-gar, e.g., niger, qatar
+Line 74: Schein’s -> Suggestions: skeins, china
+Line 74: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 76: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 82: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 82: Behaviour -> Suggestions: behavior
+Line 90: Maslow’s -> Suggestions: mallows, ma slows, ma-slows, mas lows, mas-lows, slows, malawi
+Line 90: self-actualisation. -> Suggestions: sensationalistic
+Line 92: Herzberg’s -> Suggestions: Heisenberg
+Line 92: Two-Factor -> Suggestions: two factor, two-factor, factor
+Line 92: Herzberg -> Suggestions: Heisenberg
+Line 92: (e.g., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 92: (e.g., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 94: Self-Determination -> Suggestions: self determination, self-determination, predetermination, determination, interdenominational
+Line 94: emphasises -> Suggestions: emphasizes, emphasis's, emphasis es, emphasis-es, emphasis, emphases, emphasize
+Line 98: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 98: behaviour -> Suggestions: behavior
+Line 102: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 104: Hersey -> Suggestions: heresy, Hersey, jersey, horsey, kersey, Mersey
+Line 104: Blanchard, -> Suggestions: Blanchard
+Line 106: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 108: Organisations -> Suggestions: organizations, organization
+Line 110: Lewin’s -> Suggestions: loins, lewis, benin
+Line 112: Kotter’s -> Suggestions: jotters, otters, rotters, totters, cotters, potters, k otters, totterers
+Line 112: 8-Step -> Suggestions: step, 8 step, steep
+Line 112: Kotter -> Suggestions: jotter, otter, rotter, totter, cotter, dotter, potter, hotter, Potter, k otter
+Line 112: emphasising -> Suggestions: emphasizing, emphasis
+Line 116: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 116: Behaviour -> Suggestions: behavior
+Line 120: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 120: achivements, -> Suggestions: achievements, achievement
+Line 120: opportuneties, -> Suggestions: opportunities, opportune ties, opportune-ties, opportunenesses, opportuneness, opportunist, opportune
+Line 124: high-performing -> Suggestions: high performing, high-performing, nonperforming, outperforming, performing
+Line 128: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 128: behaviour -> Suggestions: behavior
+Line 128: programmes, -> Suggestions: programmed, programmers, programmer, program mes, program-mes, programmables, aerogrammes, programmings, programed
+Line 132: organisations -> Suggestions: organizations, organization
+Line 134: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 136: today’s -> Suggestions: today, today's, to days, to-days, today s, Tokays
+Line 136: fast-paced -> Suggestions: fast paced, fast-paced, fastened
+Line 136: organisations -> Suggestions: organizations, organization
+Line 136: globalisation. -> Suggestions: globalization, globalist
+Line 142: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 142: Behaviour -> Suggestions: behavior
+Line 160: Globalisation -> Suggestions: globalization, globalist
+Line 160: Organisations -> Suggestions: organizations, organization
+Line 164: Cross-Cultural -> Suggestions: cross cultural, cross-cultural, sociocultural, subcultural, sculptural
+Line 166: organisations, -> Suggestions: organizations, organization
+Line 172: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 172: Behaviour -> Suggestions: behavior
+Line 180: Wellbeing -> Suggestions: well being, well-being, welling, belling
+Line 182: Organisations -> Suggestions: organizations, organization
+Line 182: prioritising -> Suggestions: prioritizing, prioritization
+Line 182: wellbeing. -> Suggestions: well being, well-being, welling, belling
+Line 182: counselling -> Suggestions: counseling, counsel ling, counsel-ling, counselorship
+Line 182: programmes. -> Suggestions: programmed, programmers, programmer, program mes, program-mes, programmables, aerogrammes, programmings, programed
+Line 186: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 188: Personalised -> Suggestions: personalized, personalism, personalize, personality, personated
+Line 190: customised -> Suggestions: customized, customize, accustomed
+Line 190: programmes -> Suggestions: programmed, programmers, programmer, program mes, program-mes, programmables, aerogrammes, programmings, programed
+Line 194: Concluzion -> Suggestions: conclusion, conclusive
+Line 196: Organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 196: behaviour -> Suggestions: behavior
+Line 196: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 196: behaviour, -> Suggestions: behavior
+Line 196: organisations -> Suggestions: organizations, organization
+Line 196: thrieve, -> Suggestions: thrive, thieve, shrieve
+Line 198: worklace -> Suggestions: workplace, work lace, work-lace, lacework
+Line 198: organisational -> Suggestions: organizational, organization, antinationalist, transnational, antirational
+Line 198: behaviour -> Suggestions: behavior
+Line 198: esential, -> Suggestions: essential, sentential, sequential, sciential, pestilential, senegal
+Line 198: forward-thinking. -> Suggestions: forward thinking, forward-thinking, forwarding
+Line 210: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 210: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 212: ethno-nationalism -> Suggestions: denominationalism, internationalism, sensationalism, ultranationalism
+Line 212: COVID-19, -> Suggestions: covin
+Line 212: Russian -> Suggestions: Russian, Prussian, russia
+Line 212: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 212: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 218: American -> Suggestions: American, africa
+Line 220: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 220: American-born. -> Suggestions: Americano, Mesoamerican, Americana, American
+Line 220: Russian -> Suggestions: Russian, Prussian, russia
+Line 220: Kyiv, -> Suggestions: skivvy, asia, syria
+Line 220: Ukraine’s -> Suggestions: Ukraine, Ukrainians, ukraine
+Line 220: great-grandparents -> Suggestions: great grandparents, great-grandparents, grandparents, grandparent
+Line 220: Poswol -> Suggestions: posology
+Line 220: (Pasvalys), -> Suggestions: paralysis
+Line 220: American -> Suggestions: American, africa
+Line 220: American. -> Suggestions: American, africa
+Line 220: Yiddish -> Suggestions: Yiddish, kiddish, yid dish, yid-dish
+Line 220: American -> Suggestions: American, africa
+Line 222: Chicago -> Suggestions: Chicago, chic ago, chic-ago, china
+Line 222: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 222: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 222: American -> Suggestions: American, africa
+Line 222: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 222: American -> Suggestions: American, africa
+Line 222: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 222: Holocaust—the -> Suggestions: holocaust the, holocaust-the, Holocaust, holocaust
+Line 222: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 222: Nazi -> Suggestions: Nazi, mali
+Line 224: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 224: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 224: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 224: post-Holocaust -> Suggestions: post holocaust, post-holocaust, Holocaust, holocaust
+Line 224: Jewish” -> Suggestions: Jewish, jewfish, newish
+Line 224: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 224: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 226: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 226: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 226: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 230: Medintz, -> Suggestions: mediant
+Line 232: Fast-forward -> Suggestions: fast forward, fast-forward, straightforward
+Line 232: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 232: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 232: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 232: children’s -> Suggestions: children, children's, children s
+Line 232: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 232: Medintz, -> Suggestions: mediant
+Line 232: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 232: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 234: Jeff’s -> Suggestions: effs, jiffs, j effs, Jeff
+Line 234: impactful -> Suggestions: impaction
+Line 234: Kaja -> Suggestions: kaka, kana, raja, kava, ka ja, ka-ja, kenya, asia, laos, ghana, japan, malta, mali, palau, samoa, qatar, cuba, fiji
+Line 234: Magda -> Suggestions: magma, Dagda, Madag, malta
+Line 234: Kaja’s -> Suggestions: rajas, kavas, laos, japan, palau, qatar
+Line 234: Julia, -> Suggestions: Julia, dulia, asia, india, russia, mali, malta, syria, cuba
+Line 234: Atlanta. -> Suggestions: Atlanta, albania
+Line 236: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 236: Jewish. -> Suggestions: Jewish, jewfish, newish
+Line 236: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 236: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 236: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 236: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 236: antisemites. -> Suggestions: antisemite, antisemite s, antisemitism, antisemitic, antitheses, antithesis
+Line 238: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 238: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 242: Atlanta, -> Suggestions: Atlanta, albania
+Line 244: women—three -> Suggestions: women three, women-three, enthronement
+Line 244: age—gathered -> Suggestions: age gathered, age-gathered, foregathered, forgathered, featheredge, gathered
+Line 244: Polish-Jewish -> Suggestions: polished
+Line 246: Polish-Jewish -> Suggestions: polished
+Line 246: Julia, -> Suggestions: Julia, dulia, asia, india, russia, mali, malta, syria, cuba
+Line 246: Julia -> Suggestions: Julia, dulia, asia, india, russia, mali, malta, syria, cuba
+Line 246: Americans -> Suggestions: Americans
+Line 246: American -> Suggestions: American, africa
+Line 246: low-class -> Suggestions: low class, low-class, lowerclassman
+Line 246: anti-Polish -> Suggestions: anti polish, anti-polish, Oliphant
+Line 246: American -> Suggestions: American, africa
+Line 246: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 246: Hitler’s -> Suggestions: Hitlers, hitters
+Line 246: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 246: Jewry. -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 246: American -> Suggestions: American, africa
+Line 246: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 248: Julia -> Suggestions: Julia, dulia, asia, india, russia, mali, malta, syria, cuba
+Line 248: Jeff, -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 248: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 248: great-aunt -> Suggestions: great aunt, great-aunt, greatcoat
+Line 248: three-year-old -> Suggestions: threefold
+Line 248: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 248: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 248: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 248: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 248: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 248: Kaja, -> Suggestions: kaka, kana, raja, kava, ka ja, ka-ja, kenya, asia, laos, ghana, japan, malta, mali, palau, samoa, qatar, cuba, fiji
+Line 248: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 248: Warsaw. -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 250: be—they -> Suggestions: bethel, be they, be-they, bet hey, bet-hey, Bethe, Beth, they, jersey
+Line 250: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 250: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 256: Kaja -> Suggestions: kaka, kana, raja, kava, ka ja, ka-ja, kenya, asia, laos, ghana, japan, malta, mali, palau, samoa, qatar, cuba, fiji
+Line 256: Julia’s -> Suggestions: Julia
+Line 256: Przemek, -> Suggestions: premed
+Line 256: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 256: Atlanta, -> Suggestions: Atlanta, albania
+Line 256: once-in-a-lifetime -> Suggestions: decriminalization
+Line 256: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 258: Jeff -> Suggestions: Jeff, eff, jefe, jiff, j eff, peru
+Line 258: Gdańsk -> Suggestions: Gdansk
+Line 258: Warsaw -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 258: Kazimierz, -> Suggestions: kamikaze
+Line 258: Auschwitz. -> Suggestions: Auschwitz
+Line 258: Kaja -> Suggestions: kaka, kana, raja, kava, ka ja, ka-ja, kenya, asia, laos, ghana, japan, malta, mali, palau, samoa, qatar, cuba, fiji
+Line 258: Shabbat -> Suggestions: Shabbat, sabbath
+Line 258: Shabbat -> Suggestions: Shabbat, sabbath
+Line 258: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 260: Friday -> Suggestions: Friday, africa
+Line 260: Shabbat -> Suggestions: Shabbat, sabbath
+Line 260: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 260: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 260: Warsaw: -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 260: Beit -> Suggestions: bat, brit, bet, bit, befit, bite, beet, best, beat, bait, bent, belt, be it, be-it, benin
+Line 260: Warszawa. -> Suggestions: Warsaw
+Line 260: Nożyk -> Suggestions: nooky
+Line 260: Beit -> Suggestions: bat, brit, bet, bit, befit, bite, beet, best, beat, bait, bent, belt, be it, be-it, benin
+Line 260: Warszawa -> Suggestions: Warsaw
+Line 260: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 260: seventy-five -> Suggestions: seventy five, seventy-five, seventy, seventeen
+Line 260: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 260: Friday -> Suggestions: Friday, africa
+Line 260: Shabbat -> Suggestions: Shabbat, sabbath
+Line 260: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 260: community—praying, -> Suggestions: community praying, community-praying, communitarianism
+Line 260: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 260: self-understanding? -> Suggestions: self understanding, self-understanding, misunderstanding, understanding, understating
+Line 262: Kaja’s -> Suggestions: rajas, kavas, laos, japan, palau, qatar
+Line 262: Julia’s -> Suggestions: Julia
+Line 262: Przemek -> Suggestions: premed
+Line 262: preseted -> Suggestions: presented, preset ed, preset-ed, pretested, preselected, presorted, preset
+Line 262: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 262: forty-nine-year-old -> Suggestions: fortunetelling
+Line 262: uniersity-edcated -> Suggestions: intercommunicated
+Line 264: Przemek -> Suggestions: premed
+Line 264: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 264: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 266: Przemek’s -> Suggestions: premeds
+Line 266: Auschwitz. -> Suggestions: Auschwitz
+Line 266: Nazi -> Suggestions: Nazi, mali
+Line 266: Auschwitz -> Suggestions: Auschwitz
+Line 266: seventy-five -> Suggestions: seventy five, seventy-five, seventy, seventeen
+Line 266: Nazis -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 266: Auschwitz. -> Suggestions: Auschwitz
+Line 266: Nazi -> Suggestions: Nazi, mali
+Line 266: Nazis -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 266: misunderrtandings -> Suggestions: misunderstandings, misunderstanding, misunderstands, understandings, misunderstand
+Line 266: Nazis -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 266: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 268: Przemek’s -> Suggestions: premeds
+Line 268: underttanding -> Suggestions: understanding, undertaking, understating, underpainting, undercutting
+Line 268: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 268: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 268: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 268: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 268: misreprestentations? -> Suggestions: misrepresentations, misrepresentation, representationalism, misinterpretations, nonrepresentational
+Line 268: Hebrew -> Suggestions: Hebrew, he brew, he-brew
+Line 268: Brandeis -> Suggestions: brandies, Brandeis, branders, brunei
+Line 268: Judaic -> Suggestions: Judaic, jamaica, sudan, kuwait
+Line 268: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 268: Przemek’s -> Suggestions: premeds
+Line 274: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 274: November -> Suggestions: November
+Line 274: Kaja, -> Suggestions: kaka, kana, raja, kava, ka ja, ka-ja, kenya, asia, laos, ghana, japan, malta, mali, palau, samoa, qatar, cuba, fiji
+Line 274: Julia, -> Suggestions: Julia, dulia, asia, india, russia, mali, malta, syria, cuba
+Line 274: Magda, -> Suggestions: magma, Dagda, Madag, malta
+Line 274: Beata, -> Suggestions: beats, beat, beta, reata, betta, beat a, Beatty, benin, bhutan, malta, qatar, ghana, kenya
+Line 274: Przemek, -> Suggestions: premed
+Line 274: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: well-known -> Suggestions: well known, well-known, wellington
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: POLIN -> Suggestions: poling, poplin, polis, polit, polio, Colin, pol in, pol-in, polling, cipolin, poland
+Line 274: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: Christian-Jewish -> Suggestions: Christiania, christiania, antichristian
+Line 274: family’s -> Suggestions: family, family's, family s, Familist
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: Christians -> Suggestions: Christians, christian, christian s
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: self-discovery -> Suggestions: self discovery, self-discovery, discovery
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: Judaism -> Suggestions: Judaism
+Line 274: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 274: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 274: Warsaw -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 274: Kraków. -> Suggestions: Krakow
+Line 274: experience—from -> Suggestions: experience from, experience-from, experience
+Line 274: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 274: cobblestoned -> Suggestions: cobblestones, cobblestone, cobble stoned, cobble-stoned, cobbles toned, cobbles-toned, cobblestone d, collywobbles
+Line 274: streets—informed -> Suggestions: streets informed, streets-informed, misinformed
+Line 276: American -> Suggestions: American, africa
+Line 276: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 276: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 276: American -> Suggestions: American, africa
+Line 276: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 276: American -> Suggestions: American, africa
+Line 276: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 276: anti-Polish -> Suggestions: anti polish, anti-polish, Oliphant
+Line 280: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 280: post-World -> Suggestions: post world, post-world, postwomen
+Line 280: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 280: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 282: post-1989 -> Suggestions: postpone
+Line 282: change—openness -> Suggestions: change openness, change-openness, changeableness
+Line 282: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 282: Jan -> Suggestions: gean, Jan, jab, jam, ja, an, jane, jean, jar, ran, tan, can, jun, jag, gan, japan, iran, oman
+Line 282: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 282: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 282: Jedwabne. -> Suggestions: Edwardian
+Line 282: Self-image -> Suggestions: self image, self-image, sexagesimal
+Line 282: Nazis. -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 282: country’s -> Suggestions: country, country's, country s
+Line 282: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 284: Badań -> Suggestions: Badajoz, japan, sudan
+Line 284: nad -> Suggestions: NAD, and, bad, mad, ad, nard, nae, sad, rad, tad, nod, lad, cad, dad, nag, chad
+Line 284: Zagładą -> Suggestions: Zagazig
+Line 284: Żydów) -> No suggestions available
+Line 284: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 284: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 284: Nazis, -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 284: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 284: denouncers -> Suggestions: denouncer, denounces, denounce rs, denounce-rs, denouncer s, denounce, announcers, renounces, enounces
+Line 284: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 284: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 286: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 286: German’s -> Suggestions: Germans, german, germane, ger mans, ger-mans, germ ans, germ-ans, german s, germany
+Line 286: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 286: Andrzej -> Suggestions: Alejandra
+Line 286: Żbikowski, -> Suggestions: Stokowski
+Line 286: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 286: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 286: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 286: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 286: Nazi’s -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 286: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 286: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 286: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 286: Nazis. -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 288: Warsaw -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 288: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 288: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 288: vis-à-vis -> Suggestions: visits
+Line 288: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 288: Jedwabne -> Suggestions: Edwardian
+Line 292: Ethno-Nationalist -> Suggestions: internationalist, antinationalist, sensationalist, pronationalist
+Line 294: Jedwabne -> Suggestions: Edwardian
+Line 294: Self-image. -> Suggestions: self image, self-image, sexagesimal
+Line 294: self-critical -> Suggestions: self critical, self-critical, criticalness
+Line 294: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 294: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 294: Jedwabne -> Suggestions: Edwardian
+Line 294: right-wing -> Suggestions: righting, right wing, right-wing, rightsizing, twinight
+Line 294: so-called -> Suggestions: so called, so-called, called, scaled
+Line 294: Barbara -> Suggestions: Barbara, barbados
+Line 294: Engelking -> Suggestions: erlking, gelling
+Line 294: Jan -> Suggestions: gean, Jan, jab, jam, ja, an, jane, jean, jar, ran, tan, can, jun, jag, gan, japan, iran, oman
+Line 294: Grabowski. -> Suggestions: Stokowski
+Line 296: Jedwabne -> Suggestions: Edwardian
+Line 296: Britain, -> Suggestions: Britain, brit ain, brit-ain, bahrain, bhutan
+Line 296: Brexit, -> Suggestions: br exit, br-exit, brevity, brazil, benin
+Line 296: UK’s -> Suggestions: us, ks, auks, yuks, uts, mks, ups, bks, u ks, laos, guam, cuba
+Line 296: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 296: America, -> Suggestions: America, africa
+Line 296: Donald -> Suggestions: Donald, Ronald, monaco, poland
+Line 296: Bibi -> Suggestions: bib, bibs, bibl, bibb, bi bi, bi-bi, bib i, Bib, ibis, ibid, Bi, fiji
+Line 296: Netanyahu, -> Suggestions: Chaitanya
+Line 296: Palestinians -> Suggestions: Palestinians
+Line 296: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 298: majority-minority -> Suggestions: majority minority, majority-minority, majority
+Line 298: American -> Suggestions: American, africa
+Line 298: ethno-nationalists -> Suggestions: internationalists, sensationalists, conversationalists, educationalists
+Line 298: Polish-Jewish -> Suggestions: polished
+Line 298: America -> Suggestions: America, africa
+Line 298: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 302: Russian -> Suggestions: Russian, Prussian, russia
+Line 304: February -> Suggestions: February
+Line 304: Vladimir -> Suggestions: Vladimir
+Line 304: Putin -> Suggestions: Putin, patin, cutin, put in, put-in, bhutan, benin, spain, sudan
+Line 304: Russian -> Suggestions: Russian, Prussian, russia
+Line 304: Ukraine’s -> Suggestions: Ukraine, Ukrainians, ukraine
+Line 304: Putin’s -> Suggestions: put ins, put-ins, Putin
+Line 304: Putin -> Suggestions: Putin, patin, cutin, put in, put-in, bhutan, benin, spain, sudan
+Line 304: Ukraine’s -> Suggestions: Ukraine, Ukrainians, ukraine
+Line 304: Putin’s -> Suggestions: put ins, put-ins, Putin
+Line 304: Russian -> Suggestions: Russian, Prussian, russia
+Line 304: nations—Ukraine, -> Suggestions: ratiocination
+Line 304: Yohanan -> Suggestions: Johanna, ghana
+Line 304: Petrovsky-Shtern -> Suggestions: Dnepropetrovsk
+Line 306: Ukrainians -> Suggestions: Ukrainians
+Line 306: ethnicities, -> Suggestions: ethnicity, estheticians, esthetician
+Line 306: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 308: Putin -> Suggestions: Putin, patin, cutin, put in, put-in, bhutan, benin, spain, sudan
+Line 308: Russia’s -> Suggestions: Russia, Prussia, russia
+Line 308: twenty-first-century -> No suggestions available
+Line 310: Putin -> Suggestions: Putin, patin, cutin, put in, put-in, bhutan, benin, spain, sudan
+Line 310: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 310: NATO -> Suggestions: NATO, natl, dato, Cato, nauru, niue, laos, gabon, monaco, malta, mali, samoa, haiti, qatar, togo
+Line 310: Volodymyr -> Suggestions: volcanology
+Line 310: Zelenskiy’s -> Suggestions: Brzezinski
+Line 310: volunteer-bolstered -> Suggestions: volunteer bolstered, volunteer-bolstered, volunteered
+Line 310: NATO -> Suggestions: NATO, natl, dato, Cato, nauru, niue, laos, gabon, monaco, malta, mali, samoa, haiti, qatar, togo
+Line 310: non-NATO -> Suggestions: annatto, atonal, NATO, Latona, monaco
+Line 310: Russia’s -> Suggestions: Russia, Prussia, russia
+Line 310: NATO -> Suggestions: NATO, natl, dato, Cato, nauru, niue, laos, gabon, monaco, malta, mali, samoa, haiti, qatar, togo
+Line 312: Polish-Jewish -> Suggestions: polished
+Line 312: Russian -> Suggestions: Russian, Prussian, russia
+Line 312: Ukrainians -> Suggestions: Ukrainians
+Line 312: Putin’s -> Suggestions: put ins, put-ins, Putin
+Line 312: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 312: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 312: Warsaw -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 312: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 312: city’s -> Suggestions: city, city's, cites, city s, City, cocos, libya
+Line 314: anti-refugee -> Suggestions: anti refugee, anti-refugee, antireligious
+Line 314: EU -> Suggestions: EU, Eu, e, u, eau, leu, ecu, emu, feu, es, ea, en, nu, er, et, peru
+Line 314: Donald -> Suggestions: Donald, Ronald, monaco, poland
+Line 314: center-right -> Suggestions: center right, center-right, centering, brightener, tightener
+Line 314: (Platforma -> Suggestions: platforms, platform, platform a, formulator
+Line 314: Obywatelska, -> No suggestions available
+Line 314: PO) -> Suggestions: PO, pew, op, Po, oo, pi, pp, p, o, pos, poi, pro, pot, poo, pol, peru, laos, togo
+Line 314: right-wing -> Suggestions: righting, right wing, right-wing, rightsizing, twinight
+Line 314: (Prawo -> Suggestions: prawn, iran, iraq
+Line 314: Sprawiedliwość, -> No suggestions available
+Line 314: Muslim -> Suggestions: Muslim, muslin, mu slim, mu-slim, mali, russia
+Line 316: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 316: ninety-five -> Suggestions: ninety five, ninety-five, ninety
+Line 316: ninety-eight -> Suggestions: ninety eight, ninety-eight, ninetieth
+Line 316: Catholics, -> Suggestions: Catholics, catholic, catholic s
+Line 316: Georgians, -> Suggestions: Georgians, georgia
+Line 316: Tatars, -> Suggestions: Tatars, tartars, taters, ta tars, ta-tars, qatar
+Line 316: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 316: Ukrainians -> Suggestions: Ukrainians
+Line 316: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 316: Volhynia. -> Suggestions: Polyhymnia
+Line 316: Volhynian -> Suggestions: Bithynian
+Line 316: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 316: twenty-first -> Suggestions: twenty first, twenty-first, twentieths
+Line 316: Ukrainians -> Suggestions: Ukrainians
+Line 316: Volhynian -> Suggestions: Bithynian
+Line 316: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 316: American -> Suggestions: American, africa
+Line 316: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 316: Putin’s -> Suggestions: put ins, put-ins, Putin
+Line 318: Russia’s -> Suggestions: Russia, Prussia, russia
+Line 318: American -> Suggestions: American, africa
+Line 318: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 318: misperceptions -> Suggestions: misperception, misperception s, misconceptions, apperceptions, perceptions, interceptions
+Line 318: Polish-Jewish -> Suggestions: polished
+Line 318: Polish-Jewish -> Suggestions: polished
+Line 318: Jewish, -> Suggestions: Jewish, jewfish, newish
+Line 318: American -> Suggestions: American, africa
+Line 318: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 318: Przemek’s -> Suggestions: premeds
+Line 324: 1980s -> No suggestions available
+Line 324: Polish-Jewish -> Suggestions: polished
+Line 324: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 326: Polish-Jewish -> Suggestions: polished
+Line 326: American, -> Suggestions: American, africa
+Line 326: European, -> Suggestions: European, euro pean, euro-pean, europe
+Line 326: Jerzy -> Suggestions: jerry, jerky, jersey
+Line 326: Tomaszewski, -> Suggestions: Szymanowski
+Line 326: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 326: USA -> Suggestions: USA, us, Susa, use, usu, Asa, us a, asia, cuba
+Line 326: Warsaw.” -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 328: Antony -> Suggestions: Antony, atony, antonym, an tony, an-tony, angola
+Line 328: Polonsky -> Suggestions: kolinsky
+Line 328: Polish-Jewish -> Suggestions: polished
+Line 328: England. -> Suggestions: England, en gland, en-gland, eng land, eng-land, poland, ireland, iceland, finland
+Line 328: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 328: Polish-Jewish -> Suggestions: polished
+Line 328: American -> Suggestions: American, africa
+Line 328: Polish-Jewish -> Suggestions: polished
+Line 328: Polin: -> Suggestions: poling, poplin, polis, polit, polio, Colin, pol in, pol-in, polling, cipolin, poland
+Line 328: Jewry. -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 330: Soviet-era -> Suggestions: soviet era, soviet-era, Sovietize
+Line 330: Polish-Jewish -> Suggestions: polished
+Line 330: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 330: well-respected -> Suggestions: well respected, well-respected, respected, preselected
+Line 330: American, -> Suggestions: American, africa
+Line 330: British, -> Suggestions: British, brutish
+Line 330: Israeli, -> Suggestions: Israeli, Disraeli, israel
+Line 330: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 330: American -> Suggestions: American, africa
+Line 330: Jewry’s -> Suggestions: Jewry
+Line 330: twentieth-century -> Suggestions: twentieth century, twentieth-century, twentieths
+Line 330: American -> Suggestions: American, africa
+Line 330: Ashkenazi -> Suggestions: Ashkenazi
+Line 330: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 332: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 332: Polish-Jewish -> Suggestions: polished
+Line 332: antisemitism’s -> Suggestions: antisemitism, antisemitism's, antisemitism s, antisemitic, antisemite, antifeminisms, antifeminism
+Line 332: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 332: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 332: Leora -> Suggestions: Leonora, Lenora, Oracle, oracle, libya, laos, georgia, peru, kenya
+Line 332: Tec -> Suggestions: etc, rec, tech, tee, sec, tic, tea, ten, ter, tel, ted, dec, pec, fec, Sec, togo, i.e., peru
+Line 332: “That’s -> Suggestions: thatch, that, tats, hats, that's, teats, chats, ghats, thaws, twats, whats, Ghats, t hats, that s, haiti, laos, ghana, chad
+Line 332: don’t -> Suggestions: font, dint, don, dot, don't, done, dent, dons, dost, doit, dona, dolt, cont, dunt, dong, congo, tonga, togo
+Line 332: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 332: American -> Suggestions: American, africa
+Line 332: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 332: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 334: Polish-Jewish -> Suggestions: polished
+Line 334: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 334: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 334: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 334: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 334: self-understandings -> Suggestions: self understandings, self-understandings, misunderstandings, understandings, misunderstanding, understanding
+Line 334: colonialized -> Suggestions: colonized, neocolonial, alcoholized, colonize
+Line 334: Russian, -> Suggestions: Russian, Prussian, russia
+Line 334: Prussian, -> Suggestions: Prussian, russia
+Line 334: Austro-Hungarian -> Suggestions: Austronesian
+Line 334: eighteenth-century -> Suggestions: eighteenth century, eighteenth-century, eighteenths
+Line 334: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 334: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 334: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 334: continental-wide -> Suggestions: continental wide, continental-wide, continental, Continental, nonconfidential, coincidental
+Line 334: feudalism’s -> Suggestions: feudalism, feudalism's, feudal isms, feudal-isms, feudalism s, feudalist
+Line 334: Polish-Jewish -> Suggestions: polished
+Line 336: Polish-Jewish -> Suggestions: polished
+Line 336: American -> Suggestions: American, africa
+Line 336: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 336: twentieth-century -> Suggestions: twentieth century, twentieth-century, twentieths
+Line 336: America. -> Suggestions: America, africa
+Line 336: American -> Suggestions: American, africa
+Line 336: American -> Suggestions: American, africa
+Line 336: Jewry’s -> Suggestions: Jewry
+Line 338: post-partition -> Suggestions: post partition, post-partition, partition's, partition, participation, parturition
+Line 338: Polish-Jewish -> Suggestions: polished
+Line 338: Russian -> Suggestions: Russian, Prussian, russia
+Line 338: Russian -> Suggestions: Russian, Prussian, russia
+Line 338: Romanovs -> Suggestions: Romanov, Romano, Romans, romania
+Line 338: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 338: Russian -> Suggestions: Russian, Prussian, russia
+Line 340: Polish-Jewish -> Suggestions: polished
+Line 340: today’s -> Suggestions: today, today's, to days, to-days, today s, Tokays
+Line 340: Jew-Bolshevik -> Suggestions: jew bolshevik, jew-bolshevik, Bolsheviki, bolshevik, Bolshevik
+Line 342: Polish-Jewish -> Suggestions: polished
+Line 342: colonialization -> Suggestions: colonizations, colonization, commercialization, initialization
+Line 342: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 342: anti-Zionist -> Suggestions: antiabortionist, annexationist, antagonist, isolationist
+Line 342: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 344: American -> Suggestions: American, africa
+Line 344: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 344: Christians -> Suggestions: Christians, christian, christian s
+Line 344: media—and -> Suggestions: media and, media-and, median, Median, Amerindian, media
+Line 344: Polish-Jewish -> Suggestions: polished
+Line 344: present-day -> Suggestions: present day, present-day, represented, represent
+Line 346: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 346: American -> Suggestions: American, africa
+Line 346: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 346: Christians -> Suggestions: Christians, christian, christian s
+Line 346: Polish-Jewish -> Suggestions: polished
+Line 346: American -> Suggestions: American, africa
+Line 346: Ashkenazi -> Suggestions: Ashkenazi
+Line 346: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 346: Polish-Jewish -> Suggestions: polished
+Line 346: Jews-as-Poland’s-enemy -> No suggestions available
+Line 346: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 346: country’s -> Suggestions: country, country's, country s
+Line 346: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 352: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 352: American -> Suggestions: American, africa
+Line 352: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 352: documentation—the -> Suggestions: documentation the, documentation-the, documentation, authentication
+Line 352: witnessing—of -> Suggestions: witnessing of, witnessing-of, witnessed
+Line 354: Przemek’s. -> Suggestions: premeds
+Line 354: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 354: Yosef -> Suggestions: Josef, yemen
+Line 354: Haim -> Suggestions: ham, him, aim, hakim, hair, harm, hail, halm, maim, haik, h aim, haiti
+Line 354: Yerushalmi -> Suggestions: Jerusalemite
+Line 354: present-day -> Suggestions: present day, present-day, represented, represent
+Line 356: memory—the -> Suggestions: memory the, memory-the, memory, thermometry
+Line 356: way—is -> Suggestions: ways, wadis, way's, way is, way-is, asia, laos, mali
+Line 356: 1970s -> No suggestions available
+Line 356: Pierre -> Suggestions: Pierre, pierce, pier re, pier-re, peru
+Line 356: Nora -> Suggestions: Nora, bora, mora, nor, ora, noria, sora, dora, norm, noma, hora, fora, nova, Lora, Cora, norway
+Line 356: Maurice -> Suggestions: Maurice, africa
+Line 356: Halbwachs -> Suggestions: halfbacks
+Line 356: Emile -> Suggestions: Emile, mile, smile, e mile, chile
+Line 356: Durkheim, -> Suggestions: Durkheim
+Line 356: Halbwachs -> Suggestions: halfbacks
+Line 358: first-generation -> Suggestions: first generation, first-generation, generation's, fenestration, generation
+Line 358: Yerushalmi’s -> Suggestions: Jerusalemite
+Line 358: Jan -> Suggestions: gean, Jan, jab, jam, ja, an, jane, jean, jar, ran, tan, can, jun, jag, gan, japan, iran, oman
+Line 358: Assman -> Suggestions: ass man, ass-man, glassman, gasman, Tasman, Manassas, asia, sudan, oman
+Line 358: present-day -> Suggestions: present day, present-day, represented, represent
+Line 360: Nicolas -> Suggestions: Nicolas
+Line 360: Russell -> Suggestions: Russell, russia
+Line 360: Self—to -> Suggestions: self to, self-to, selfhood
+Line 364: Halbwachs -> Suggestions: halfbacks
+Line 364: longer-held -> Suggestions: longer held, longer-held, longeron
+Line 364: better-known -> Suggestions: better known, better-known, betterment
+Line 366: American -> Suggestions: American, africa
+Line 366: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 366: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 366: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 366: vis-à-vis -> Suggestions: visits
+Line 366: mid-nineteenth -> Suggestions: mid nineteenth, mid-nineteenth, nineteenths, nineteenth
+Line 366: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 366: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 366: Jerusalem -> Suggestions: Jerusalem
+Line 366: CE -> Suggestions: Ce, cw, cr, c, e, ice, ace, cen, cue, Ice, cs, ca, ae, ne, re, cuba, chile, chad, i.e., peru, niue
+Line 366: Talmud -> Suggestions: Talmud, palau
+Line 366: God-fearing, -> Suggestions: god fearing, god-fearing, fearing
+Line 366: halakhic -> Suggestions: Halakah
+Line 366: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 366: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 366: Zakhor, -> Suggestions: markhor
+Line 366: Yerushalmi -> Suggestions: Jerusalemite
+Line 366: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 366: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 366: Yerushalmi -> Suggestions: Jerusalemite
+Line 366: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 366: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 368: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 368: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 368: denomination—Conservative, -> Suggestions: denomination conservative, denomination-conservative, denominationalism
+Line 368: felt—and -> Suggestions: felt and, felt-and, fenland, finland, ireland, iceland, poland
+Line 368: it—the -> Suggestions: tithe, it the, it-the, withe, lithe, thither, Hewitt, italy
+Line 368: Yerushalmi -> Suggestions: Jerusalemite
+Line 368: before—the -> Suggestions: before the, before-the, therefore, theretofore, forefather, before
+Line 368: Jews.” -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 368: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 368: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 370: Jews; -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 370: Hitler’s -> Suggestions: Hitlers, hitters
+Line 370: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 370: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 372: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 372: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 372: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 372: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 372: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 372: black-and-white -> Suggestions: blackcurrant
+Line 372: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 372: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 374: Barry -> Suggestions: Barry, barre, berry, tarry, carry, burry, barmy, marry, parry, harry, Larry, Garry, Parry, Harry, nauru
+Line 374: Schwartz, -> Suggestions: Schwartz
+Line 374: Yael -> Suggestions: tael, yawl, Gael, ya el, ya-el, Yale, yemen, israel, i.e., laos, mali
+Line 374: Zerubavel, -> Suggestions: subaverage
+Line 374: Bernice -> Suggestions: Bernice, benin, belize
+Line 374: Barnett -> Suggestions: Barnett, Garnett
+Line 374: Holocaust-Israel -> Suggestions: holocaust
+Line 374: American -> Suggestions: American, africa
+Line 374: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 374: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 374: today’s -> Suggestions: today, today's, to days, to-days, today s, Tokays
+Line 374: żydokomuna—stereotypes -> Suggestions: daguerreotypes
+Line 374: Jew-Bolshevik -> Suggestions: jew bolshevik, jew-bolshevik, Bolsheviki, bolshevik, Bolshevik
+Line 374: enemy—still -> Suggestions: enemy still, enemy-still, Mytilene
+Line 374: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 374: black-and-white -> Suggestions: blackcurrant
+Line 374: self-reflection -> Suggestions: self reflection, self-reflection, reflectional, reflection, reselection
+Line 376: liberalizattion -> Suggestions: liberalization, lateralization, mineralization, generalization, rationalization
+Line 378: Sławomir -> Suggestions: Irishwoman
+Line 378: Kapralski -> Suggestions: skiagraphs
+Line 378: amongst -> Suggestions: among st, among-st, among
+Line 378: Kapralski -> Suggestions: skiagraphs
+Line 380: narrative—“visual -> Suggestions: narrative visual, narrative-visual, narrative
+Line 382: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 382: Vladimir -> Suggestions: Vladimir
+Line 382: Putin -> Suggestions: Putin, patin, cutin, put in, put-in, bhutan, benin, spain, sudan
+Line 382: Russia’s -> Suggestions: Russia, Prussia, russia
+Line 382: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 382: Putin -> Suggestions: Putin, patin, cutin, put in, put-in, bhutan, benin, spain, sudan
+Line 384: American -> Suggestions: American, africa
+Line 384: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 384: American -> Suggestions: American, africa
+Line 384: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 384: American -> Suggestions: American, africa
+Line 384: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 384: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 390: American -> Suggestions: American, africa
+Line 390: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 390: Polish-Jewish -> Suggestions: polished
+Line 392: Neil -> Suggestions: Neil, nil, nail, noil, ceil, deil, veil, nepal
+Line 392: Gilman -> Suggestions: Gilman, oilman, germany, iran, oman
+Line 392: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 392: Judaism. -> Suggestions: Judaism
+Line 392: Gilman’s -> Suggestions: Gilman, germany
+Line 394: American -> Suggestions: American, africa
+Line 394: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 394: American -> Suggestions: American, africa
+Line 394: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 394: Ashkenazi. -> Suggestions: Ashkenazi
+Line 394: Iberian -> Suggestions: Iberian, Siberian, Tiberian, Liberian, liberia
+Line 394: Sephardi -> Suggestions: Sephardi
+Line 394: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 394: American -> Suggestions: American, africa
+Line 394: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 394: American -> Suggestions: American, africa
+Line 396: twenty-first -> Suggestions: twenty first, twenty-first, twentieths
+Line 396: mid-twentieth -> Suggestions: mid twentieth, mid-twentieth, twentieths, twentieth
+Line 396: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 396: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 396: Christians -> Suggestions: Christians, christian, christian s
+Line 396: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 396: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 396: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 396: today’s -> Suggestions: today, today's, to days, to-days, today s, Tokays
+Line 396: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 396: Stanisław -> Suggestions: satanist
+Line 396: Krajewski -> Suggestions: Paderewski
+Line 396: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 396: twenty-first-century -> No suggestions available
+Line 396: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 398: Jan -> Suggestions: gean, Jan, jab, jam, ja, an, jane, jean, jar, ran, tan, can, jun, jag, gan, japan, iran, oman
+Line 398: Assmann -> Suggestions: glassman, Manassas, gasman, Tasman
+Line 398: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 398: amongst -> Suggestions: among st, among-st, among
+Line 398: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 398: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 398: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 400: near-millennium -> Suggestions: near millennium, near-millennium, millennium
+Line 400: Polish-Jewish -> Suggestions: polished
+Line 400: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 400: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 402: Joanna -> Suggestions: Joanna, jo anna, jo-anna, jordan, japan, romania, rwanda, uganda, ghana, tonga
+Line 402: Beata -> Suggestions: beats, beat, beta, reata, betta, beat a, Beatty, benin, bhutan, malta, qatar, ghana, kenya
+Line 402: Michlic -> Suggestions: Michel, Mich
+Line 402: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 402: 1880s, -> No suggestions available
+Line 402: Endecja -> Suggestions: Endecott
+Line 402: Endek’s -> Suggestions: endears
+Line 404: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 404: Kapralski -> Suggestions: skiagraphs
+Line 404: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 404: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 408: American -> Suggestions: American, africa
+Line 408: Ashkenazi -> Suggestions: Ashkenazi
+Line 408: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 408: American -> Suggestions: American, africa
+Line 408: Jewry. -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 412: Polish-Jewish -> Suggestions: polished
+Line 414: historiography’s -> Suggestions: historiography, historiography's, historiography s, historiographic, historiographers, historiographer, physiographic
+Line 450: Auschwitz -> Suggestions: Auschwitz
+Line 450: Nazis -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 450: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 450: American -> Suggestions: American, africa
+Line 450: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 450: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 450: American -> Suggestions: American, africa
+Line 450: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 456: Neil -> Suggestions: Neil, nil, nail, noil, ceil, deil, veil, nepal
+Line 456: Gilman -> Suggestions: Gilman, oilman, germany, iran, oman
+Line 456: community’s -> Suggestions: community, community's, community s, communists, Communists, communality, communistic
+Line 462: well-being. -> Suggestions: well being, well-being, welling, belling
+Line 462: American -> Suggestions: American, africa
+Line 462: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 462: Catholics -> Suggestions: Catholics, catholic, catholic s
+Line 468: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 468: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 468: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 470: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 470: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 470: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 470: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 470: dinah -> Suggestions: Dinah, dinar, di nah, di-nah, din ah, din-ah, iran, iraq, china
+Line 470: makhalte -> Suggestions: Makhachkala
+Line 470: dinah—the -> Suggestions: dinothere
+Line 470: law—expressed -> Suggestions: law expressed, law-expressed, expressed
+Line 470: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 470: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 470: Prussians, -> Suggestions: Prussians, russia
+Line 470: Austrians, -> Suggestions: Austrians, austria
+Line 470: Russians, -> Suggestions: Russians, Prussians, russia
+Line 470: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 470: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 470: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 472: American -> Suggestions: American, africa
+Line 472: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 472: Anti-Jewish -> Suggestions: antithesis
+Line 472: twentieth-century -> Suggestions: twentieth century, twentieth-century, twentieths
+Line 472: 1880s, -> No suggestions available
+Line 472: Jew-hatred -> Suggestions: jew hatred, jew-hatred, hatred
+Line 472: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 472: right-wing -> Suggestions: righting, right wing, right-wing, rightsizing, twinight
+Line 472: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 472: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 472: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 472: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 472: Nazi -> Suggestions: Nazi, mali
+Line 472: July -> Suggestions: July, jury, duly, italy, guam, mali, cuba
+Line 472: thirty-nine -> Suggestions: thirty nine, thirty-nine, thirteenth
+Line 472: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 472: Kielce. -> Suggestions: Kielce, greece
+Line 472: 1960s, -> No suggestions available
+Line 472: so-called -> Suggestions: so called, so-called, called, scaled
+Line 472: anti-Zionist -> Suggestions: antiabortionist, annexationist, antagonist, isolationist
+Line 472: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 472: American -> Suggestions: American, africa
+Line 472: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 472: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 472: self-defense -> Suggestions: self defense, self-defense, defenseless, defense
+Line 472: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 476: Antipolonism -> Suggestions: anticolonialism, antilogism, isolationism
+Line 476: America -> Suggestions: America, africa
+Line 480: mid-nineteenth -> Suggestions: mid nineteenth, mid-nineteenth, nineteenths, nineteenth
+Line 480: Americans -> Suggestions: Americans
+Line 480: Russian -> Suggestions: Russian, Prussian, russia
+Line 480: Americans -> Suggestions: Americans
+Line 480: American -> Suggestions: American, africa
+Line 480: Oliver -> Suggestions: Oliver, olive, liver, olives, sliver, o liver, olive r, niger, bolivia
+Line 480: Cromwell -> Suggestions: Cromwell, gromwell
+Line 480: high-minded.” -> Suggestions: high minded, high-minded, highhanded
+Line 480: American -> Suggestions: American, africa
+Line 480: immigrants—who -> Suggestions: immigrants who, immigrants-who, immigrant
+Line 480: Christians -> Suggestions: Christians, christian, christian s
+Line 480: Jews—were -> Suggestions: jeweler
+Line 480: Italians -> Suggestions: Italians
+Line 480: Americans -> Suggestions: Americans
+Line 482: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 482: Woodrow -> Suggestions: Woodrow, wood row, wood-row
+Line 482: Wilson -> Suggestions: Wilson, Gilson
+Line 482: Hungarians -> Suggestions: Hungarians
+Line 482: Italians, -> Suggestions: Italians
+Line 482: American -> Suggestions: American, africa
+Line 484: American -> Suggestions: American, africa
+Line 484: Americans -> Suggestions: Americans
+Line 484: Bieganski -> Suggestions: Kandinski
+Line 486: “thuggishly, -> Suggestions: thuggish, sluggishly
+Line 486: Bieganski -> Suggestions: Kandinski
+Line 488: Americans -> Suggestions: Americans
+Line 488: American -> Suggestions: American, africa
+Line 488: “Polaks” -> Suggestions: polkas, pollacks, poland
+Line 488: Protestantism -> Suggestions: Protestantism, protestant ism, protestant-ism
+Line 488: American -> Suggestions: American, africa
+Line 488: Christendom -> Suggestions: Christendom, christen dom, christen-dom
+Line 490: Madison -> Suggestions: Madison, malison
+Line 490: well-known -> Suggestions: well known, well-known, wellington
+Line 490: Theodore -> Suggestions: Theodore
+Line 490: Roosevelt -> Suggestions: Roosevelt
+Line 490: Herbert -> Suggestions: Herbert, herb ert, herb-ert
+Line 490: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 490: Nordic -> Suggestions: Nordic, norway, jordan
+Line 490: Mediterranean, -> Suggestions: Mediterranean
+Line 490: Europeans. -> Suggestions: Europeans, euro peans, euro-peans, europe
+Line 492: America’s -> Suggestions: Americas, africa
+Line 492: American, -> Suggestions: American, africa
+Line 492: Adolf -> Suggestions: Adolf, angola
+Line 492: Hitler, -> Suggestions: lither, Hitler, hitter, hither, niger, chile
+Line 494: American -> Suggestions: American, africa
+Line 494: Franz -> Suggestions: Franz, franc, frank, france, iran
+Line 494: German-born -> Suggestions: german born, german-born, Germantown
+Line 494: Christians -> Suggestions: Christians, christian, christian s
+Line 494: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 496: anti-Polish -> Suggestions: anti polish, anti-polish, Oliphant
+Line 496: American -> Suggestions: American, africa
+Line 496: Saturday -> Suggestions: Saturday
+Line 496: middle-class -> Suggestions: middle class, middle-class, middlemost
+Line 496: Kenneth -> Suggestions: Kenneth
+Line 496: Roberts’s -> Suggestions: Roberts, Robert
+Line 496: November -> Suggestions: November
+Line 498: Roberts -> Suggestions: Roberts
+Line 498: Europeans -> Suggestions: Europeans, euro peans, euro-peans, europe
+Line 498: well-meaning, -> Suggestions: well meaning, well-meaning, meaningless
+Line 498: insisted—and -> Suggestions: insisted and, insisted-and, instantiated, insinuated, instated
+Line 498: middle-class -> Suggestions: middle class, middle-class, middlemost
+Line 498: Americans—that -> Suggestions: Americanist
+Line 498: American -> Suggestions: American, africa
+Line 498: Americans -> Suggestions: Americans
+Line 498: American -> Suggestions: American, africa
+Line 500: Americans -> Suggestions: Americans
+Line 500: Americaa -> Suggestions: America, americium, Mesoamerica, metameric, africa
+Line 500: American -> Suggestions: American, africa
+Line 500: American -> Suggestions: American, africa
+Line 500: American -> Suggestions: American, africa
+Line 502: middle-class -> Suggestions: middle class, middle-class, middlemost
+Line 502: Europeans -> Suggestions: Europeans, euro peans, euro-peans, europe
+Line 502: American -> Suggestions: American, africa
+Line 502: 1920s, -> No suggestions available
+Line 502: American -> Suggestions: American, africa
+Line 502: anti-immigrant. -> Suggestions: anti immigrant, anti-immigrant, immigrant, transmigrant, immigration, migrant
+Line 504: inadequacies—intellectual, -> Suggestions: inadequacies intellectual, inadequacies-intellectual, intellectualization
+Line 504: moral—and -> Suggestions: mora land, mora-land, moral and, moral-and, moorland, Damaraland, mandorla, Landor, ireland, poland
+Line 504: dumbing -> Suggestions: numbing, dumping, dubbing, plumbing
+Line 504: America, -> Suggestions: America, africa
+Line 504: Dillingham -> Suggestions: Dillinger
+Line 504: American -> Suggestions: American, africa
+Line 504: unassimilable, -> Suggestions: unassimilated, unassailable, assimilable, unclassifiable
+Line 506: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 506: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 506: Slavs -> Suggestions: Slavs, slabs, lavs, slaves, slave, slats, slags, slams, slaps, slays, s lavs, laos
+Line 506: (Bohunks).” -> Suggestions: bohunk, bohunk s, hunks
+Line 510: Antipolonism -> Suggestions: anticolonialism, antilogism, isolationism
+Line 510: American -> Suggestions: American, africa
+Line 510: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 512: American -> Suggestions: American, africa
+Line 512: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 512: antipolonism -> Suggestions: anticolonialism, antilogism, isolationism
+Line 512: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 512: Americans, -> Suggestions: Americans
+Line 512: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 512: Prussians -> Suggestions: Prussians, russia
+Line 512: America -> Suggestions: America, africa
+Line 512: 1840s -> No suggestions available
+Line 512: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 512: Catholics -> Suggestions: Catholics, catholic, catholic s
+Line 514: nineteenth-century -> Suggestions: nineteenth century, nineteenth-century, nineteenths
+Line 514: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 514: American -> Suggestions: American, africa
+Line 514: relationship—Jews -> Suggestions: relationships, relationship
+Line 514: consumers—Jewish -> Suggestions: consumeristic
+Line 514: American -> Suggestions: American, africa
+Line 514: antipolonism -> Suggestions: anticolonialism, antilogism, isolationism
+Line 514: American -> Suggestions: American, africa
+Line 514: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 514: American -> Suggestions: American, africa
+Line 516: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 516: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 516: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 516: America, -> Suggestions: America, africa
+Line 516: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 516: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 516: Americanize. -> Suggestions: Americanize
+Line 516: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 516: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 516: peasants-turned-factory -> Suggestions: dissatisfactory
+Line 520: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 520: Hollywood, -> Suggestions: Hollywood, Bollywood, holly wood, holly-wood
+Line 522: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 522: Nazi’s -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 522: American -> Suggestions: American, africa
+Line 522: Jewry’s -> Suggestions: Jewry
+Line 522: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 522: American -> Suggestions: American, africa
+Line 522: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 522: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 524: American -> Suggestions: American, africa
+Line 524: American -> Suggestions: American, africa
+Line 524: American -> Suggestions: American, africa
+Line 524: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 524: Hollywood -> Suggestions: Hollywood, Bollywood, holly wood, holly-wood
+Line 524: Bieganski -> Suggestions: Kandinski
+Line 524: misperceptions -> Suggestions: misperception, misperception s, misconceptions, apperceptions, perceptions, interceptions
+Line 524: American -> Suggestions: American, africa
+Line 524: American -> Suggestions: American, africa
+Line 524: Hollywood -> Suggestions: Hollywood, Bollywood, holly wood, holly-wood
+Line 524: Hollywood’s -> Suggestions: holly woods, holly-woods, Hollywood
+Line 524: Mieczysław -> No suggestions available
+Line 524: Biskupski -> Suggestions: Biskra
+Line 524: Nazis -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 526: American -> Suggestions: American, africa
+Line 526: ally—the -> Suggestions: ally the, ally-the, healthily
+Line 526: Union—in -> Suggestions: union in, union-in, Unionist, Unionism, unionist, unionism
+Line 526: WWII -> Suggestions: WWII, fiji, asia, mali, haiti
+Line 526: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 526: government-in-exile -> Suggestions: intergovernmental, antigovernment
+Line 526: American -> Suggestions: American, africa
+Line 528: Hollywood—pressured -> Suggestions: Hollywood
+Line 528: makers—directed -> Suggestions: makers directed, makers-directed, misdirected
+Line 528: Americans’ -> Suggestions: Americans
+Line 528: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 528: Jewish-specific -> Suggestions: specification
+Line 528: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 528: American -> Suggestions: American, africa
+Line 528: Roosevelt -> Suggestions: Roosevelt
+Line 528: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 528: militarily—a -> Suggestions: militarily, militarily a, militarism, militarist, militarize, military's
+Line 530: American -> Suggestions: American, africa
+Line 530: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 530: Nazi -> Suggestions: Nazi, mali
+Line 530: “all-too-willing” -> Suggestions: overwilling
+Line 530: Jew-hatred, -> Suggestions: jew hatred, jew-hatred, hatred
+Line 530: American -> Suggestions: American, africa
+Line 530: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 530: Nazis. -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 530: American -> Suggestions: American, africa
+Line 530: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 530: Roosevelt -> Suggestions: Roosevelt
+Line 530: Hollywood, -> Suggestions: Hollywood, Bollywood, holly wood, holly-wood
+Line 530: American -> Suggestions: American, africa
+Line 530: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 532: American -> Suggestions: American, africa
+Line 532: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 532: Americans -> Suggestions: Americans
+Line 532: Nazi -> Suggestions: Nazi, mali
+Line 532: “Hungarian -> Suggestions: Hungarian, hungary, bulgaria
+Line 532: Nazi -> Suggestions: Nazi, mali
+Line 532: Germany’s -> Suggestions: Germany, Germans, germanders, german, germany
+Line 532: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 532: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 532: American -> Suggestions: American, africa
+Line 534: American -> Suggestions: American, africa
+Line 534: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 534: Seventy-five -> Suggestions: seventy five, seventy-five, seventy, seventeen
+Line 534: far-right -> Suggestions: far right, far-right, affright, aright, fright
+Line 538: American -> Suggestions: American, africa
+Line 538: Jewry’s -> Suggestions: Jewry
+Line 538: Micro-Lens -> Suggestions: micro lens, micro-lens, microloans, microns
+Line 540: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 540: American -> Suggestions: American, africa
+Line 540: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 540: interethnic -> Suggestions: inter ethnic, inter-ethnic, interpreter
+Line 540: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 540: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 540: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 540: American -> Suggestions: American, africa
+Line 540: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 540: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 540: Nazis -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 540: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 540: (Armia -> Suggestions: aria, maria, Urmia, armilla, armenia, aruba, asia
+Line 540: Krajowa, -> Suggestions: Krakow
+Line 540: AK), -> Suggestions: AK, acc, ka, al, a, k, ask, aka, ark, oak, alk, dak, auk, yak, Dak, asia, iran, iraq, laos, oman, guam, mali, chad
+Line 540: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 540: Warsaw -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 540: AK’s -> Suggestions: ask, ska, aka, as, ks, asks, arks, oaks, daks, auks, yaks, Saks, ass, ais, ans, laos
+Line 540: Nazi -> Suggestions: Nazi, mali
+Line 540: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 540: American -> Suggestions: American, africa
+Line 540: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 540: Kielce -> Suggestions: Kielce, greece
+Line 540: Polish-Jewish -> Suggestions: polished
+Line 542: American -> Suggestions: American, africa
+Line 542: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 542: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 542: American -> Suggestions: American, africa
+Line 542: Jewry’s -> Suggestions: Jewry
+Line 542: present-day -> Suggestions: present day, present-day, represented, represent
+Line 542: Germans. -> Suggestions: Germans, german, germane, ger mans, ger-mans, germ ans, germ-ans, german s, germany
+Line 542: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 544: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 544: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 544: American -> Suggestions: American, africa
+Line 544: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 544: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 544: Konstanty -> Suggestions: Konstanz
+Line 544: Gebert -> Suggestions: Hebert, Egbert, Geber, Ebert, Gerber
+Line 544: November -> Suggestions: November
+Line 544: American -> Suggestions: American, africa
+Line 544: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 546: Polish-Jewish -> Suggestions: polished
+Line 546: Robert -> Suggestions: Robert, rob ert, rob-ert, robe rt, robe-rt
+Line 546: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 546: “Jewish -> Suggestions: Jewish, jewfish, newish
+Line 546: non-historians -> Suggestions: non historians, non-historians, nonhistorical, prehistorians, historians, prehistorian
+Line 546: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 546: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 546: non-historians -> Suggestions: non historians, non-historians, nonhistorical, prehistorians, historians, prehistorian
+Line 546: Holocaust-related -> Suggestions: holocaust related, holocaust-related, Holocaust
+Line 546: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 546: anti-Polish -> Suggestions: anti polish, anti-polish, Oliphant
+Line 546: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 548: American -> Suggestions: American, africa
+Line 548: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 548: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 550: American -> Suggestions: American, africa
+Line 550: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 550: American -> Suggestions: American, africa
+Line 550: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 550: American -> Suggestions: American, africa
+Line 550: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 550: American -> Suggestions: American, africa
+Line 550: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 550: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 550: vis-a-vis -> Suggestions: visas, Visa, visa, Davis
+Line 550: Polish-Jewish -> Suggestions: polished
+Line 554: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 556: vis-a-vis -> Suggestions: visas, Visa, visa, Davis
+Line 556: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 556: Israelites, -> Suggestions: Israelite, Israelitish, Israelis, Israeli
+Line 556: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 556: Jerusalem -> Suggestions: Jerusalem
+Line 556: CE, -> Suggestions: Ce, cw, cr, c, e, ice, ace, cen, cue, Ice, cs, ca, ae, ne, re, cuba, chile, chad, i.e., peru, niue
+Line 556: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 556: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 556: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 556: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 556: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 556: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 556: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 558: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 558: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 558: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 558: Purim, -> Suggestions: Purim, prim, purism, peru, guam, syria
+Line 558: Haman’s -> Suggestions: shamans, shaman, humans, hazans, ha mans, ha-mans, ham ans, ham-ans, hanumans, Haman, Samantha, Hans, oman, japan, bahamas
+Line 558: Shushan -> Suggestions: Shushan, shush an, shush-an, sudan, bhutan
+Line 558: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 558: Esther. -> Suggestions: Esther, ester, ether, either, est her, est-her
+Line 558: seder -> Suggestions: cheder, Seder, seer, seeder, sender, serer, ceder, heder, sever, sewer, sweden
+Line 558: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 558: Israel’s -> Suggestions: Israels, israel
+Line 558: Chanukah -> Suggestions: Hanukah, Hanukkah, Hanuka
+Line 558: Greek -> Suggestions: Greek, gree, geek, reek, green, greet, creek, greed, Creek, g reek, gr eek, gr-eek, gree k, greece
+Line 558: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 558: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 558: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 560: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 560: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 560: Jews—past, -> Suggestions: newscast
+Line 560: future—have -> Suggestions: future have, future-have, future
+Line 560: Sinai -> Suggestions: Sinai, sin ai, sin-ai, spain, sudan, syria, india, iran, iraq, asia, china, fiji
+Line 560: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 560: American -> Suggestions: American, africa
+Line 560: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 560: 1950s -> No suggestions available
+Line 560: Hitler’s -> Suggestions: Hitlers, hitters
+Line 560: Judaism -> Suggestions: Judaism
+Line 560: Hitler. -> Suggestions: lither, Hitler, hitter, hither, niger, chile
+Line 560: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 562: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 562: Israelites -> Suggestions: Israelite, Israelitish, Israelis, Israeli
+Line 562: Hebrew -> Suggestions: Hebrew, he brew, he-brew
+Line 564: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 564: eighteenth-century -> Suggestions: eighteenth century, eighteenth-century, eighteenths
+Line 564: Jewry’s -> Suggestions: Jewry
+Line 564: Haskalah -> Suggestions: Halakah, hallahs, hallah, Alaska
+Line 564: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 564: socialism’s -> Suggestions: socialism, socialism's, socialists, social isms, social-isms, socialism s, socialistic, socialist, specialisms, localisms
+Line 564: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 564: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 566: post-Holocaust -> Suggestions: post holocaust, post-holocaust, Holocaust, holocaust
+Line 566: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 566: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 566: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 566: post-Holocaust -> Suggestions: post holocaust, post-holocaust, Holocaust, holocaust
+Line 566: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 566: so-called -> Suggestions: so called, so-called, called, scaled
+Line 566: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 566: ttargeted -> Suggestions: targeted, t targeted, pargetted, Target, target
+Line 566: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 566: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 566: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 566: economic-political -> Suggestions: economic political, economic-political, nonpolitical
+Line 566: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 566: black-and-white -> Suggestions: blackcurrant
+Line 568: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 568: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 568: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 568: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 568: Victimhood -> Suggestions: victim hood, victim-hood, victimized
+Line 568: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 568: Jewish. -> Suggestions: Jewish, jewfish, newish
+Line 568: victimhood -> Suggestions: victim hood, victim-hood, victimized
+Line 574: American -> Suggestions: American, africa
+Line 574: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 574: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 574: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 574: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 576: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 576: Russian -> Suggestions: Russian, Prussian, russia
+Line 576: Russian -> Suggestions: Russian, Prussian, russia
+Line 576: Nazi-Soviet -> Suggestions: Sovietization
+Line 578: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 578: Nazi -> Suggestions: Nazi, mali
+Line 578: Hitler’s -> Suggestions: Hitlers, hitters
+Line 578: Nazi -> Suggestions: Nazi, mali
+Line 578: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 578: Romani. -> Suggestions: Romani, roman, roman i, romania
+Line 578: Auschwitz -> Suggestions: Auschwitz
+Line 578: seventy-five -> Suggestions: seventy five, seventy-five, seventy, seventeen
+Line 578: Auschwitz. -> Suggestions: Auschwitz
+Line 578: Russian -> Suggestions: Russian, Prussian, russia
+Line 578: anti-Polish -> Suggestions: anti polish, anti-polish, Oliphant
+Line 578: Yalta -> Suggestions: Yalta, Salta, Malta, malta
+Line 578: Russia’s -> Suggestions: Russia, Prussia, russia
+Line 580: party’s -> Suggestions: party, parts, party's, part's, party s
+Line 582: All-Polish -> Suggestions: all polish, all-polish, polish, Polish
+Line 582: Anti-Racist -> Suggestions: anti racist, anti-racist, antirachitic, antipacifist, antifascist, Antichrist
+Line 582: (Ogolnopolska -> Suggestions: oligopolist
+Line 582: Liga -> Suggestions: ligan, glia, lira, Riga, Kigali, libya
+Line 582: Walki -> Suggestions: walk, walks, walk i, mali
+Line 582: Rasizmem) -> Suggestions: emphasize
+Line 582: Jewish-Polish -> Suggestions: jewelfish
+Line 584: Jakub -> Suggestions: Baku, japan, aruba
+Line 584: Berman, -> Suggestions: barmen, barman, german, merman, German, Herman, Kerman, berm an, berm-an, doberman, Doberman, Bergman, Bermudan, germany
+Line 584: leading—and -> Suggestions: leading and, leading-and, leading
+Line 584: Jewish—member -> Suggestions: misremember
+Line 584: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 584: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 584: Christians -> Suggestions: Christians, christian, christian s
+Line 584: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 584: Bloodlands, -> Suggestions: blood lands, blood-lands, woodlands, landlords
+Line 584: Snyder -> Suggestions: Snyder, snider, sweden, niger
+Line 584: Berman -> Suggestions: barmen, barman, german, merman, German, Herman, Kerman, berm an, berm-an, doberman, Doberman, Bergman, Bermudan, germany
+Line 584: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 584: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 584: Europe’s -> Suggestions: euro pes, euro-pes, Europeans, Europe, ropes, europe
+Line 586: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 586: Nazi -> Suggestions: Nazi, mali
+Line 586: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 588: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 588: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 588: Romani -> Suggestions: Romani, roman, roman i, romania
+Line 588: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 588: Nazi -> Suggestions: Nazi, mali
+Line 588: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 588: Nazi -> Suggestions: Nazi, mali
+Line 588: Nazi -> Suggestions: Nazi, mali
+Line 588: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 588: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 590: Stalin’s -> Suggestions: stains, staling, Stalinsk, Stalinist, Stalin, stallions, spain
+Line 590: country’s -> Suggestions: country, country's, country s
+Line 590: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 590: Władysław -> No suggestions available
+Line 590: Bartoszewski -> Suggestions: Bartholomew
+Line 590: Zofia -> Suggestions: Sofia, zambia, asia, india, syria, tonga
+Line 590: Lewin, -> Suggestions: loin, lewis, levin, benin
+Line 590: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 590: Ojczyzny -> No suggestions available
+Line 590: mojej) -> Suggestions: Mojave
+Line 590: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 590: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 590: Yad -> Suggestions: day, tad, ya, yd, ad, yard, dyad, sad, yid, rad, yod, lad, cad, dad, gad, chad
+Line 590: Vashem, -> Suggestions: vas hem, vas-hem, Vashti
+Line 590: Israel’s -> Suggestions: Israels, israel
+Line 590: Władysław -> No suggestions available
+Line 590: Bartoszewski -> Suggestions: Bartholomew
+Line 590: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 590: Żegota -> Suggestions: Gotama
+Line 590: Jews). -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 590: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 592: Jerzy -> Suggestions: jerry, jerky, jersey
+Line 592: Tomaszewski -> Suggestions: Szymanowski
+Line 592: Zieliński -> Suggestions: zombielike
+Line 592: 1970s -> No suggestions available
+Line 592: 1980s -> No suggestions available
+Line 592: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 592: Zieliński’s -> No suggestions available
+Line 592: (Historia -> Suggestions: historian, historic, historiated, haustoria, Astoria, estonia, austria
+Line 592: Polski -> Suggestions: pol ski, pol-ski, pols ki, pols-ki, Polanski, poland
+Line 592: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 592: Lviv -> Suggestions: Lviv, lvi, lvii, lv iv, lv-iv, lvi v, latvia, laos, asia
+Line 592: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 592: Zieliński -> Suggestions: zombielike
+Line 592: Tomaszewski’s -> Suggestions: Szymanowski
+Line 592: (Rzeczpospolita -> Suggestions: cosmopolitanize
+Line 592: wielu -> Suggestions: wield, peru
+Line 592: narodówa), -> Suggestions: narrow
+Line 592: (Ojczyna -> No suggestions available
+Line 592: nie -> Suggestions: ne, nine, nite, nice, nide, nee, nae, nit, tie, nil, lie, die, gie, nim, nip, niue
+Line 592: tylko -> Suggestions: Tylenol, togo
+Line 592: Polaków), -> Suggestions: Polack
+Line 592: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 592: Polish-Jewish -> Suggestions: polished
+Line 594: American -> Suggestions: American, africa
+Line 594: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 594: American -> Suggestions: American, africa
+Line 594: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 594: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 594: British -> Suggestions: British, brutish
+Line 594: Władysław -> No suggestions available
+Line 594: Bartoszewski’s -> Suggestions: Bartolommeo
+Line 594: Zofia -> Suggestions: Sofia, zambia, asia, india, syria, tonga
+Line 594: Lewin’s -> Suggestions: loins, lewis, benin
+Line 594: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 594: American -> Suggestions: American, africa
+Line 594: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 594: co-founded -> Suggestions: confounded, co founded, co-founded, compounded, founded, foundered
+Line 594: ŻEGOTA, -> Suggestions: Gotama
+Line 594: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 594: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 594: American -> Suggestions: American, africa
+Line 594: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 594: anti-Zionist -> Suggestions: antiabortionist, annexationist, antagonist, isolationist
+Line 594: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 594: American -> Suggestions: American, africa
+Line 594: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 594: Americans -> Suggestions: Americans
+Line 594: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 594: American -> Suggestions: American, africa
+Line 594: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 594: American -> Suggestions: American, africa
+Line 598: American -> Suggestions: American, africa
+Line 598: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 598: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 598: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 600: American -> Suggestions: American, africa
+Line 600: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 600: American -> Suggestions: American, africa
+Line 600: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 600: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 600: American -> Suggestions: American, africa
+Line 600: Hollywood’s -> Suggestions: holly woods, holly-woods, Hollywood
+Line 600: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 600: November -> Suggestions: November
+Line 600: Hitler’s -> Suggestions: Hitlers, hitters
+Line 600: American -> Suggestions: American, africa
+Line 600: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 600: January -> Suggestions: January, vanuatu, hungary
+Line 600: Nazis -> Suggestions: Nazis, naris, nauru, asia, laos, mali, brazil
+Line 600: Warsaw -> Suggestions: Warsaw, war saw, war-saw, wars aw, wars-aw
+Line 600: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 600: American -> Suggestions: American, africa
+Line 600: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 600: American -> Suggestions: American, africa
+Line 600: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 600: American -> Suggestions: American, africa
+Line 600: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 600: self-defense, -> Suggestions: self defense, self-defense, defenseless, defense
+Line 600: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 600: Stephen -> Suggestions: Stephen, step hen, step-hen, sweden
+Line 600: Roosevelt -> Suggestions: Roosevelt
+Line 600: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 600: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 600: American -> Suggestions: American, africa
+Line 600: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 600: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 600: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 602: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 602: Roosevelt -> Suggestions: Roosevelt
+Line 602: Nazi -> Suggestions: Nazi, mali
+Line 602: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 602: Roosevelt’s -> Suggestions: Roosevelt
+Line 602: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 602: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 602: January -> Suggestions: January, vanuatu, hungary
+Line 604: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 604: closed-door -> Suggestions: closed door, closed-door, closefisted
+Line 604: unsponsored -> Suggestions: sponsored, uncensored
+Line 604: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 604: 1930s. -> No suggestions available
+Line 604: American -> Suggestions: American, africa
+Line 604: Catholics -> Suggestions: Catholics, catholic, catholic s
+Line 604: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 604: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 604: Mississippi -> Suggestions: Mississippi
+Line 604: Theodore -> Suggestions: Theodore
+Line 604: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 604: American -> Suggestions: American, africa
+Line 604: Jacob -> Suggestions: Jacob, ja cob, ja-cob, japan, laos, gabon, samoa, cocos
+Line 604: Thorkelson -> Suggestions: Thorndike
+Line 604: Montana -> Suggestions: Montana, montane, mon tana, mon-tana, monaco
+Line 604: 1920s -> No suggestions available
+Line 604: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 606: Pennsylvania, -> Suggestions: Pennsylvania
+Line 606: Detroit, -> Suggestions: Detroit
+Line 606: Cleveland, -> Suggestions: Cleveland
+Line 606: Minneapolis, -> Suggestions: Minneapolis
+Line 606: Los -> Suggestions: loti, loci, sol, Los, kos, lis, lo, ls, os, lose, loss, lost, lots, loos, clos, laos
+Line 606: Angeles -> Suggestions: Angeles, angels, angles, aneles, angel's, angel es, angel-es, angola
+Line 606: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 606: Massachusetts -> Suggestions: Massachusetts
+Line 606: Boston -> Suggestions: Boston, boson, bhutan
+Line 606: Irish -> Suggestions: Irish, iris, rishi, iris h, iran, iraq
+Line 606: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 606: overrepresentation -> Suggestions: over representation, over-representation, nonrepresentational, misrepresentation, representationalism, overrepresented
+Line 606: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 606: Nazi -> Suggestions: Nazi, mali
+Line 606: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 608: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 608: America -> Suggestions: America, africa
+Line 608: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 608: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 608: America -> Suggestions: America, africa
+Line 608: American -> Suggestions: American, africa
+Line 608: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 610: American -> Suggestions: American, africa
+Line 610: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 610: America’s -> Suggestions: Americas, africa
+Line 610: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 610: American -> Suggestions: American, africa
+Line 610: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 610: closed-door -> Suggestions: closed door, closed-door, closefisted
+Line 610: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 610: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 610: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 610: British-controlled -> Suggestions: controllership
+Line 610: Palestine. -> Suggestions: Palestine, pales tine, pales-tine
+Line 612: Truman -> Suggestions: Truman, taiwan, oman, sudan, iran, aruba, bhutan
+Line 612: Britain’s -> Suggestions: Britain, brains
+Line 612: closed-door -> Suggestions: closed door, closed-door, closefisted
+Line 612: Palestine, -> Suggestions: Palestine, pales tine, pales-tine
+Line 612: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 612: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 612: November -> Suggestions: November
+Line 612: American -> Suggestions: American, africa
+Line 612: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 612: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 618: American -> Suggestions: American, africa
+Line 618: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 618: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 618: Polish-Jewish -> Suggestions: polished
+Line 618: Danusha -> Suggestions: Dardanus, Shushan
+Line 618: Goska -> Suggestions: go ska, go-ska, boskage, ghana, asia, tonga
+Line 618: American -> Suggestions: American, africa
+Line 618: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 618: Eli -> Suggestions: lei, Eli, el, li, deli, lie, els, ell, eld, elm, elf, elk, Ali, e li, el i, mali
+Line 618: Wiesel’s -> Suggestions: diesels, Wiesel
+Line 618: American -> Suggestions: American, africa
+Line 618: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 618: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 618: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 618: American -> Suggestions: American, africa
+Line 618: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 618: “culprit”—the -> Suggestions: culprit the, culprit-the, culprit
+Line 618: American -> Suggestions: American, africa
+Line 618: American -> Suggestions: American, africa
+Line 618: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 620: America’s -> Suggestions: Americas, africa
+Line 620: West’s -> Suggestions: quests, Wests, west, wets, wrests, west's, nests, rests, tests, welts, pests, bests, wefts, fests, vests
+Line 620: American -> Suggestions: American, africa
+Line 620: Europe’s -> Suggestions: euro pes, euro-pes, Europeans, Europe, ropes, europe
+Line 620: Marshall -> Suggestions: Marshall, marshal, marshals, mar shall, mar-shall, mars hall, mars-hall, marsh all, marsh-all, marshal l
+Line 620: Eva -> Suggestions: EVA, ave, Eva, ea, leva, deva, Neva, Reva, eve, era, eta, ova, Iva, Ava, e.g., iran, iraq, oman, asia, guam, peru, kenya, nepal, cuba, chad
+Line 620: Hoffman -> Suggestions: Hoffman, oman
+Line 622: reductiveness. -> Suggestions: seductiveness, reductive ness, reductive-ness, productiveness, inductiveness, destructiveness, restrictiveness
+Line 624: American -> Suggestions: American, africa
+Line 624: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 624: self-assessment -> Suggestions: self assessment, self-assessment, assessment
+Line 624: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 624: self-loathing, -> Suggestions: self loathing, self-loathing, loathing
+Line 624: American -> Suggestions: American, africa
+Line 624: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 624: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 624: American -> Suggestions: American, africa
+Line 624: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 624: American -> Suggestions: American, africa
+Line 624: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 626: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 626: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 628: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 628: American -> Suggestions: American, africa
+Line 628: Jewry -> Suggestions: jury, Jewry, jerry, Newry, jersey, peru
+Line 628: American -> Suggestions: American, africa
+Line 628: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 630: postcommunist -> Suggestions: post communist, post-communist, procommunist, noncommunist, anticommunist, communistic
+Line 630: American, -> Suggestions: American, africa
+Line 630: Jewish, -> Suggestions: Jewish, jewfish, newish
+Line 630: Polish-Jewish -> Suggestions: polished
+Line 630: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 630: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 632: Polish-Jewish -> Suggestions: polished
+Line 632: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 632: Polish-Jewish -> Suggestions: polished
+Line 632: twenty-first -> Suggestions: twenty first, twenty-first, twentieths
+Line 644: (szlachta)—which -> Suggestions: Oireachtas
+Line 644: szlachta -> Suggestions: Oireachtas
+Line 646: szlachta’s -> Suggestions: Oireachtas
+Line 646: nobility’s -> Suggestions: nobility, nobility's, nobility s, notability
+Line 646: Sejm, -> Suggestions: Sejm, sem, seem, seam, guam, peru, fiji
+Line 646: Sejm -> Suggestions: Sejm, sem, seem, seam, guam, peru, fiji
+Line 646: Sejm -> Suggestions: Sejm, sem, seem, seam, guam, peru, fiji
+Line 646: szlachta -> Suggestions: Oireachtas
+Line 646: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 646: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 646: minority’s -> Suggestions: minority, minority's, minority s, Minorite
+Line 650: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 652: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 652: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 652: Ruthenian, -> Suggestions: Ruthenian
+Line 652: Belorussian, -> Suggestions: Belorussian
+Line 652: Lithuanian, -> Suggestions: Lithuanian, lithuania
+Line 654: neo-serfdom -> Suggestions: serfdom
+Line 654: corvée—the -> Suggestions: corvée the, corvée-the, corvée
+Line 654: lords—to -> Suggestions: lords to, lords-to, Lordship
+Line 656: szlachta -> Suggestions: Oireachtas
+Line 656: non-Polish -> Suggestions: non polish, non-polish, nonpolitical
+Line 656: Italians -> Suggestions: Italians
+Line 656: Armenians -> Suggestions: Armenians, armenia
+Line 656: Scots -> Suggestions: scotch, Scots, scot, sots, cots, ascots, scoots, scouts, costs, scats, snots, slots, scuts, spots, shots, cocos, laos
+Line 656: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 656: szlachta -> Suggestions: Oireachtas
+Line 656: szlachta -> Suggestions: Oireachtas
+Line 656: self-serving -> Suggestions: self serving, self-serving, serving's, deserving, servings, servicing
+Line 656: Sejm -> Suggestions: Sejm, sem, seem, seam, guam, peru, fiji
+Line 656: freedom—the -> Suggestions: freedom the, freedom-the, freedom, therefrom
+Line 656: mid-sixteenth -> Suggestions: mid sixteenth, mid-sixteenth, sixteenths, sixteenth
+Line 656: szlachta -> Suggestions: Oireachtas
+Line 656: control—at -> Suggestions: control at, control-at, controllably, controllable, control
+Line 660: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 662: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 662: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 662: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 662: Khazaria, -> Suggestions: Khazar
+Line 662: short-lived -> Suggestions: short lived, short-lived, shortlisted
+Line 662: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 662: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 662: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 662: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 664: mid-eleventh -> Suggestions: mid eleventh, mid-eleventh, eleventh
+Line 664: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 664: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 664: Bolesław -> Suggestions: coleslaw
+Line 664: Wielopolska -> Suggestions: megalopolis
+Line 664: Kalisz -> Suggestions: Kalisz, kalis, kalis z, mali
+Line 664: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 664: Kazimierz -> Suggestions: kamikaze
+Line 664: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 664: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 666: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 666: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 666: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 666: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 666: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 666: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 666: leaderships—kahals. -> Suggestions: leaderships, dealerships
+Line 666: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 666: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 666: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 666: (halakha), -> Suggestions: Halakah, Haleakala, Khalkha, halala
+Line 666: kahal -> Suggestions: Halakah, chad, japan, palau, nepal, qatar
+Line 666: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 666: kahal -> Suggestions: Halakah, chad, japan, palau, nepal, qatar
+Line 666: non-Jews, -> Suggestions: nonjoiner
+Line 666: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 666: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 666: self-rule -> Suggestions: self rule, self-rule, selfless
+Line 666: kahal -> Suggestions: Halakah, chad, japan, palau, nepal, qatar
+Line 666: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 666: kahal -> Suggestions: Halakah, chad, japan, palau, nepal, qatar
+Line 666: self-regulating -> Suggestions: self regulating, self-regulating, regulating
+Line 668: mid-sixteenth -> Suggestions: mid sixteenth, mid-sixteenth, sixteenths, sixteenth
+Line 668: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 668: government-sanctioned -> Suggestions: government sanctioned, government-sanctioned, intergovernmental
+Line 668: (Vaad -> Suggestions: Vaal, chad
+Line 668: Arba -> Suggestions: arbs, arb, aba, area, aria, alba, abba, arb a, BAR, aruba
+Line 668: Aratzot). -> Suggestions: Ararat
+Line 668: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 668: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 668: semi-national -> Suggestions: semi national, semi-national, semination al, semination-al, semination, examinational, denominational, sensationalism
+Line 668: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 668: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 668: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 668: kahal, -> Suggestions: Halakah, chad, japan, palau, nepal, qatar
+Line 668: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 668: kahal -> Suggestions: Halakah, chad, japan, palau, nepal, qatar
+Line 668: Vaad -> Suggestions: Vaal, chad
+Line 668: Arba -> Suggestions: arbs, arb, aba, area, aria, alba, abba, arb a, BAR, aruba
+Line 668: Aratzot -> Suggestions: Ararat
+Line 668: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 668: commonrwealth’s -> Suggestions: commonwealths, commonwealth, Commonwealth
+Line 668: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 668: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 668: kahal -> Suggestions: Halakah, chad, japan, palau, nepal, qatar
+Line 668: England, -> Suggestions: England, en gland, en-gland, eng land, eng-land, poland, ireland, iceland, finland
+Line 668: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 668: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 670: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 670: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 670: self-preserving -> Suggestions: self preserving, self-preserving, preserving
+Line 670: szlachta -> Suggestions: Oireachtas
+Line 670: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 670: szlachta -> Suggestions: Oireachtas
+Line 670: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 670: szlachta -> Suggestions: Oireachtas
+Line 670: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 670: anti-Jewish -> Suggestions: antithesis
+Line 670: 1700s, -> No suggestions available
+Line 672: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 672: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 672: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 672: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 672: (voivodes), -> Suggestions: devoices
+Line 672: mid-sixteenth -> Suggestions: mid sixteenth, mid-sixteenth, sixteenths, sixteenth
+Line 672: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 672: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 672: class’s -> Suggestions: class, classes, classis, class's, clasps, classy, class s, Classics, lass, Lassa, laos
+Line 672: moneylending. -> Suggestions: money lending, money-lending, moneylender
+Line 676: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 678: moneylending -> Suggestions: money lending, money-lending, moneylender
+Line 680: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 680: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 680: Yuri -> Suggestions: Yuri, yurt, Puri, guam, mali, peru, syria, nauru, cuba, fiji
+Line 680: Slezkine, -> Suggestions: sleaziness
+Line 682: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 682: European -> Suggestions: European, euro pean, euro-pean, europe
+Line 682: Armenians, -> Suggestions: Armenians, armenia
+Line 682: Parsis -> Suggestions: Parsis, arsis, paresis, parses, parvis, p arsis, par sis, par-sis, pars is, pars-is, asia
+Line 682: Mumbai -> Suggestions: Mumbai, zambia, gambia, cuba
+Line 682: Gujarat, -> Suggestions: Gujarat, guyana
+Line 682: moneylending, -> Suggestions: money lending, money-lending, moneylender
+Line 682: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 684: Edna -> Suggestions: dean, Edna, Sedna, etna, e.g., india, iran, oman, asia, ghana, sudan, kenya, china, cuba, tonga
+Line 684: Bonacich -> Suggestions: Fibonacci
+Line 686: out-marriage, -> Suggestions: out marriage, out-marriage, marriage
+Line 686: self-segregation, -> Suggestions: self segregation, self-segregation, resegregation, segregationist, segregation
+Line 688: Bonacich’s -> Suggestions: Fibonacci
+Line 688: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 688: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 690: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 690: sixteenth-century -> Suggestions: sixteenth century, sixteenth-century, sixteenths
+Line 690: nobility’s -> Suggestions: nobility, nobility's, nobility s, notability
+Line 690: nobleman’s -> Suggestions: nobleman, nobleman's, noble mans, noble-mans, nobleman s, noblewoman
+Line 690: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 696: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 698: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 698: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 698: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 698: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 698: moneylending -> Suggestions: money lending, money-lending, moneylender
+Line 698: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 698: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 698: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 698: Bonacich, -> Suggestions: Fibonacci
+Line 698: middleman’s -> Suggestions: middleman, middleman's, middle mans, middle-mans, middleman s, middlemen
+Line 700: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 700: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 700: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 700: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 702: nobility’s -> Suggestions: nobility, nobility's, nobility s, notability
+Line 702: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 702: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 702: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 702: szlachta -> Suggestions: Oireachtas
+Line 702: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 702: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 702: nobility’s -> Suggestions: nobility, nobility's, nobility s, notability
+Line 702: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 702: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 702: szlachta -> Suggestions: Oireachtas
+Line 706: Kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 708: Jogaila -> Suggestions: abigail, jamaica, somalia
+Line 708: Jadwiga, -> Suggestions: Eadwig, jamaica
+Line 708: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 708: Jogaila -> Suggestions: abigail, jamaica, somalia
+Line 708: Christianity -> Suggestions: Christianity
+Line 708: Władysław -> No suggestions available
+Line 708: Jageiłło. -> Suggestions: Jagiellon
+Line 708: Lithuanian -> Suggestions: Lithuanian, lithuania
+Line 708: Polonization -> Suggestions: colonization, polarization, politicization, monopolization, patronization
+Line 708: Catholicism. -> Suggestions: Catholicism, catholic ism, catholic-ism
+Line 708: July -> Suggestions: July, jury, duly, italy, guam, mali, cuba
+Line 708: Lublin, -> Suggestions: Lublin, Dublin
+Line 708: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 710: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 710: szlachta -> Suggestions: Oireachtas
+Line 710: kresy. -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 710: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 710: Tatars -> Suggestions: Tatars, tartars, taters, ta tars, ta-tars, qatar
+Line 710: Turks. -> Suggestions: Turks, tusks, turns, lurks, tucks, turds, murks, turps, turfs, Burks, turkey
+Line 710: country’s -> Suggestions: country, country's, country s
+Line 712: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 712: kresy, -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 712: szlachta -> Suggestions: Oireachtas
+Line 712: złoty -> Suggestions: zloty
+Line 714: sixteenth-century -> Suggestions: sixteenth century, sixteenth-century, sixteenths
+Line 714: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 714: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 714: aristocrat-magnates -> Suggestions: aristocrat magnates, aristocrat-magnates, aristocratically
+Line 716: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 716: hay-cutting -> Suggestions: hay cutting, hay-cutting, haircutting
+Line 716: magnate-owned -> Suggestions: magnate owned, magnate-owned, magnate
+Line 718: gentry—those -> Suggestions: gentry those, gentry-those, entryphone
+Line 718: lineages—were -> Suggestions: lineages were, lineages-were, patrilineage
+Line 718: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 718: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 722: Kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 722: Jews: -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 724: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 724: Kraków, -> Suggestions: Krakow
+Line 724: Lublin, -> Suggestions: Lublin, Dublin
+Line 724: Poznań. -> Suggestions: Poznan, poland
+Line 724: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 724: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 724: sixteenth-century -> Suggestions: sixteenth century, sixteenth-century, sixteenths
+Line 724: kresy. -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 724: szlachta’s -> Suggestions: Oireachtas
+Line 724: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 724: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 726: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 726: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 726: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 726: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 726: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 726: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 726: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 726: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 728: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 728: kresy. -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 728: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 728: kresy. -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 728: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 728: candlemakers, -> Suggestions: candlemaker, candle makers, candle-makers, candlemaker s, Candlemas, candlers
+Line 728: soap-makers, -> Suggestions: soap makers, soap-makers, mapmakers, soakers, mapmaker
+Line 728: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 728: kresy. -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 728: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 728: mid-seventeenth -> Suggestions: mid seventeenth, mid-seventeenth, seventeenths, seventeenth
+Line 728: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 730: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 730: noble-owned -> Suggestions: noble owned, noble-owned, ennobled, nobbled
+Line 730: shtetl. -> Suggestions: Shetland
+Line 730: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 730: shtetl. -> Suggestions: Shetland
+Line 730: shtetl -> Suggestions: Shetland
+Line 730: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 730: Catholics, -> Suggestions: Catholics, catholic, catholic s
+Line 730: Greek -> Suggestions: Greek, gree, geek, reek, green, greet, creek, greed, Creek, g reek, gr eek, gr-eek, gree k, greece
+Line 730: Catholics, -> Suggestions: Catholics, catholic, catholic s
+Line 730: Armenians, -> Suggestions: Armenians, armenia
+Line 730: Lutherans, -> Suggestions: Lutherans
+Line 730: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 730: shtetl. -> Suggestions: Shetland
+Line 730: shtetl -> Suggestions: Shetland
+Line 730: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 730: shtetl -> Suggestions: Shetland
+Line 730: Jewish, -> Suggestions: Jewish, jewfish, newish
+Line 730: lease-holding -> Suggestions: lease holding, lease-holding, leasehold, shareholding
+Line 730: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 730: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 730: Yohanan -> Suggestions: Johanna, ghana
+Line 730: Petrovsky-Shtern -> Suggestions: Dnepropetrovsk
+Line 730: shtetl -> Suggestions: Shetland
+Line 730: re-conceptualize -> Suggestions: re conceptualize, re-conceptualize, conceptualize, conceptualization, conceptualist, conceptualism
+Line 732: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 732: latifundium’s -> Suggestions: latifundium, latifundium s, unnilquadiums
+Line 734: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 734: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 734: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 734: shtetls, -> Suggestions: Shetlands
+Line 734: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 734: non-Jews, -> Suggestions: nonjoiner
+Line 734: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 738: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 740: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 740: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 740: mid-seventeenth -> Suggestions: mid seventeenth, mid-seventeenth, seventeenths, seventeenth
+Line 740: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 740: szlachta -> Suggestions: Oireachtas
+Line 742: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 742: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 742: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 742: arenda -> Suggestions: arena, agenda, Brenda, Daren, Darren, endear, armenia, grenada
+Line 742: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 742: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 742: Arenda -> Suggestions: arena, agenda, Brenda, Daren, Darren, endear, armenia, grenada
+Line 742: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 742: arendators -> Suggestions: renovators, predators, senators
+Line 744: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 744: arendator -> Suggestions: amendatory
+Line 744: (arendarz) -> Suggestions: Darren, Daren
+Line 744: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 744: arenda. -> Suggestions: arena, agenda, Brenda, Daren, Darren, endear, armenia, grenada
+Line 744: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 744: sub-arendators, -> Suggestions: subcontractors
+Line 744: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 744: arendators. -> Suggestions: renovators, predators, senators
+Line 746: much-needed -> Suggestions: much needed, much-needed, muchness
+Line 746: arendators -> Suggestions: renovators, predators, senators
+Line 746: arendator -> Suggestions: amendatory
+Line 746: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 746: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 746: arendator -> Suggestions: amendatory
+Line 746: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 746: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 748: Arenda -> Suggestions: arena, agenda, Brenda, Daren, Darren, endear, armenia, grenada
+Line 748: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 748: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 748: nobility’s -> Suggestions: nobility, nobility's, nobility s, notability
+Line 748: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 748: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 748: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 748: seventeenth-century -> Suggestions: seventeenth century, seventeenth-century, seventeenths
+Line 748: Poland-Lithuania -> Suggestions: Lithuanian
+Line 748: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 752: Kresy: -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 754: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 754: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 754: Poles—peasant, -> Suggestions: poles peasant, poles-peasant, pleasantness
+Line 754: alike—moved -> Suggestions: alike moved, alike-moved, dovelike
+Line 754: kresy. -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 754: Ukrainian, -> Suggestions: Ukrainian, ukraine
+Line 754: Belarusian, -> Suggestions: Belorussian, Belarus, Rabelaisian, belarus
+Line 754: Lithuanian -> Suggestions: Lithuanian, lithuania
+Line 754: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 754: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 754: kresy, -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 754: szlachta -> Suggestions: Oireachtas
+Line 754: nobility’s -> Suggestions: nobility, nobility's, nobility s, notability
+Line 756: kresy’s -> Suggestions: Kresge, kenya
+Line 756: Counter-Reformation -> Suggestions: counter reformation, counter-reformation, counterrevolution, counterattraction, counteraccusation
+Line 756: szlachta -> Suggestions: Oireachtas
+Line 756: Church’s -> Suggestions: church, churches, church's, churchy, church s, Church, churrs
+Line 756: Mary, -> Suggestions: Mary, nary, mart, mar, may, marry, marly, army, mare, mars, miry, mara, many, marl, marc, mali
+Line 756: Jesus, -> Suggestions: Jesus, jess, jests, jersey, peru
+Line 756: multitasked -> Suggestions: multi tasked, multi-tasked, multitask ed, multitask-ed, multitask
+Line 756: Mary, -> Suggestions: Mary, nary, mart, mar, may, marry, marly, army, mare, mars, miry, mara, many, marl, marc, mali
+Line 756: Church’s -> Suggestions: church, churches, church's, churchy, church s, Church, churrs
+Line 756: it—and, -> Suggestions: stand, it and, it-and, Anita, italy, iran
+Line 756: commonwealth—perceived -> Suggestions: commonwealth perceived, commonwealth-perceived, commonwealths
+Line 758: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 758: Lithuania’s -> Suggestions: Lithuanians, Lithuanian, Lithuania, lithuania
+Line 758: Greek -> Suggestions: Greek, gree, geek, reek, green, greet, creek, greed, Creek, g reek, gr eek, gr-eek, gree k, greece
+Line 758: Church’s -> Suggestions: church, churches, church's, churchy, church s, Church, churrs
+Line 758: Constantinople -> Suggestions: Constantinople
+Line 758: Moscow, -> Suggestions: Moscow, mo scow, mo-scow, mos cow, mos-cow, monaco, cocos
+Line 758: Catholics -> Suggestions: Catholics, catholic, catholic s
+Line 758: Rome -> Suggestions: more, Rome, tome, rime, rom, roe, romeo, omer, rose, some, rote, role, come, rode, dome, oman, europe, yemen, niue, togo
+Line 758: Brest. -> Suggestions: Brest, best, rest, breast, barest, brent, crest, wrest, Crest, b rest, br est, br-est
+Line 758: Constantinople, -> Suggestions: Constantinople
+Line 758: Uniates. -> Suggestions: unites, tunicates, Uniats, enunciates, initiates
+Line 760: co-opt -> Suggestions: coop, coot, coops, co opt, co-opt, coo pt, coo-pt, coop t, Copt, congo, cocos, egypt
+Line 760: Disuniates. -> Suggestions: disunites, dissociates
+Line 760: Brest -> Suggestions: Brest, best, rest, breast, barest, brent, crest, wrest, Crest, b rest, br est, br-est
+Line 760: Catholics -> Suggestions: Catholics, catholic, catholic s
+Line 760: Uniates -> Suggestions: unites, tunicates, Uniats, enunciates, initiates
+Line 760: second-class -> Suggestions: second class, second-class, declassee, declasse
+Line 760: Catholics, -> Suggestions: Catholics, catholic, catholic s
+Line 760: Catholicism. -> Suggestions: Catholicism, catholic ism, catholic-ism
+Line 762: Catholics, -> Suggestions: Catholics, catholic, catholic s
+Line 762: Brest. -> Suggestions: Brest, best, rest, breast, barest, brent, crest, wrest, Crest, b rest, br est, br-est
+Line 762: Slavs, -> Suggestions: Slavs, slabs, lavs, slaves, slave, slats, slags, slams, slaps, slays, s lavs, laos
+Line 762: dwelled -> Suggestions: swelled, welled, dweller, d welled, dwell ed, dwell-ed, dwell, doweled, Weddell, welded
+Line 762: America’s -> Suggestions: Americas, africa
+Line 762: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 762: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 762: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 762: nobility’s -> Suggestions: nobility, nobility's, nobility s, notability
+Line 764: Sigismund -> Suggestions: Sigismund
+Line 764: Augustus -> Suggestions: Augustus, august us, august-us
+Line 764: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 766: hard-earned -> Suggestions: hard earned, hard-earned, hardened, hardheaded, hardhearted, hardener
+Line 768: mid-1600s, -> No suggestions available
+Line 768: szlachta. -> Suggestions: Oireachtas
+Line 768: gentry’s -> Suggestions: gentry, gentry's, gentry s, Gentry
+Line 770: Brest, -> Suggestions: Brest, best, rest, breast, barest, brent, crest, wrest, Crest, b rest, br est, br-est
+Line 770: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 772: Boghdan -> Suggestions: bogbean, jordan
+Line 772: Khmelnytsky -> No suggestions available
+Line 772: Khmelnytsky -> No suggestions available
+Line 772: Khmelnytsky -> No suggestions available
+Line 772: Khmelnytsky’s -> No suggestions available
+Line 774: Khmelnytsky -> No suggestions available
+Line 774: (Samovydets -> Suggestions: Samoyeds
+Line 774: twenty-five -> Suggestions: twenty five, twenty-five, twenty
+Line 776: Khmelnytsky -> No suggestions available
+Line 776: latter’s -> Suggestions: latter, lattes, clatters, platters, flatters, latter's, letters, litters, natters, ratters, tatters, matters, patters, lathers, hatters
+Line 784: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 784: Khmelnytsky -> No suggestions available
+Line 784: Russian -> Suggestions: Russian, Prussian, russia
+Line 784: American -> Suggestions: American, africa
+Line 784: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 784: family’s -> Suggestions: family, family's, family s, Familist
+Line 784: Boghdan -> Suggestions: bogbean, jordan
+Line 784: Khmelnytsky’s -> No suggestions available
+Line 784: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 784: Khmelnytsky -> No suggestions available
+Line 784: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 784: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 784: Jew-hatred -> Suggestions: jew hatred, jew-hatred, hatred
+Line 786: Khmelnytsky -> No suggestions available
+Line 786: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 786: Khmelnytsky, -> No suggestions available
+Line 786: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 786: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 786: Boghdan -> Suggestions: bogbean, jordan
+Line 786: Khmelnytsky -> No suggestions available
+Line 786: Ukraine’s -> Suggestions: Ukraine, Ukrainians, ukraine
+Line 786: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 786: Disuniates. -> Suggestions: disunites, dissociates
+Line 786: Khmelnytsky -> No suggestions available
+Line 786: Uniates. -> Suggestions: unites, tunicates, Uniats, enunciates, initiates
+Line 788: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 788: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 788: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 788: kresy. -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 788: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 788: Polish-Lithuanian -> Suggestions: Lithuanian
+Line 788: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 788: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 788: nobility’s -> Suggestions: nobility, nobility's, nobility s, notability
+Line 788: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 788: kresy, -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 788: nobility’s -> Suggestions: nobility, nobility's, nobility s, notability
+Line 790: kresy -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 790: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 790: szlachta -> Suggestions: Oireachtas
+Line 790: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 790: szlachta -> Suggestions: Oireachtas
+Line 792: Zenon -> Suggestions: xenon, tenon, zen on, zen-on, Zeno, benin
+Line 792: Kohut, -> Suggestions: Kossuth
+Line 792: American -> Suggestions: American, africa
+Line 792: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 792: Khmelnytsky -> No suggestions available
+Line 792: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 794: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 794: anti-Jewish -> Suggestions: antithesis
+Line 794: non-Jewish -> Suggestions: Jewish
+Line 794: Ukrainian -> Suggestions: Ukrainian, ukraine
+Line 794: Uniates. -> Suggestions: unites, tunicates, Uniats, enunciates, initiates
+Line 796: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 796: Khmelnytsky. -> No suggestions available
+Line 796: Linda -> Suggestions: Linda, kinda, lindy, libya, india
+Line 796: Gordon -> Suggestions: Gordon, cordon, gorgon, Bordon, jordan
+Line 796: Friedlander’s -> Suggestions: Africanders, Afrikanders, Friesland
+Line 796: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 796: Antony -> Suggestions: Antony, atony, antonym, an tony, an-tony, angola
+Line 796: Polonsky -> Suggestions: kolinsky
+Line 796: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 796: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 796: Swedish -> Suggestions: Swedish, sweden
+Line 796: Muscovite -> Suggestions: Muscovite
+Line 796: Khmelnytsky -> No suggestions available
+Line 796: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 796: Khmelnytsky’s -> No suggestions available
+Line 796: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 796: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 796: Christians, -> Suggestions: Christians, christian, christian s
+Line 796: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 798: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 798: Judaica -> Suggestions: Judaica, jamaica
+Line 798: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 798: “Chmielnicki -> Suggestions: chameleonic
+Line 798: [Khmelnytsky], -> No suggestions available
+Line 798: Bogdan,” -> Suggestions: bogbean, jordan
+Line 798: Jews, -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 798: Uniate -> Suggestions: unite, uni ate, uni-ate, Uniat, tunicate, niue
+Line 798: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 798: Jews’ -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 800: Judaica, -> Suggestions: Judaica, jamaica
+Line 800: Jews. -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 800: Judeocentric -> Suggestions: endocentric, theocentric, Eurocentric, geocentric
+Line 800: Khmelnytsky’s -> No suggestions available
+Line 800: Khmelnytsky -> No suggestions available
+Line 800: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 800: Khmelnytsky -> No suggestions available
+Line 800: Judeocentric -> Suggestions: endocentric, theocentric, Eurocentric, geocentric
+Line 800: American -> Suggestions: American, africa
+Line 800: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 802: Annamaria -> Suggestions: anna maria, anna-maria, Marianna, grammarian, Mariana, Marianne
+Line 802: Orla-Bukowska, -> Suggestions: Landowska
+Line 802: Jagiellonian -> Suggestions: Jagiellon
+Line 802: majority-minority -> Suggestions: majority minority, majority-minority, majority
+Line 802: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 802: Khmelnytsky -> No suggestions available
+Line 802: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 802: Polish-Jewish -> Suggestions: polished
+Line 806: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 806: kresy, -> Suggestions: Kresge, kenya, udemy, jersey, Udemy
+Line 806: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 806: benefitted -> Suggestions: benefited, benefit ted, benefit-ted, befitted, beneficed, benefit, benedicite
+Line 806: Jews -> Suggestions: jus, Jews, hews, jew, jess, sews, jaws, news, jets, dews, mews, pews, yews, jew s, jersey, laos, peru
+Line 806: benefitted -> Suggestions: benefited, benefit ted, benefit-ted, befitted, beneficed, benefit, benedicite
+Line 806: Va’ad -> Suggestions: Vaal, chad
+Line 806: Arba -> Suggestions: arbs, arb, aba, area, aria, alba, abba, arb a, BAR, aruba
+Line 806: Aratzot. -> Suggestions: Ararat
+Line 806: kresy’s -> Suggestions: Kresge, kenya
+Line 806: interreligious -> Suggestions: inter religious, inter-religious, irreligiousness, antireligious, irreligious, nonreligious
+Line 806: Bogdan -> Suggestions: bogbean, jordan
+Line 806: Khmelnytsky’s -> No suggestions available
+Line 806: latter’s -> Suggestions: latter, lattes, clatters, platters, flatters, latter's, letters, litters, natters, ratters, tatters, matters, patters, lathers, hatters
+Line 806: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 808: Poland’s -> Suggestions: Poland, Pondoland, poland
+Line 808: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 808: Polish-Jewish -> Suggestions: polished
+Line 808: Poland’s -> Suggestions: Poland, Pondoland, poland[process_symbols_in_doc] Line 134: '250,000' -> '250 000'
+[format_dates] Line 184: '70 CE' -> '70 ce'
+[correct_preposition_usage] 'from 1918–1926' -> 'from 1918 to 1926'
+[correct_scientific_unit_symbols] '1929 a' -> '1929 A'
+[format_dates] Line 279: '70 CE' -> '70 ce'
+[process_symbols_in_doc] Line 307: '205,000' -> '205 000'
+[process_symbols_in_doc] Line 365: '200,000' -> '200 000'
+[process_symbols_in_doc] Line 365: '220,000' -> '220 000'

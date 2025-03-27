@@ -1,0 +1,25 @@
+
+Start Time: 2025-03-17 10:44:19.702831
+End Time: 2025-03-17 10:44:27.758163
+Analysis completed in 8.06 seconds.
+
+
+FileName: introduction.docx
+
+
+Line 2: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 2: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 4: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 4: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 4: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 4: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 4: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 4: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 4: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 4: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 4: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 4: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 4: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 4: Jewish -> Suggestions: Jewish, jewfish, newish
+Line 4: open-minded, -> Suggestions: open minded, open-minded, openhanded
+Line 4: Jewish -> Suggestions: Jewish, jewfish, newish

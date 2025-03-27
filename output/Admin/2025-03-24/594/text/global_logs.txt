@@ -1,0 +1,282 @@
+
+Start Time: 2025-03-24 17:39:49.104575
+End Time: 2025-03-24 17:40:08.669345
+Analysis completed in 19.56 seconds.
+
+
+FileName: Document_For_Testing.docx
+
+
+Line 4: latin -> Suggestions: lateen, Latin, lati, lain, latino, satin, matin, lapin, patin, la tin, la-tin, lat in, lat-in, lati n, latvia
+Line 4: i.e., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 4: e.g., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 18: Johnson -> Suggestions: Johnson, john son, john-son, johns on, johns-on
+Line 18: Parker -> Suggestions: Parker, parer, sparker, parser, porker, larker, packer, parked, darker, marker, barker, Barker, park er, park-er, turkey
+Line 18: Adams -> Suggestions: Adams, dams, madams, Edams, a dams, laos, udemy, guam, panama, bahamas, Udemy
+Line 20: eg -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: eg -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: eg, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: e.g.. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: e.g..., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 20: e.g, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 22: ie -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: ie -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: ie, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: i.e.. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: i.e..., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: i.e,,. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: I.E -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 22: i.e, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 24: Paris, -> Suggestions: pairs, Paris, pars, paries, parish, parvis, pares, peris, saris, paras, naris, parrs, parts, pavis, parks, palau, peru, asia, laos, mali, spain, syria
+Line 24: London -> Suggestions: London, jordan, congo
+Line 24: Rome. -> Suggestions: more, Rome, tome, rime, rom, roe, romeo, omer, rose, some, rote, role, come, rode, dome, oman, europe, yemen, niue, togo
+Line 28: James' -> Suggestions: James, hames, jams, sames, names, tames, lames, jades, dames, games, japes, jambs, jakes, jam's, ja mes, japan, laos, samoa, yemen
+Line 28: Chris' -> Suggestions: kris, Chris, chis, chrism, chile, china, chad, cocos, cyprus, syria
+Line 32: Alice -> Suggestions: Alice, slice, alive, lice, malice, amice, alike, a lice, al ice, al-ice, africa, asia, niue, mali, belize, chile
+Line 32: Sarah -> Suggestions: Sarah, saran, surah, samoa, sudan, syria, syrian, iran, iraq, asia, japan, palau, qatar
+Line 32: Microsoft -> Suggestions: Microsoft, micro soft, micro-soft, micros oft, micros-oft
+Line 34: U.S.A -> Suggestions: USA, us, Susa, use, usu, Asa, us a, asia, cuba
+Line 34: I.B.M -> Suggestions: IBM, ib, ism, ib m, iran, iraq, i.e., libya, guam, niue, cuba, fiji
+Line 34: U.N.E.S.C.O -> Suggestions: UNESCO, Enesco
+Line 34: U.K -> Suggestions: UK, u, k, auk, yuk, us, ut, ck, dk, um, mk, up, pk, uh, bk, guam, niue, cuba
+Line 34: F.B.I -> Suggestions: FBI, fib, bi, obi, f bi, fiji
+Line 36: eg -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 36: eg, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 36: e.g, -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 36: USA -> Suggestions: USA, us, Susa, use, usu, Asa, us a, asia, cuba
+Line 36: e.g.., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 36: e.g..., -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 38: ie -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 38: USA -> Suggestions: USA, us, Susa, use, usu, Asa, us a, asia, cuba
+Line 38: ie, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 38: i.e.., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 38: i.e..., -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 38: i.e,, -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 40: cetera. -> Suggestions: cerate, terrace, Terceira, Terrance
+Line 40: cetera. -> Suggestions: cerate, terrace, Terceira, Terrance
+Line 40: Paris, -> Suggestions: pairs, Paris, pars, paries, parish, parvis, pares, peris, saris, paras, naris, parrs, parts, pavis, parks, palau, peru, asia, laos, mali, spain, syria
+Line 40: London, -> Suggestions: London, jordan, congo
+Line 42: 10meters. -> Suggestions: telemeters
+Line 42: 50kg. -> No suggestions available
+Line 42: 30C. -> No suggestions available
+Line 42: 100m. -> Suggestions: guam
+Line 42: 200Pa. -> No suggestions available
+Line 44: e.g. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 44: i.e. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 44: e.g. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 44: i.e. -> Suggestions: IE, ai, i, e, ire, tie, lie, ice, die, gie, pie, hie, fie, vie, Lie, i.e., niue
+Line 44: e.g. -> Suggestions: Eg, eh, e, g, eng, neg, erg, reg, ego, leg, deg, egg, meg, peg, beg, e.g.
+Line 48: 14-Mar-23. -> No suggestions available
+Line 56: 1990's -> No suggestions available
+Line 56: '90s -> Suggestions: laos
+Line 56: 90s, -> Suggestions: laos
+Line 58: 3-fold -> Suggestions: fold, 3 fold
+Line 58: 20-fold -> Suggestions: fold
+Line 60: º -> Suggestions: e, s, i, a, n, r, t, o, l, c, d, u, g, m, p
+Line 60: º -> Suggestions: e, s, i, a, n, r, t, o, l, c, d, u, g, m, p
+Line 62: Error4: -> Suggestions: error, errors, error 4, europe
+Line 78: hz. -> Suggestions: Hz, h, z, he, hi, ha, hr, ht, ho, oz, hl, hd, dz, hg, hm, chad
+Line 78: resistence -> Suggestions: resistance, Resistencia, Resistance, persistence, insistence
+Line 80: BCE -> Suggestions: be, bice, bee, ice, ace, bye, Ice, i.e., niue
+Line 80: BCE. -> Suggestions: be, bice, bee, ice, ace, bye, Ice, i.e., niue
+Line 84: gapping -> Suggestions: gaping, gasping, sapping, napping, rapping, tapping, lapping, capping, mapping, gypping, yapping, gawping, zapping, gap ping, gap-ping
+Line 84: Hz, -> Suggestions: Hz, h, z, he, hi, ha, hr, ht, ho, oz, hl, hd, dz, hg, hm, chad
+Line 84: Hz -> Suggestions: Hz, h, z, he, hi, ha, hr, ht, ho, oz, hl, hd, dz, hg, hm, chad
+Line 84: GHz. -> Suggestions: gaz, GHz, ghana, guam, chad
+Line 88: January -> Suggestions: January, vanuatu, hungary
+Line 92: 10-fold -> Suggestions: fold
+Line 96: twenty-fold -> Suggestions: twenty fold, twenty-fold, twelvefold
+Line 98: 100-fold -> Suggestions: folderol
+Line 102: hz. -> Suggestions: Hz, h, z, he, hi, ha, hr, ht, ho, oz, hl, hd, dz, hg, hm, chad
+Line 106: 10cm -> Suggestions: guam
+Line 106: 20cm. -> Suggestions: guam
+Line 106: 5kg -> Suggestions: kg, pkg, bkg, 5 kg, e.g., togo
+Line 106: 10kg. -> No suggestions available
+Line 106: 2m–4m. -> Suggestions: oman, guam
+Line 110: event—originally -> Suggestions: event originally, event-originally, aboriginally
+Line 110: January—was -> Suggestions: January
+Line 112: high-speed -> Suggestions: high speed, high-speed, highs peed, highs-peed, highlighted
+Line 112: Paris-Lyon -> Suggestions: parishioner
+Line 116: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 116: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 116: <https://google.com> -> No suggestions available
+Line 116: https://google.com -> No suggestions available
+Line 118: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 118: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 118: <https://google.com> -> No suggestions available
+Line 118: https://google.com. -> No suggestions available
+Line 120: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 120: url -> Suggestions: URL, curl, purl, hurl, burl, furl, Burl, lur, urn, iran, iraq, guam, mali, peru, nauru, cuba
+Line 120: https://google.com/ -> No suggestions available
+Line 122: urls -> Suggestions: curls, purls, hurls, burls, furls, urns, urus, URLs, iran, iraq, laos, mali
+Line 122: https://google.com. -> No suggestions available
+Line 174: Range(Kg) -> Suggestions: range kg, range-kg, ranger, range, Ranger
+Line 302: grinded -> Suggestions: grinned, grinder, gridded, grind ed, grind-ed, grinding, grind, guinea
+Line 322: —Julius -> Suggestions: Julius
+Line 322: Caesar -> Suggestions: Caesar, cesar, qatar[convert century] Line 2: 21st -> twenty-first
+[convert century] Line 2: 18th -> eighteenth
+[convert century] Line 2: 19th -> nineteenth
+[set_latinisms_to_roman] Line 3: 'i.e.' -> 'i.e.'
+[set_latinisms_to_roman] Line 3: 'e.g.' -> 'e.g.'
+[set_latinisms_to_roman] Line 3: 'vice versa' -> 'vice versa'
+[process_paragraph] Line 3: Replaced space before 'i.e.' with ':'
+[process_symbols_in_doc] Line 4: Removed duplicate symbols ['℠', '℠']
+[process_symbols_in_doc] Line 6: Removed duplicate symbols ['℠', '℠', '℠', '℠']
+[set_number_to_no] Line 7: 'Number 5' -> 'No. 5'
+[set_number_to_no] Line 7: 'number 10' -> 'no. 10'
+[set_number_to_no] Line 7: 'Number 42' -> 'No. 42'
+[shorten title] Line 8: ms -> Ms.
+[replace_ampersand] Line 8: 'checking & rule' -> 'checking and rule'
+[replace_ampersand] Line 8: 'design & development' -> 'design and development'
+[replace_ampersand] Line 8: 'salt & pepper' -> 'salt and pepper'
+[am pm change] Line 9: '10 am' -> '10 a.m.'
+[am pm change] Line 9: '3 PM' -> '3 p.m.'
+[am pm change] Line 9: '6 a.m' -> '6 a.m.'
+[am pm change] Line 9: '5 P.M' -> '5 p.m.'
+[shorten title] Line 10: Doctor -> Dr.
+[shorten title] Line 10: Mister -> Mr.
+[shorten title] Line 10: Misses -> Mrs.
+[shorten title] Line 10: Professor -> Professor
+[shorten title] Line 10: ms -> Ms.
+[shorten title] Line 10: Saint -> St
+[set_latinisms_to_roman] Line 11: 'e.g.' -> 'e.g.'
+[e.g. correction] Line 11: 'Error 10: This is sample text for testing eg rules. This is an example sentence eg it should be corrected. Another case is eg, when used incorrectly. Sometimes people write' -> 'Error 10: This is sample text for testing e.g. rules. This is an example sentence e.g. it should be corrected. Another case is e.g. when used incorrectly. Sometimes people write'
+[process_paragraph] Line 11: Added comma before 'e.g.'
+[set_latinisms_to_roman] Line 12: 'i.e.' -> 'i.e.'
+[i.e. correction] Line 12: 'Error 11: This is a sample text for testing ie rules. ie is an abbreviation. ie, it means.' -> 'Error 11: This is a sample text for testing i.e. rules. i.e. is an abbreviation. i.e. it means.'
+[process_paragraph] Line 12: Replaced space before 'i.e.' with ':'
+[remove_and] Line 13: 'London and Rome' -> 'London & Rome'
+[shorten title] Line 15: miss -> Miss.
+Unit m replaced with 5 meters (m)
+Unit kg replaced with 10 kilograms (kg)
+Unit A replaced with 3 amperes (a)
+Unit K replaced with 273 kelvins (k)
+Unit mol replaced with 2 mole (mol)
+[remove_and] Line 17: 'Alice and Bob' -> 'Alice & Bob'
+[remove_and] Line 17: 'John and Sarah' -> 'John & Sarah'
+[remove_and] Line 17: 'Math and Science' -> 'Math & Science'
+[remove_and] Line 17: 'Google and Microsoft' -> 'Google & Microsoft'
+[remove_and] Line 17: 'Red and Blue' -> 'Red & Blue'
+[correct_acronyms] Line 18: 'U.S.A' -> 'USA'
+[correct_acronyms] Line 18: 'I.B.M' -> 'IBM'
+[correct_acronyms] Line 18: 'U.N.E.S.C.O' -> 'UNESCO'
+[correct_acronyms] Line 18: 'F.B.I' -> 'FBI'
+[set_latinisms_to_roman] Line 19: 'e.g.' -> 'e.g.'
+[remove_and] Line 19: 'Java and Python' -> 'Java & Python'
+[e.g. correction] Line 19: 'Error 18: Many fruits eg apples and bananas are healthy. You can use many languages eg, Java & Python. Different countries, e.g, USA and Canada, have different rules. Common tools include' -> 'Error 18: Many fruits e.g. apples and bananas are healthy. You can use many languages e.g. Java & Python. Different countries, e.g, USA and Canada, have different rules. Common tools include'
+[process_paragraph] Line 19: Added comma before 'e.g.'
+[process_paragraph] Line 19: Added comma before 'e.g.'
+[process_paragraph] Line 19: Added comma before 'e.g.'
+[process_paragraph] Line 19: Added comma before 'e.g.'
+[set_latinisms_to_roman] Line 20: 'i.e.' -> 'i.e.'
+[remove_and] Line 20: 'Java and Python' -> 'Java & Python'
+[i.e. correction] Line 20: 'Error 19: Some countries, ie USA and Canada, have strict laws. Certain programming languages, ie, Java & Python, are widely used. He prefers strong coffee,' -> 'Error 19: Some countries, i.e. USA and Canada, have strict laws. Certain programming languages, i.e. Java & Python, are widely used. He prefers strong coffee,'
+[process_paragraph] Line 20: Replaced space before 'i.e.' with ':'
+[process_paragraph] Line 20: Replaced space before 'i.e.' with ':'
+[process_paragraph] Line 20: Replaced space before 'i.e.' with ':'
+[process_paragraph] Line 20: Replaced space before 'i.e.' with ':'
+[set_latinisms_to_roman] Line 21: 'etc.' -> 'etc.'
+[set_latinisms_to_roman] Line 21: 'c.' -> 'c.'
+[etc. correction] Line 21: 'etc' -> 'etc.'
+[etc. correction] Line 21: 'et cetera' -> 'etc.'
+[etc. correction] Line 21: 'et cetera' -> 'etc.'
+[etc. correction] Line 21: 'e.t.c' -> 'etc.'
+[etc. correction] Line 21: 'etc' -> 'etc.'
+[set_latinisms_to_roman] Line 23: 'e.g.' -> 'e.g.'
+[set_latinisms_to_roman] Line 23: 'i.e.' -> 'i.e.'
+[process_paragraph] Line 23: Added comma before 'e.g.'
+[process_paragraph] Line 23: Replaced space before 'i.e.' with ':'
+[process_paragraph] Line 23: Replaced space before 'i.e.' with ':'
+[process_paragraph] Line 23: Added comma before 'e.g.'
+[apply_abbreviation_mapping] Line 26: 'Incorporated' -> 'Inc.'
+[apply_abbreviation_mapping] Line 26: 'Company' -> 'Comp.'
+[remove_and] Line 27: 'Number and Scientific' -> 'Number & Scientific'
+Unit cd replaced with 50 candelas (cd)
+Unit s replaced with 1 seconds (s)
+[shorten title] Line 122: ms -> Ms.[correct_scientific_unit_symbols] '10 a' -> '10 A'
+[correct_scientific_unit_symbols] '6 a' -> '6 A'
+[unit correction] 'Error 21: The length is 10meters. The weight is 50kg. The temperature is 30C. The distance is 100m. The pressure is 200Pa.' -> 'Error 21: The length is 10meters. The weight is 50 kg. The temperature is 30 C. The distance is 100 m. The pressure is 200 Pa.'
+[adjust_ratios] Line 25: '5 : 7' -> '5 : 7'
+[adjust_ratios] Line 25: '8 : 3' -> '8 : 3'
+[apostrophes change] Line 29: 'Error 1: The 1990's style was iconic. People loved the '90s trends. His 1'st win was special. Back in 90s, life was different.' -> 'Error 1: The 1990s style was iconic. People loved the 90s trends. His 1st win was special. Back in 90s, life was different.'
+[replace_fold_phrases] Line 30: '3-fold' -> 'threefold'
+[replace_fold_phrases] Line 30: 'two-fold' -> 'twofold'
+[replace_fold_phrases] Line 30: 'ten-fold' -> '10-fold'
+[remove_space_between_degree_and_direction] Line 31: '30 º N' -> '30°N'
+[remove_space_between_degree_and_direction] Line 31: '45 º S' -> '45°S'
+[enforce_lowercase_units] Line 32: '5 Km' -> '5 km'
+[enforce_lowercase_units] Line 32: '2 Gm' -> '2 gm'
+[enforce_lowercase_units] Line 32: '50 Mg' -> '50 mg'
+[enforce_lowercase_units] Line 32: '1 L' -> '1 l'
+[precede_decimal_with_zero] Line 33: '.5' -> '0.5'
+[precede_decimal_with_zero] Line 33: '.76' -> '0.76'
+[precede_decimal_with_zero] Line 33: '.31' -> '0.31'
+[adjust_ratios] Line 34: '1:2' -> '1 : 2'
+[process_symbols_in_doc] Line 35: '1,000' -> '1 000'
+[process_symbols_in_doc] Line 35: '2,000,000' -> '2 000 000'
+[process_symbols_in_doc] Line 35: '45,334,556' -> '45 334 556'
+[process_symbols_in_doc] Line 35: '1 000' -> '1000'
+[process_symbols_in_doc] Line 35: '2 000' -> '2000'
+[process_symbols_in_doc] Line 36: '1 000' -> '1000'
+[process_symbols_in_doc] Line 36: '2 000' -> '2000'
+[convert_decimal_to_baseline] Line 37: 'Error 9: The value is 3·14 and another is 2·718' -> 'Error 9: The value is 3.14 and another is 2.718'
+[convert_decimal_to_baseline] Line 38: 'Error 10: The value is 3·14 and another value is 2·178' -> 'Error 10: The value is 3.14 and another value is 2.178'
+[numerals with percent] 'Error 11: He got fifty percent' -> 'Error 11: He got 50%'
+[numerals with percent] 'Error 11: He got 50% marks. The discount is 20 percent' -> 'Error 11: He got 50% marks. The discount is 20%'
+[correct_scientific_unit_symbols] '10 n' -> '10 N'
+[correct_scientific_unit_symbols] '50 w' -> '50 W'
+[correct_scientific_unit_symbols] '60 hz' -> '60 Hz'
+[correct_scientific_unit_symbols] '60 ohm' -> '60 Ω'
+[correct_unit_spacing] '60 Hz' -> '60Hz'
+[format_dates] Line 41: '457 BCE' -> '457 bce'
+[format_dates] Line 41: '65 BCE' -> '65 bce'
+[correct_preposition_usage] 'from 2000-2010' -> 'from 2000 to 2010'
+[correct_unit_spacing] '100 MB' -> '100MB'
+[correct_unit_spacing] '210 Hz' -> '210Hz'
+[correct_unit_spacing] '320 Hz' -> '320Hz'
+[correct_unit_spacing] '56 GHz' -> '56GHz'
+[convert_currency_to_symbols] Line 44: 'Error 16: This line is for checking currency conversion 45 dollars, 767 pounds and 87 euros.' -> 'Error 16: This line is for checking currency conversion $45 , £767  and €87 .'
+[replace_fold_phrases] Line 46: 'three-fold' -> 'threefold'
+[replace_fold_phrases] Line 48: 'five-fold' -> 'fivefold'
+[replace_fold_phrases] Line 49: 'twenty-fold' -> '20-fold'
+[enforce_lowercase_units] Line 51: '5 Km' -> '5 km'
+[enforce_lowercase_units] Line 51: '10 Gm' -> '10 gm'
+[enforce_lowercase_units] Line 51: '15 Mg' -> '15 mg'
+[enforce_lowercase_units] Line 51: '2 L' -> '2 l'
+[enforce_lowercase_units] Line 51: '30 M' -> '30 m'
+[correct_scientific_unit_symbols] '500 a' -> '500 A'
+[correct_scientific_unit_symbols] '12 v' -> '12 V'
+[correct_scientific_unit_symbols] '20 n' -> '20 N'
+[correct_scientific_unit_symbols] '100 w' -> '100 W'
+[correct_scientific_unit_symbols] '440 hz' -> '440 Hz'
+[correct_scientific_unit_symbols] '5 a' -> '5 A'
+[correct_scientific_unit_symbols] '10 ohm' -> '10 Ω'
+[correct_scientific_unit_symbols] '101 pa' -> '101 Pa'
+[correct_scientific_unit_symbols] '273 k' -> '273 K'
+[correct_scientific_unit_symbols] '5 t' -> '5 T'
+[unit correction] 'Error 24: This is for checking units for changing too capitals. The battery has a capacity of 500 A and operates at 12 V. The force applied was 20 N, and the power output was 100 W. Sound frequency is measured at 440 Hz. The current was 5 A and the resistance was 10 Ω. Pressure in the container was 101 Pa. The temperature is 273 K. The luminous intensity is 50 candelas (cd) and the amount of substance is 2 mol. The light flux is 300 lm and illuminance is 50 lx. Magnetic flux is measured at 5 T. The solution's conductivity was 1 seconds (s).' -> 'Error 24: This is for checking units for changing too capitals. The battery has a capacity of 500 Aand operates at 12 V. The force applied was 20 N, and the power output was 100 W. Sound frequency is measured at 440 Hz. The current was 5 Aand the resistance was 10 Ω. Pressure in the container was 101 Pa. The temperature is 273 K. The luminous intensity is 50 candelas (cd) and the amount of substance is 2 mol. The light flux is 300 lm and illuminance is 50 lx. Magnetic flux is measured at 5 T. The solution's conductivity was 1 seconds (s).'
+[correct_unit_spacing] '440 Hz' -> '440Hz'
+[enforce_lowercase_units] Line 53: '2 L' -> '2 l'
+[unit correction] '3 kg of sugar and 2 l of water.' -> '3 kgof sugar and 2 l of water.'
+[correct_units_in_ranges_with_logging]: 'Error 26: This is sample test case for changing ranges. The temperature varied from 10cm to 20cm. The mass ranged from 5kg - 10kg. The length is between 2m–4m.' -> 'Error 26: This is sample test case for changing ranges. The temperature varied from 10 to 20 cm. The mass ranged from 5 - 10 kg. The length is between 2 – 4 m.'Line 1: 'Error 1: I love studying twenty-first century history. The eighteenth and nineteenth centuries were fascinating too.' -> 'Error 1: I love studying twenty – first century history. The eighteenth and nineteenth centuries were fascinating too.'
+Line 1: 'Error 24: The event took place on 01/15/2025, and we had a meeting on 12/10/2022. Another meeting was scheduled for 14-Mar-23. We also discussed the progress of the project, which is currently at 5 : 7 ratio. Additionally, we are planning for a launch on 05.12.2024. On March 2, 2026, a new milestone was achieved. The report states that the ratio of success to failures is 8 : 3. I think we will need to update our strategy before May 6, 2025, to meet the goals for the year 2025.' -> 'Error 24: The event took place on 01/15/2025, and we had a meeting on 12/10/2022. Another meeting was scheduled for 14 – Mar–23. We also discussed the progress of the project, which is currently at 5 : 7 ratio. Additionally, we are planning for a launch on 05.12.2024. On March 2, 2026, a new milestone was achieved. The report states that the ratio of success to failures is 8 : 3. I think we will need to update our strategy before May 6, 2025, to meet the goals for the year 2025.'
+Line 1: 'Error 2: The threefold increase twofold surprised everyone. A 10-fold improvement was seen. There was a 20-fold rise in sales' -> 'Error 2: The threefold increase twofold surprised everyone. A 10 – fold improvement was seen. There was a 20 – fold rise in sales'
+Line 1: 'Error 14: I have to write some text which contains line from 2000–2010 and this will be processed to from 2000–2010. how' -> 'Error 14: I have to write some text which contains line from 2000 – 2010 and this will be processed to from 2000 – 2010. how'
+Line 1: 'Error 19: We observed a 10-fold increase in accuracy.' -> 'Error 19: We observed a 10 – fold increase in accuracy.'
+Line 1: 'Error 21: A 20-fold rise was noted in efficiency.' -> 'Error 21: A 20 – fold rise was noted in efficiency.'
+Line 1: 'Error 22: This was a 100-fold enhancement.' -> 'Error 22: This was a 100 – fold enhancement.'
+Line 1: 'Error 26: This is sample test case for changing ranges. The temperature varied from 10–20 cm. The mass ranged from 5 - 10 kg. The length is between 2 – 4 m.' -> 'Error 26: This is sample test case for changing ranges. The temperature varied from 10 – 20 cm. The mass ranged from 5 – 10 kg. The length is between 2 – 4 m.'
+Line 1: 'Error 1: This sample text is for replacing em dashes and normal hyphens with en dashes. The event—originally scheduled for January—was postponed. Use 10-15 pages.' -> 'Error 1: This sample text is for replacing em dashes and normal hyphens with en dashes. The event—originally scheduled for January—was postponed. Use 10 – 15 pages.'
+[replace_dashes_with_logging] Line 1: '—' -> '–'
+[replace_dashes_with_logging] Line 1: '—' -> '–'
+Line 1: 'Error 2: This sample text is for adding space to both sides if word is present on both side of en dash and removing space from both side of en dash if number is present. The 1990 - 2000 periods were crucial for tech. The high-speed rail Paris-Lyon is fast.' -> 'Error 2: This sample text is for adding space to both sides if word is present on both side of en dash and removing space from both side of en dash if number is present. The 1990 – 2000 periods were crucial for tech. The high – speed rail Paris – Lyon is fast.'
+[replace_dashes_with_logging] Line 1: '—' -> '–'
+[replace_dashes_with_logging] Line 1: '—' -> '–'
+[replace_dashes_with_logging] Line 1: '—' -> '–'Updated target: https://google.com -> google.com
+Updated paragraph text: https://google.com -> google.com
+Updated paragraph text: https://google.com -> google.com
+Updated paragraph text: https://google.com -> google.com
+Updated target: https://google.com -> google.com
+Updated target: https://google.com -> google.com
+Updated target: https://google.com/ -> google.com
+Updated paragraph text: https://google.com/ -> google.com

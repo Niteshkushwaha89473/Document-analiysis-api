@@ -23,8 +23,14 @@ from process_module.punctuation import process_doc_function1
 from process_module.NumberAndScientificUnit import process_doc_function2
 from process_module.hyphen import process_doc_function3
 from process_module.formatting import process_doc_function4
+from process_module.parts import process_doc_function5
 from process_module.chapters import process_doc_function6
-
+from process_module.heading import process_doc_function7
+from process_module.figures import process_doc_function8
+from process_module.tables import process_doc_function9
+from process_module.footnotes import process_doc_function10
+from process_module.lists import process_doc_function11
+from process_module.block_quotes import process_doc_function12
 
 router = APIRouter()
 
@@ -189,12 +195,7 @@ def clean_word(word):
 # def clean_word(word):
 #     return word
 
-# Done
-def replace_curly_quotes_with_straight(text):
-    return text.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
 
-    
-    
 
 def replace_straight_quotes_with_curly(text):
     # Replace straight double quotes with opening and closing curly quotes
@@ -794,7 +795,6 @@ def format_chapter_title(text):
             word.capitalize() if i == 0 or len(word) >= 4 else word.lower()
             for i, word in enumerate(words)
         ])
-        # print(formatted_title)
         return f"{chapter_number}. {formatted_title}"
     return text
 
@@ -893,14 +893,17 @@ def correct_scientific_units_with_logging(text):
 
 
 
-def write_to_log(doc_id):
+def write_to_log(doc_id, user):
     global global_logs
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    output_path_file = Path(os.getcwd()) / 'output' / user / current_date / str(doc_id) / 'text' 
+    # dir_path = output_path_file.parent
 
-    output_dir = os.path.join('output', str(doc_id))
-    os.makedirs(output_dir, exist_ok=True)
-    log_file_path = os.path.join(output_dir, 'global_logs.txt')
+    # output_dir = os.path.join('output', str(doc_id))
+    os.makedirs(output_path_file, exist_ok=True)
+    log_file_path = os.path.join(output_path_file, 'global_logs.txt')
 
-    with open(log_file_path, 'a', encoding='utf-8') as log_file:
+    with open(log_file_path, 'w', encoding='utf-8') as log_file:
         log_file.write("\n".join(global_logs))
 
     global_logs = []
@@ -1708,174 +1711,144 @@ def convert_currency_to_symbols(runs, line_number):
 
 def curly_to_straight(doc):
     for para in doc.paragraphs:
-        para.text = replace_curly_quotes_with_straight(para.text)
-        
-        
-        
-        
-def staright_to_curly(doc):
+        for run in para.runs:
+            run.text = run.text.replace('“', '"').replace('”', '"').replace('‘', "'").replace('’', "'")
+            
+        # paragraph_text = " ".join([run.text for run in para.runs])
+        # para.clear()
+        # para.add_run(paragraph_text)
+            
+
+
+def straight_to_curly(doc):
     for para in doc.paragraphs:
-        para.text = replace_straight_quotes_with_curly(para.text)
+        for run in para.runs:
+            run.text = replace_straight_quotes_with_curly(run.text)
 
 
 
 # def highlight_and_correct(doc):
-
+#     """
+#     Highlights incorrectly spelled words in a Word document by changing their font color to red.
+#     Formatting of the document remains unchanged.
+#     Args:
+#         doc: The Word document object (from python-docx).
+#         us_dict: A spell-checking dictionary object (e.g., from the `pyspellchecker` library).
+#     """
 #     for para in doc.paragraphs:
-#         # replace_dashes(para.runs, line_number)
-#         # format_hyphen_to_en_dash(para.runs, line_number)
-#         # convert_currency_to_symbols(para.runs, line_number)        
-#         # para.text = replace_curly_quotes_with_straight(para.text)        
-#         # if para.text.strip().startswith("Chapter"):
-#         #     para.text = correct_chapter_numbering(para.text, chapter_counter)
-#         #     formatted_title = format_chapter_title(para.text)
-#         #     para.text = formatted_title            
-#         # para.text = process_symbols_mark(para.text, line_number) done punctattion
-#         # para.text = remove_commas_from_numbers(para.text, line_number) done numbers
-#         # para.text = remove_spaces_from_four_digit_numbers(para.text, line_number) done numbers
-#         # para.text = set_latinisms_to_roman_in_runs(para.text,line_number) done punctattion
-#         # para.text = convert_decimal_to_baseline(para.text,line_number) done numbers
-#         # para.text = rename_section(para.text) done punctuation
-#         # para.text = replace_ampersand(para.text) done punctuation
-#         # para.text = correct_scientific_unit_symbols(para.text) done punctuation
-#         # para.text = adjust_ratios(para.text) done punctuation
-#         # para.text = format_dates(para.text, line_number) done punctuation
-#         # # para.text = spell_out_number_and_unit_with_rules(para.text,line_number)
-#         # para.text = remove_space_between_degree_and_direction(para.text, line_number) done punctuation
-#         # para.text = enforce_lowercase_units(para.text, line_number) done punctuation
-#         # para.text = precede_decimal_with_zero(para.text, line_number) done punctuation
-#         # para.text = format_ellipses_in_series(para.text) # not added in log and not working
-#         # para.text = correct_possessive_names(para.text, line_number) done punctuation
-#         # para.text = use_numerals_with_percent(para.text) done punctuation
-#         # para.text = remove_concluding_slashes_from_urls(para.text, line_number) done punctuation
-#         # para.text = clean_web_addresses(para.text) done punctuation
-#         # para.text = apply_abbreviation_mapping(para.text, abbreviation_dict, line_number) done punctuation
-#         # para.text = apply_number_abbreviation_rule(para.text, line_number) done punctuation
-#         # para.text = format_titles_us_english_with_logging(para.text) done punctuation
-#         # para.text = units_with_bracket(para.text) done punctuation
-#         # para.text = correct_units_in_ranges_with_logging(para.text,line_number)  done punctuation
-#         # para.text = correct_scientific_units_with_logging(para.text)  done punctuation
-#         # para.text = replace_fold_phrases(para.text)  done punctuation
-#         # para.text = correct_preposition_usage(para.text)  done punctuation
-#         # para.text = correct_unit_spacing(para.text)  done punctuation
-#         # para.text = remove_and(para.text) done punctuation
-#         # para.text = remove_quotation(para.text)  done punctuation
-#         # para.text = convert_text(para.text) not done
-#         # para.text = apply_quotation_punctuation_rule(para.text) not done
-#         # para.text = enforce_dnase_rule(para.text) not done
-#         # para.text = correct_acronyms(para.text, line_number)  done punctuation
-#         # para.text = enforce_am_pm(para.text, line_number)  done punctuation
-#         # para.text = enforce_eg_rule_with_logging(para.text)  done punctuation
-#         # para.text = enforce_ie_rule_with_logging(para.text)  done punctuation
-#         # para.text = enforce_serial_comma(para.text)  done punctuation
-#         # para.text = apply_remove_italics_see_rule(para.text)  done punctuation
-#         # para.text = process_string(para.text) not done
-#         # para.text = standardize_etc(para.text) done punctuation
-#         # para.text = process_url_add_http(para.text) done punctuation
-#         # para.text = process_url_remove_http(para.text) done punctuation
-        
-#         # lines = para.text.split('\n')
-#         # updated_lines = []
-#         # for line in lines:
-#         #     corrected_line = convert_century(line, line_number)
-#         #     updated_lines.append(corrected_line)
-#         #     line_number += 1
-
-#         # para.text = '\n'.join(updated_lines)
-        
-#         formatted_runs = []        
 #         for run in para.runs:
-#             # run_text = replace_curly_quotes_with_straight(run.text)
-#             # run_text = insert_thin_space_between_number_and_unit(run.text, line_number)
 #             words = run.text.split()
-#             for i, word in enumerate(words):
+#             updated_text = []
+#             for word in words:
 #                 original_word = word
 #                 punctuation = ""
 
-#                 if word[-1] in ",.?!:;\"'()[]{}":
+#                 # Separate trailing punctuation (if any)
+#                 if word and word[-1] in ",.?!:;\"'()[]{}":
 #                     punctuation = word[-1]
 #                     word = word[:-1]
 
+#                 # Ignore words fully enclosed in single or double quotes
 #                 if (word.startswith('"') and word.endswith('"')) or (word.startswith("'") and word.endswith("'")):
-#                     formatted_runs.append((original_word, None))
-#                     if i < len(words) - 1:
-#                         formatted_runs.append((" ", None))
-#                     continue
-
-#                 if not word.strip():
-#                     formatted_runs.append((original_word, None))
-#                     if i < len(words) - 1:
-#                         formatted_runs.append((" ", None))
-#                     continue
-
-#                 if not us_dict.check(word.lower()):
-#                     # Mark incorrect word in red
-#                     formatted_runs.append((original_word, RGBColor(255, 0, 0)))
+#                     updated_text.append(original_word)
+#                 # Ignore empty words
+#                 elif not word.strip():
+#                     updated_text.append(original_word)
+#                 # Check spelling and mark incorrect words in red
+#                 elif not us_dict.check(word.lower()):
+#                     updated_text.append(word)
+#                     run.font.color.rgb = RGBColor(255, 0, 0)  # Highlight misspelled word
 #                 else:
-#                     formatted_runs.append((original_word, None))
+#                     updated_text.append(word)  # Correct word remains unchanged
 
-#                 if i < len(words) - 1:
-#                     formatted_runs.append((" ", None))
-#         para.clear()
-        
-#         for text, color in formatted_runs:
-#             # adjusted_text = replace_straight_quotes_with_curly(text)
-#             new_run = para.add_run(text)
-#             if color:
-#                 new_run.font.color.rgb = color
+#                 # Add punctuation back to the word, if it had any
+#                 if punctuation:
+#                     updated_text.append(punctuation)
+
+#             # Preserve formatting by updating text in place
+#             run.text = " ".join(updated_text)
 
 
 
+import re
+from docx.shared import RGBColor
+
+def copy_run_format(source_run, target_run):
+    """
+    Copy basic formatting properties from source_run to target_run.
+    """
+    target_run.bold = source_run.bold
+    target_run.italic = source_run.italic
+    target_run.underline = source_run.underline
+    target_run.font.size = source_run.font.size
+    target_run.font.name = source_run.font.name
+    target_run.style = source_run.style
 
 def highlight_and_correct(doc):
     """
-    This function highlights incorrectly spelled words in a Word document by changing their font color to red.
-    Words enclosed in single or double quotes are ignored.
+    Processes each paragraph and its runs in the Word document.
+    Splits each run's text into tokens (words and whitespace) so that only
+    misspelled words are highlighted in red, while preserving spacing and formatting.
+    
     Args:
-        doc: The Word document object (from python-docx).
-        us_dict: A spell-checking dictionary object (e.g., from the `pyspellchecker` library).
+        doc: A python-docx Document object.
+        us_dict: A spell-checking dictionary (e.g., from pyspellchecker) with a .check() method.
     """
     for para in doc.paragraphs:
-        formatted_runs = []
-
+        new_tokens = []  # List to hold tuples: (token_text, formatting, highlight_flag)
+        
+        # Process each run in the paragraph.
         for run in para.runs:
-            words = run.text.split()
-            for i, word in enumerate(words):
-                original_word = word  # Keep the original word for formatting
-                punctuation = ""
+            text = run.text
+            if not text:
+                continue
+            # Split text into tokens where whitespace is preserved.
+            tokens = re.split(r'(\s+)', text)
+            for token in tokens:
+                if token == "":
+                    continue
+                # If token is purely whitespace, just add it.
+                if token.isspace():
+                    new_tokens.append((token, run, None))
+                    continue
 
-                # Separate trailing punctuation (if any)
-                if word[-1] in ",.?!:;\"'()[]{}":
-                    punctuation = word[-1]
-                    word = word[:-1]
+                # If token is fully enclosed in matching quotes, do not check.
+                if len(token) >= 2 and ((token.startswith('"') and token.endswith('"')) or
+                                        (token.startswith("'") and token.endswith("'"))):
+                    new_tokens.append((token, run, None))
+                    continue
 
-                # Ignore words fully enclosed in single or double quotes
-                if (word.startswith('"') and word.endswith('"')) or (word.startswith("'") and word.endswith("'")):
-                    formatted_runs.append((original_word, None))
-                # Ignore empty words
-                elif not word.strip():
-                    formatted_runs.append((original_word, None))
-                # Check spelling and mark incorrect words in red
-                elif not us_dict.check(word.lower()):
-                    formatted_runs.append((word, RGBColor(255, 0, 0)))  # Highlight misspelled word
+                # Check for trailing punctuation (only checking a limited set).
+                trailing_punct = ""
+                if token and token[-1] in ",.?!:;":
+                    trailing_punct = token[-1]
+                    token_main = token[:-1]
                 else:
-                    formatted_runs.append((word, None))  # Correct word
+                    token_main = token
 
-                # Add punctuation back to the word, if it had any
-                if punctuation:
-                    formatted_runs.append((punctuation, None))
+                # Check the word using the spell-check dictionary.
+                if token_main and not us_dict.check(token_main.lower()):
+                    # Mark the word as misspelled.
+                    new_tokens.append((token_main, run, 'red'))
+                else:
+                    new_tokens.append((token_main, run, None))
 
-                # Add a space after the word unless it's the last one
-                if i < len(words) - 1:
-                    formatted_runs.append((" ", None))
+                # Append any trailing punctuation as a separate token (without spell-check).
+                if trailing_punct:
+                    new_tokens.append((trailing_punct, run, None))
 
-        # Clear the paragraph's text and rebuild it with formatted runs
-        para.clear()  # Clear existing paragraph content
-
-        for text, color in formatted_runs:
-            new_run = para.add_run(text)  # Add new text to the paragraph
-            if color:  # If a color is specified, apply it
-                new_run.font.color.rgb = color
+        # Remove all runs from the paragraph.
+        p_element = para._element
+        for r in list(para.runs):
+            p_element.remove(r._element)
+        
+        # Rebuild the paragraph by adding new runs in order.
+        for token_text, orig_run, highlight in new_tokens:
+            new_run = para.add_run(token_text)
+            copy_run_format(orig_run, new_run)
+            if highlight == 'red':
+                new_run.font.color.rgb = RGBColor(255, 0, 0)
+    return doc
 
 
 
@@ -1910,7 +1883,6 @@ class TokenRequest(BaseModel):
 async def process_file(token_request: TokenRequest, doc_id: int = Query(...)):
     try:
         payload = jwt.decode(token_request.token, SECRET_KEY, algorithms=[ALGORITHM])
-        print("Decoded Token Data:", payload)
         # global global_logs
         conn = get_db_connection()
         if conn is None:
@@ -1919,6 +1891,9 @@ async def process_file(token_request: TokenRequest, doc_id: int = Query(...)):
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM row_document WHERE row_doc_id = %s", (doc_id,))
         rows = cursor.fetchone()
+        user_id=rows[5]
+        cursor.execute("SELECT admin_name from admins where admin_id = %s",(user_id,))
+        user = cursor.fetchone()
 
         if not rows:
             raise HTTPException(status_code=404, detail="Document not found")
@@ -1954,30 +1929,37 @@ async def process_file(token_request: TokenRequest, doc_id: int = Query(...)):
 
         global_logs.insert(0, time_log)
 
-        document_name = rows[1].replace('.docx', '')
         log_filename = f"log_main.txt"
-        
-        output_path_file = Path(os.getcwd()) / 'output' / str(doc_id) / log_filename
+        current_date = datetime.now().strftime("%Y-%m-%d")
+        output_path_file = Path(os.getcwd()) / 'output' / user[0] / current_date / str(doc_id) / 'doc' / log_filename
         dir_path = output_path_file.parent
 
         dir_path.mkdir(parents=True, exist_ok=True)
         
-        output_dir = os.path.join("output", str(doc_id))
-        os.makedirs(output_dir, exist_ok=True)
+        # output_dir = os.path.join("output", str(doc_id))
+        # os.makedirs(output_dir, exist_ok=True)
 
-        output_path = os.path.join(output_dir, f"processed_{os.path.basename(file_path)}")
+        output_path = os.path.join(dir_path, f"processed_{os.path.basename(file_path)}")
 
         doc = docx.Document(file_path)
-        curly_to_straight(doc)
+
+        # curly_to_straight(doc)
+        # highlight_and_correct(doc)
+        write_to_log(doc_id, user[0])
+        process_doc_function1(payload, doc, doc_id, user[0])
+        process_doc_function2(payload, doc, doc_id, user[0])
+        process_doc_function3(payload, doc, doc_id, user[0])
+        process_doc_function5(payload, doc, doc_id, user[0])
+        process_doc_function6(payload, doc, doc_id, user[0])
+        process_doc_function7(payload, doc, doc_id, user[0])
+        process_doc_function8(payload, doc, doc_id, user[0])
+        process_doc_function9(payload, doc, doc_id, user[0])
+        process_doc_function10(payload, doc, doc_id, user[0])
+        process_doc_function11(payload, doc, doc_id, user[0])
+        process_doc_function12(payload, doc, doc_id, user[0])
+        process_doc_function4(payload, doc, doc_id, user[0])
+        # straight_to_curly(doc)
         
-        process_doc_function1(payload, doc, doc_id)
-        process_doc_function2(payload, doc, doc_id)
-        process_doc_function3(payload, doc, doc_id)
-        process_doc_function4(payload, doc, doc_id)
-        process_doc_function6(payload, doc, doc_id)
-        
-        highlight_and_correct(doc)
-        staright_to_curly(doc)
         doc.save(output_path)
 
         cursor.execute("SELECT final_doc_id FROM final_document WHERE row_doc_id = %s", (doc_id,))
@@ -1986,16 +1968,19 @@ async def process_file(token_request: TokenRequest, doc_id: int = Query(...)):
         if existing_rows:
             logging.info('File already processed in final_document. Skipping insert.')
         else:
-            folder_url = f'/output/{doc_id}/'
+            folder_url = f'/output/{user[0]}/{current_date}/{doc_id}/'
+            
             cursor.execute(
                 '''INSERT INTO final_document (row_doc_id, user_id, final_doc_size, final_doc_url, status, creation_date)
                 VALUES (%s, %s, %s, %s, %s, NOW())''',
-                (doc_id, rows[1], rows[2], folder_url, rows[7])
+                (doc_id, user_id, rows[3], folder_url, rows[7])
             )
-            logging.info('New file processed and inserted into final_document.')
+            logging.info('New file processed and inserted into final_document.') 
 
         conn.commit()
-        write_to_log(doc_id)
+        
+        
+        # write_to_log(doc_id)
         logging.info(f"Processed file stored at: {output_path}")
         return {"success": True, "message": f"File processed and stored at {output_path}"}
 
@@ -2048,11 +2033,10 @@ async def use_token(token_request: TokenRequest):
 
 
 
+
 @router.get("/greet")
 def say_hello():
     return {"success":True, "data":"Hello World!"}
-
-
 
 
 
@@ -2066,7 +2050,6 @@ def get_rules():
         cursor = conn.cursor()
         cursor.execute("SELECT id, rule_name FROM rules")
         rows = cursor.fetchall()
-        print(rows)
         
         if not rows:
             raise HTTPException(status_code=404, detail="No rules found")

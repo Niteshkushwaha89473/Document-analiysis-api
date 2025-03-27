@@ -1,0 +1,8 @@
+
+Start Time: 2025-03-22 13:48:00.451685
+End Time: 2025-03-22 13:48:01.073637
+Analysis completed in 0.62 seconds.
+
+
+FileName: input.docx
+

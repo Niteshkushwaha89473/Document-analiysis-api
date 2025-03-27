@@ -5,30 +5,32 @@ import io
 from mammoth import extract_raw_text
 from db_config import get_db_connection
 import logging
+from datetime import date
 
 router = APIRouter()
 
-
-# def enforce_am_pm(word):
-#     word_lower = word.lower()
-#     if word_lower in {"am", "a.m", "pm", "p.m"}:
-#         corrected = "a.m." if "a" in word_lower else "p.m."
-#         return restore_capitalization(word, corrected)
-#     return word
-
-
 @router.get("/openfile/", response_class=HTMLResponse)
-async def get_document(final_doc_id: str, file: str):
+async def get_document(final_doc_id: str, file: str, name:str):
     try:
         # Fetch file data from the database
         file_data = get_file_data_from_database(final_doc_id)
-
         if not file_data or not file_data.get("final_doc_url"):
             raise HTTPException(status_code=404, detail="File not found in the database")
-
+        today = date.today()
+        formatted_date = today.isoformat()
+        print(formatted_date)
+        
+        if file.endswith(".docx"):
+            folder_type = "doc"
+        elif file.endswith(".txt"):
+            folder_type = "text"
+        else:
+            raise HTTPException(status_code=400, detail="Unsupported file type. Only .docx and .txt are allowed.")
+        
         # Construct the full file path
-        folder_path = os.path.join(os.getcwd(), "output", final_doc_id)
+        folder_path = os.path.join(os.getcwd(), "output", name, formatted_date, final_doc_id, folder_type)
         file_path = os.path.join(folder_path, file)
+        print(os.path.exists(file_path))
 
         # Check if the file exists
         if not os.path.exists(file_path):
@@ -45,7 +47,6 @@ async def get_document(final_doc_id: str, file: str):
             result = extract_raw_text(file_stream)
             text = result.value
         elif file.endswith(".txt"):
-            
             try:
                 # Attempt to decode as UTF-8 first
                 text = file_buffer.decode("utf-8")
@@ -86,6 +87,7 @@ def get_file_data_from_database(final_doc_id: str):
         result = cursor.fetchone()
         conn.close()
         return result
+    
     except Exception as e:
         logging.error(f"Database error: {e}")
         return None
@@ -130,44 +132,3 @@ def generate_html(content):
     </body>
     </html>
     """
-    
-    
-
-# You are given an integer array cost where cost[i] is the cost of ith step on a staircase. Once you pay the cost, you can either climb one or two steps.
-
-# You can either start from the step with index 0, or the step with index 1.
-
-# Return the minimum cost to reach the top of the floor.
-
-
-
-# Example 1:
-
-# Input: cost = [10,15,20]
-# Output: 15
-# Explanation: You will start at index 1.
-# - Pay 15 and climb two steps to reach the top.
-# The total cost is 15.
-# Example 2:
-
-# Input: cost = [1,100,1,1,1,100,1,1,100,1]
-# Output: 6
-# Explanation: You will start at index 0.
-# - Pay 1 and climb two steps to reach index 2.
-# - Pay 1 and climb two steps to reach index 4.
-# - Pay 1 and climb two steps to reach index 6.
-# - Pay 1 and climb one step to reach index 7.
-# - Pay 1 and climb two steps to reach index 9.
-# - Pay 1 and climb one step to reach the top.
-# The total cost is 6.
-
-
-
-
-
-
-# class Solution {
-#     public int minCostClimbingStairs(int[] cost) {
-        
-#     }
-# }
