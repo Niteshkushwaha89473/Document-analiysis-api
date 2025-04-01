@@ -32,8 +32,8 @@ from process_module.tables import process_doc_function9
 
 router = APIRouter()
 
-# uk_dict = enchant.Dict("en_GB")
-uk_dict = enchant.DictWithPWL("en_GB","mywords.txt")
+uk_dict = enchant.Dict("en_GB")
+# uk_dict = enchant.DictWithPWL("en_GB","mywords.txt")
 
 global_logs = []
 
